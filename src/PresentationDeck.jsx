@@ -1,10 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight, ExternalLink } from 'lucide-react';
 
-// Configuration: Set to true to use local screenshots, false to use API
-const USE_LOCAL_SCREENSHOTS = true;
-const API_KEY = 'f3cae9688a794f2da5192eb2c50f1d3f';
-
 const events = [
   {
     id: 1,
@@ -471,13 +467,7 @@ const events = [
 ];
 
 const getScreenshotUrl = (event) => {
-  if (USE_LOCAL_SCREENSHOTS) {
-    // Try local screenshot first
-    return `/screenshots/event-${event.id}.jpg`;
-  } else {
-    // Use API
-    return `https://api.apiflash.com/v1/urltoimage?access_key=${API_KEY}&wait_until=page_loaded&url=${encodeURIComponent(event.url)}&width=768&height=1280&format=jpeg&quality=85`;
-  }
+  return `/screenshots/event-${event.id}.jpg`;
 };
 
 const PresentationDeck = () => {

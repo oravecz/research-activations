@@ -141,15 +141,10 @@ If screenshots don't load on GitHub Pages:
 
 2. **Ensure screenshots are downloaded before deploying:**
    ```bash
-   python3 download_screenshots.py
+   ./download-screenshots.sh
    git add public/screenshots/
    git commit -m "Add screenshots"
    git push
-   ```
-
-3. **Check the USE_LOCAL_SCREENSHOTS setting** in `src/PresentationDeck.jsx`:
-   ```javascript
-   const USE_LOCAL_SCREENSHOTS = true;
    ```
 
 ## Environment-Specific Configuration
@@ -179,7 +174,7 @@ Before deploying to production, ensure screenshots are downloaded:
 
 ```bash
 # Download all screenshots
-python3 download_screenshots.py
+./download-screenshots.sh
 
 # Verify screenshots were downloaded
 ls -la public/screenshots/

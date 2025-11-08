@@ -12,31 +12,19 @@ This installs React and all required packages.
 
 ## Step 2: Download Screenshots
 
-You have two options:
-
-### Option A: Download All Screenshots (Recommended)
+Run the download script to fetch all 42 campaign screenshots:
 
 ```bash
-python3 download_screenshots.py
+chmod +x download-screenshots.sh
+./download-screenshots.sh
+```
+
+Or use the npm script:
+```bash
+npm run download-screenshots
 ```
 
 This will download all 42 campaign screenshots. Takes about 2-3 minutes.
-
-### Option B: Test with Sample Screenshots
-
-To quickly test the app, download just a few screenshots manually:
-
-```bash
-# Create the screenshots directory
-mkdir -p public/screenshots
-
-# Download 3 sample screenshots using curl
-curl -o "public/screenshots/event-1.jpg" "https://api.apiflash.com/v1/urltoimage?access_key=f3cae9688a794f2da5192eb2c50f1d3f&wait_until=page_loaded&url=https%3A%2F%2Fwwd.com%2Ffashion-news%2Ffashion-features%2Fburberry-jennifer-saunders-naomi-campbell-christmas-ad-film-1238334044%2F&width=768&height=1280&format=jpeg&quality=85"
-
-curl -o "public/screenshots/event-2.jpg" "https://api.apiflash.com/v1/urltoimage?access_key=f3cae9688a794f2da5192eb2c50f1d3f&wait_until=page_loaded&url=https%3A%2F%2Fwwd.com%2Fbusiness-news%2Fretail%2Fgap-sandy-liang-collaboration-reimagining-gap-icons-downtown-edge-1238271666%2F&width=768&height=1280&format=jpeg&quality=85"
-
-curl -o "public/screenshots/event-3.jpg" "https://api.apiflash.com/v1/urltoimage?access_key=f3cae9688a794f2da5192eb2c50f1d3f&wait_until=page_loaded&url=https%3A%2F%2Fwww.hollywoodreporter.com%2Flifestyle%2Fshopping%2Fzara-50th-anniversary-collection-campaign-how-to-shop-1236211829%2F&width=768&height=1280&format=jpeg&quality=85"
-```
 
 ## Step 3: Start the App
 
@@ -62,9 +50,14 @@ The app will open at http://localhost:3000
    ls -la public/screenshots/
    ```
 
-2. Verify the configuration in `src/PresentationDeck.jsx`:
-   ```javascript
-   const USE_LOCAL_SCREENSHOTS = true;  // Should be true
+2. Re-download screenshots:
+   ```bash
+   ./download-screenshots.sh
+   ```
+
+3. Make sure script is executable:
+   ```bash
+   chmod +x download-screenshots.sh
    ```
 
 ### "Module not found: lucide-react"
@@ -85,13 +78,14 @@ To use your own APIFlash API key:
 
 1. Sign up at https://apiflash.com/ (free tier available)
 
-2. Update the key in these files:
-   - `download_screenshots.py` (line 3)
-   - `src/PresentationDeck.jsx` (line 5)
+2. Update the key in `download-screenshots.sh`:
+   ```bash
+   API_KEY="your_api_key_here"
+   ```
 
 3. Run the download script again:
    ```bash
-   python3 download_screenshots.py
+   ./download-screenshots.sh
    ```
 
 ## Next Steps

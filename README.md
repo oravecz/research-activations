@@ -32,22 +32,15 @@ An interactive React presentation showcasing 42 fashion and footwear brand activ
    npm install
    ```
 
-3. **Download Screenshots** (Choose one method):
-
-   **Method A: Using Python (Recommended)**
-   ```bash
-   python3 download_screenshots.py
-   ```
-
-   **Method B: Using Node.js**
-   ```bash
-   node download-screenshots.js
-   ```
-
-   **Method C: Using Shell Script**
+3. **Download Screenshots**
    ```bash
    chmod +x download-screenshots.sh
    ./download-screenshots.sh
+   ```
+
+   Or use npm script:
+   ```bash
+   npm run download-screenshots
    ```
 
 4. **Start the development server**
@@ -55,54 +48,42 @@ An interactive React presentation showcasing 42 fashion and footwear brand activ
    npm start
    ```
 
-## Screenshot Configuration
+## Screenshots
 
-The presentation component can work in two modes:
+All campaign screenshots are stored as static assets in `public/screenshots/` directory.
 
-### Mode 1: Local Screenshots (Recommended)
-Set `USE_LOCAL_SCREENSHOTS = true` in `src/PresentationDeck.jsx` (default)
+### Downloading Screenshots
 
-This mode loads screenshots from the `/public/screenshots` directory. Screenshots are named `event-{id}.jpg` where `{id}` corresponds to each event's ID (1-42).
-
-### Mode 2: Live API Screenshots
-Set `USE_LOCAL_SCREENSHOTS = false` in `src/PresentationDeck.jsx`
-
-This mode fetches screenshots on-demand from the APIFlash API. Good for development but slower and requires active API key.
-
-## Downloading Screenshots
-
-### Using the Python Script
-
-The Python script (`download_screenshots.py`) is the most reliable method:
+The download script uses curl to fetch all 42 campaign screenshots:
 
 ```bash
-python3 download_screenshots.py
+chmod +x download-screenshots.sh
+./download-screenshots.sh
+```
+
+Or use the npm script:
+```bash
+npm run download-screenshots
 ```
 
 **Features:**
-- Downloads all 42 screenshots
-- Automatic retry logic
+- Downloads all 42 screenshots automatically
+- Skips already downloaded files
 - Progress tracking
-- Creates a manifest file
-- Skips already downloaded screenshots
+- Error handling with retry capability
 
 **Output:**
-- Screenshots saved to: `public/screenshots/`
-- Manifest saved to: `public/screenshots/manifest.json`
+- Screenshots saved to: `public/screenshots/event-{1-42}.jpg`
 
-### API Key Configuration
+### Custom API Key
 
-Replace the `API_KEY` in the download scripts with your APIFlash API key:
+To use your own APIFlash API key, edit `download-screenshots.sh`:
 
-```python
-API_KEY = 'your_api_key_here'  # In download_screenshots.py
+```bash
+API_KEY="your_api_key_here"
 ```
 
-```javascript
-const API_KEY = 'your_api_key_here';  // In download-screenshots.js
-```
-
-Get your free API key at: https://apiflash.com/
+Get a free API key at: https://apiflash.com/
 
 ## Project Structure
 
@@ -113,13 +94,10 @@ research-activations/
 │       ├── event-1.jpg
 │       ├── event-2.jpg
 │       ├── ...
-│       ├── event-42.jpg
-│       └── manifest.json
+│       └── event-42.jpg
 ├── src/
 │   └── PresentationDeck.jsx  # Main presentation component
-├── download_screenshots.py    # Python download script (recommended)
-├── download-screenshots.js    # Node.js download script
-├── download-screenshots.sh    # Shell script alternative
+├── download-screenshots.sh   # Screenshot download script
 └── README.md
 ```
 
@@ -177,7 +155,7 @@ Edit `src/PresentationDeck.jsx` and add to the `events` array:
 
 Then download the screenshot:
 ```bash
-python3 download_screenshots.py
+./download-screenshots.sh
 ```
 
 ### Styling
@@ -243,16 +221,15 @@ See [DEPLOYMENT.md](DEPLOYMENT.md) for complete deployment documentation.
    ls -la public/screenshots/
    ```
 
-2. **Verify USE_LOCAL_SCREENSHOTS setting:**
-   ```javascript
-   // In src/PresentationDeck.jsx
-   const USE_LOCAL_SCREENSHOTS = true;
-   ```
-
-3. **Re-download screenshots:**
+2. **Re-download screenshots:**
    ```bash
    rm -rf public/screenshots/*.jpg
-   python3 download_screenshots.py
+   ./download-screenshots.sh
+   ```
+
+3. **Make script executable:**
+   ```bash
+   chmod +x download-screenshots.sh
    ```
 
 ### API 403 Errors
