@@ -10,6 +10,7 @@ An interactive React presentation showcasing 42 fashion and footwear brand activ
 - 📱 Responsive design
 - ⌨️ Keyboard navigation
 - 🔗 Direct links to source articles
+- 🚀 Automatic deployment to GitHub Pages
 
 ## Quick Start
 
@@ -182,6 +183,56 @@ python3 download_screenshots.py
 ### Styling
 
 The component uses Tailwind CSS. Customize colors and styles in `src/PresentationDeck.jsx`.
+
+## Deployment
+
+### GitHub Pages (Automatic)
+
+This project is configured for automatic deployment to GitHub Pages using GitHub Actions.
+
+**Setup:**
+
+1. **Enable GitHub Pages in your repository:**
+   - Go to **Settings** → **Pages**
+   - Under "Source", select **GitHub Actions**
+
+2. **Enable workflow permissions:**
+   - Go to **Settings** → **Actions** → **General**
+   - Under "Workflow permissions", select **Read and write permissions**
+
+3. **Push to main branch:**
+   ```bash
+   git push origin main
+   ```
+
+Your site will be deployed to: **https://oravecz.github.io/research-activations**
+
+The deployment workflow automatically:
+- Builds the React app
+- Deploys to GitHub Pages
+- Runs on every push to main/master
+
+**Check deployment status:** Go to the **Actions** tab in your repository
+
+### Manual Deployment
+
+Alternatively, deploy manually:
+
+```bash
+npm run deploy
+```
+
+### Configuration
+
+If your repository name differs, update `package.json`:
+
+```json
+{
+  "homepage": "https://YOUR_USERNAME.github.io/YOUR_REPO_NAME"
+}
+```
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for complete deployment documentation.
 
 ## Troubleshooting
 

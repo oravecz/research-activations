@@ -98,8 +98,28 @@ To use your own APIFlash API key:
 
 - **Customize**: Edit `src/PresentationDeck.jsx` to add your own events
 - **Style**: Modify Tailwind CSS classes to match your brand
-- **Deploy**: Run `npm run build` to create production build
-- **Share**: Deploy to Netlify, Vercel, or GitHub Pages
+- **Deploy to GitHub Pages**: See [DEPLOYMENT.md](DEPLOYMENT.md)
+  - Automatic deployment is pre-configured with GitHub Actions
+  - Just enable GitHub Pages in Settings → Pages
+  - Push to main branch to deploy
+- **Share**: Your site will be at `https://oravecz.github.io/research-activations`
+
+## Deployment
+
+To deploy to GitHub Pages:
+
+1. Enable GitHub Pages:
+   - Go to repository **Settings** → **Pages**
+   - Select **GitHub Actions** as source
+
+2. Push to main:
+   ```bash
+   git push origin main
+   ```
+
+3. View your site at: https://oravecz.github.io/research-activations
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for complete deployment guide.
 
 ## Full Documentation
 
