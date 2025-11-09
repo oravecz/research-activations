@@ -1,0 +1,35 @@
+{
+  "eventId": 16,
+  "brand": "Foot Locker",
+  "title": "Power Store Concept Expansion",
+  "sourceUrl": "https://www.footlocker-inc.com/newsroom/news/power-store-expansion",
+  "createdAt": "2025-11-09T16:12:50.064Z",
+  "updatedAt": "2025-11-09T16:16:00.078Z",
+  "assets": {
+    "logo": {
+      "filename": "logo.png",
+      "sourceUrl": "https://logo.clearbit.com/footlocker.com",
+      "fetchedAt": "2025-11-09T16:14:26.650Z",
+      "status": "downloaded",
+      "copiedFrom": "event-15"
+    },
+    "promotionalImages": [],
+    "screenshot": {
+      "filename": "screenshot.png",
+      "sourceUrl": "https://www.footlocker-inc.com/newsroom/news/power-store-expansion",
+      "capturedAt": null,
+      "status": "pending"
+    },
+    "collage": {
+      "filename": "slide-image.png",
+      "generatedAt": "2025-11-09T16:16:00.078Z",
+      "status": "generated",
+      "method": "logo-centered",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      }
+    }
+  },
+  "notes": []
+}

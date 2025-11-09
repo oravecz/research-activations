@@ -1,0 +1,35 @@
+{
+  "eventId": 9,
+  "brand": "Target",
+  "title": "Small Format Store Expansion",
+  "sourceUrl": "https://corporate.target.com/press/releases/2024/01/target-opens-small-format-stores",
+  "createdAt": "2025-11-09T16:12:50.063Z",
+  "updatedAt": "2025-11-09T16:15:59.907Z",
+  "assets": {
+    "logo": {
+      "filename": "logo.png",
+      "sourceUrl": "https://logo.clearbit.com/target.com",
+      "fetchedAt": "2025-11-09T16:14:24.416Z",
+      "status": "downloaded",
+      "copiedFrom": "event-8"
+    },
+    "promotionalImages": [],
+    "screenshot": {
+      "filename": "screenshot.png",
+      "sourceUrl": "https://corporate.target.com/press/releases/2024/01/target-opens-small-format-stores",
+      "capturedAt": null,
+      "status": "pending"
+    },
+    "collage": {
+      "filename": "slide-image.png",
+      "generatedAt": "2025-11-09T16:15:59.907Z",
+      "status": "generated",
+      "method": "logo-centered",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      }
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,248 @@
+{
+  "timestamp": "2025-11-09T16:14:48.355Z",
+  "totalBrands": 40,
+  "successful": 40,
+  "failed": 0,
+  "results": [
+    {
+      "brand": "Nike",
+      "success": true,
+      "url": "https://logo.clearbit.com/nike.com",
+      "eventCount": 3
+    },
+    {
+      "brand": "On Running",
+      "success": true,
+      "url": "https://logo.clearbit.com/on-running.com",
+      "eventCount": 2
+    },
+    {
+      "brand": "Patagonia",
+      "success": true,
+      "url": "https://logo.clearbit.com/patagonia.com",
+      "eventCount": 2
+    },
+    {
+      "brand": "Target",
+      "success": true,
+      "url": "https://logo.clearbit.com/target.com",
+      "eventCount": 3
+    },
+    {
+      "brand": "Zara",
+      "success": true,
+      "url": "https://logo.clearbit.com/zara.com",
+      "eventCount": 2
+    },
+    {
+      "brand": "adidas",
+      "success": true,
+      "url": "https://logo.clearbit.com/adidas.com",
+      "eventCount": 2
+    },
+    {
+      "brand": "Foot Locker",
+      "success": true,
+      "url": "https://logo.clearbit.com/footlocker.com",
+      "eventCount": 2
+    },
+    {
+      "brand": "Crocs",
+      "success": true,
+      "url": "https://logo.clearbit.com/crocs.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "New Balance",
+      "success": true,
+      "url": "https://logo.clearbit.com/newbalance.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Allbirds",
+      "success": true,
+      "url": "https://logo.clearbit.com/allbirds.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Lululemon",
+      "success": true,
+      "url": "https://logo.clearbit.com/lululemon.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "REI",
+      "success": true,
+      "url": "https://logo.clearbit.com/rei.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Apple",
+      "success": true,
+      "url": "https://logo.clearbit.com/apple.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Warby Parker",
+      "success": true,
+      "url": "https://logo.clearbit.com/warbyparker.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Dick's Sporting Goods",
+      "success": true,
+      "url": "https://logo.clearbit.com/dickssportinggoods.com",
+      "eventCount": 2
+    },
+    {
+      "brand": "Sephora",
+      "success": true,
+      "url": "https://logo.clearbit.com/sephora.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Ulta Beauty",
+      "success": true,
+      "url": "https://logo.clearbit.com/ulta.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Anthropologie",
+      "success": true,
+      "url": "https://logo.clearbit.com/anthropologie.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Urban Outfitters",
+      "success": true,
+      "url": "https://logo.clearbit.com/urbanoutfitters.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Gap",
+      "success": true,
+      "url": "https://logo.clearbit.com/gap.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Old Navy",
+      "success": true,
+      "url": "https://logo.clearbit.com/oldnavy.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "H&M",
+      "success": true,
+      "url": "https://logo.clearbit.com/hm.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Everlane",
+      "success": true,
+      "url": "https://logo.clearbit.com/everlane.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Madewell",
+      "success": true,
+      "url": "https://logo.clearbit.com/madewell.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Nordstrom",
+      "success": true,
+      "url": "https://logo.clearbit.com/nordstrom.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Best Buy",
+      "success": true,
+      "url": "https://logo.clearbit.com/bestbuy.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Whole Foods Market",
+      "success": true,
+      "url": "https://logo.clearbit.com/wholefoodsmarket.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Trader Joe's",
+      "success": true,
+      "url": "https://logo.clearbit.com/traderjoes.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "IKEA",
+      "success": true,
+      "url": "https://logo.clearbit.com/ikea.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "West Elm",
+      "success": true,
+      "url": "https://logo.clearbit.com/westelm.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "CB2",
+      "success": true,
+      "url": "https://logo.clearbit.com/cb2.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Williams Sonoma",
+      "success": true,
+      "url": "https://logo.clearbit.com/williams-sonoma.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Sunglass Hut",
+      "success": true,
+      "url": "https://logo.clearbit.com/sunglasshut.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Vans",
+      "success": true,
+      "url": "https://logo.clearbit.com/vans.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Converse",
+      "success": true,
+      "url": "https://logo.clearbit.com/converse.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Alo Yoga",
+      "success": true,
+      "url": "https://logo.clearbit.com/aloyoga.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Outdoor Voices",
+      "success": true,
+      "url": "https://logo.clearbit.com/outdoorvoices.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Athleta",
+      "success": true,
+      "url": "https://logo.clearbit.com/athleta.gap.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Free People Movement",
+      "success": true,
+      "url": "https://logo.clearbit.com/freepeople.com",
+      "eventCount": 1
+    },
+    {
+      "brand": "Vuori",
+      "success": true,
+      "url": "https://logo.clearbit.com/vuoriclothing.com",
+      "eventCount": 1
+    }
+  ]
+}

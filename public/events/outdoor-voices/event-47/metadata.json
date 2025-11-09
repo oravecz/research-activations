@@ -1,0 +1,34 @@
+{
+  "eventId": 47,
+  "brand": "Outdoor Voices",
+  "title": "Doing Things Store Experience",
+  "sourceUrl": "https://www.outdoorvoices.com/pages/stores",
+  "createdAt": "2025-11-09T16:12:50.066Z",
+  "updatedAt": "2025-11-09T16:16:05.512Z",
+  "assets": {
+    "logo": {
+      "filename": "logo.png",
+      "sourceUrl": "https://logo.clearbit.com/outdoorvoices.com",
+      "fetchedAt": "2025-11-09T16:14:45.655Z",
+      "status": "downloaded"
+    },
+    "promotionalImages": [],
+    "screenshot": {
+      "filename": "screenshot.png",
+      "sourceUrl": "https://www.outdoorvoices.com/pages/stores",
+      "capturedAt": null,
+      "status": "pending"
+    },
+    "collage": {
+      "filename": "slide-image.png",
+      "generatedAt": "2025-11-09T16:16:05.512Z",
+      "status": "generated",
+      "method": "logo-centered",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      }
+    }
+  },
+  "notes": []
+}

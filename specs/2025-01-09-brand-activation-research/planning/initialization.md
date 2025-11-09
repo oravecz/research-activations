@@ -1,0 +1,7 @@
+# Brand Activation Research and Presentation Project
+
+## Initial Description
+
+I want you to perform deep research to identify brand activations events in the retail space and hosted at the store level. I would like you to identify 50 events occuring since 2023 and at least 25% of these events should focus on footwear. Luxury brands should be limited unless they are specific to multiple store activations. I want to create a slide presentation that shows the result of this research level. Each slide should contain the title (Brand - Event name), and the details of the event (time frame, all stores or select stores, what did the activation entail at a high level, how was it promoted, URL links).
+
+The slide needs to also contain an image that you create that is representative of the event. The image should feature the brand's logo prominently at the top, and various images from the event promotion material/web site are featured in a collage of photos to complete the image. If the images are not satisfactory, use the Playwright MCP to grab a screenshot of the event web page and use that instead. The browser window should be formatted to be 768x1024 so it will fill the left or right side of a slide adequately. Each slide should be in a 16x9 aspect ratio.

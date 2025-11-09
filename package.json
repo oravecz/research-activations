@@ -1,27 +1,39 @@
 {
-  "name": "brand-activation-deck",
+  "name": "brand-activation-research",
   "version": "1.0.0",
-  "description": "Interactive presentation deck for brand activations with live screenshots",
-  "homepage": "https://oravecz.github.io/research-activations",
-  "main": "src/PresentationDeck.jsx",
+  "description": "Brand Activation Research and Presentation System - Research, validate, and present 50 retail brand activation events with automated asset generation",
+  "main": "src/index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "download-screenshots": "./download-screenshots.sh",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "validate-url": "node scripts/validate-url.js",
+    "capture-screenshot": "node scripts/capture-screenshot.js",
+    "create-collage": "node scripts/create-collage.js",
+    "test-validation": "node scripts/validate-url.js https://example.com",
+    "test-screenshot": "node scripts/capture-screenshot.js --test"
   },
+  "keywords": [
+    "react",
+    "presentation",
+    "brand-activation",
+    "retail",
+    "research",
+    "screenshots",
+    "image-processing"
+  ],
+  "author": "",
+  "license": "MIT",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "lucide-react": "^0.294.0"
+    "lucide-react": "^0.294.0",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "react-scripts": "5.0.1",
-    "tailwindcss": "^3.3.5",
-    "gh-pages": "^6.1.0"
+    "tailwindcss": "^3.3.5"
   },
   "eslintConfig": {
     "extends": [
@@ -40,14 +52,11 @@
       "last 1 safari version"
     ]
   },
-  "keywords": [
-    "react",
-    "presentation",
-    "brand-activation",
-    "fashion",
-    "retail",
-    "screenshots"
-  ],
-  "author": "",
-  "license": "MIT"
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
 }
