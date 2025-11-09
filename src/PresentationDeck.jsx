@@ -14,7 +14,9 @@ const PresentationDeck = () => {
   useEffect(() => {
     const loadEvents = async () => {
       try {
-        const response = await fetch('/events/details.json');
+        // Use import.meta.env.BASE_URL to handle GitHub Pages subdirectory deployment
+        const basePath = import.meta.env.BASE_URL || '/';
+        const response = await fetch(`${basePath}events/details.json`);
         if (!response.ok) {
           throw new Error('Failed to load events data');
         }
@@ -68,12 +70,13 @@ const PresentationDeck = () => {
   };
 
   const getImagePath = (event) => {
+    const basePath = import.meta.env.BASE_URL || '/';
     // Get image path from assetInventory
     if (event.assetInventory && event.assetInventory.hasCollage && event.assetInventory.collagePath) {
-      return '/' + event.assetInventory.collagePath;
+      return basePath + event.assetInventory.collagePath;
     }
     // Fallback to constructed path
-    return `/events/${event.brand.toLowerCase().replace(/\s+/g, '-')}/event-${event.id}/slide-image.png`;
+    return `${basePath}events/${event.brand.toLowerCase().replace(/\s+/g, '-')}/event-${event.id}/slide-image.png`;
   };
 
   const handleImageError = (eventId, e) => {

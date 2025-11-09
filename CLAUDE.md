@@ -11,9 +11,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ### Development
 ```bash
 npm install              # Install dependencies (Node.js >=18.0.0 required)
-npm start                # Start React development server (http://localhost:3000)
-npm run build            # Build production bundle to /build directory
-npm test                 # Run test suite
+npm start                # Start Vite dev server (http://localhost:3000)
+npm run dev              # Alias for npm start
+npm run build            # Build production bundle to /dist directory
+npm run preview          # Preview production build locally (port 3000)
+npm test                 # Run Vitest in watch mode
+npm run test:ui          # Run Vitest with UI interface
 ```
 
 ### Asset Generation Scripts
@@ -38,10 +41,10 @@ node scripts/batch-download-logos.js
 node scripts/create-collage.js
 ```
 
-### Testing Deployment Locally
+### Testing Production Build
 ```bash
-npm run build           # Build production bundle
-npx serve -s build      # Serve production build locally
+npm run build           # Build production bundle to /dist
+npm run preview         # Preview production build with Vite (port 3000)
 ```
 
 ## Architecture
@@ -53,7 +56,7 @@ The system follows a **data-centric architecture** where event data flows from J
 1. **Data Source**: `events/details.json` - Central data file containing all 50 events with metadata, validation status, and asset inventory
 2. **Asset Storage**: `events/[brand-slug]/event-[id]/` - Organized by brand, each event has its own directory containing logo.png, slide-image.png, and metadata.json
 3. **Presentation Layer**: React component (`src/PresentationDeck.jsx`) dynamically loads event data and renders an interactive slide deck
-4. **Build Output**: Static files in `/build` directory deployed to GitHub Pages
+4. **Build Output**: Static files in `/dist` directory deployed to GitHub Pages via Vite build
 
 ### Key Design Patterns
 
@@ -78,14 +81,18 @@ The system follows a **data-centric architecture** where event data flows from J
 ### Critical File Relationships
 
 **Data Dependencies:**
-- `src/PresentationDeck.jsx` reads from → `public/events/details.json` (copied from `events/details.json` during build)
-- Event slides reference images via → `assetInventory.collagePath` field in each event object
+- `src/PresentationDeck.jsx` reads from → `{BASE_URL}events/details.json` at runtime (uses `import.meta.env.BASE_URL` for correct path)
+- Event slides reference images via → `assetInventory.collagePath` field with base URL prefix
 - Scripts read/write from → `events/details.json` and individual event directories
+- **CRITICAL**: All asset paths must use `import.meta.env.BASE_URL` to work with GitHub Pages subdirectory deployment
 
 **Build Process:**
-1. React Scripts builds application from `src/` directory
-2. `public/` directory (including `public/events/`) copied to `build/` output
-3. GitHub Actions workflow deploys `build/` directory to GitHub Pages
+1. Vite builds application from `src/` directory with entry point `index.html`
+2. `public/` directory (including `events/`) served during development and copied to `dist/` during build
+3. Tailwind CSS processed via PostCSS during build
+4. Base path `/research-activations/` applied to all asset URLs via `vite.config.js`
+5. Runtime code uses `import.meta.env.BASE_URL` to dynamically resolve paths
+6. GitHub Actions workflow deploys `dist/` directory to GitHub Pages
 
 ### Directory Organization
 
@@ -101,13 +108,15 @@ research-activations/
 │           ├── logo.png             # Brand logo (variable size)
 │           └── slide-image.png      # Generated 16:9 slide (1920x1080)
 │
-├── public/                          # Static assets for React app
-│   ├── events/                      # Symlinked or copied from events/
-│   └── index.html                   # HTML template
+├── public/                          # Static assets served by Vite
+│   └── events/                      # Symlinked or copied from events/
 │
 ├── src/                             # React application source
 │   ├── PresentationDeck.jsx         # Main presentation component (345 lines)
-│   └── index.js                     # React app entry point
+│   ├── index.jsx                    # React app entry point
+│   └── index.css                    # Global styles with Tailwind directives
+│
+├── index.html                       # Vite entry HTML (references /src/index.jsx)
 │
 ├── scripts/                         # Node.js utility scripts
 │   ├── validate-url.js              # HTTP validation with paywall detection
@@ -123,6 +132,11 @@ research-activations/
 │       ├── tasks.md                 # Implementation task breakdown
 │       └── planning/requirements.md # Detailed requirements
 │
+├── vite.config.js                   # Vite configuration (base path, build settings)
+├── vitest.config.js                 # Vitest test configuration (jsdom environment)
+├── tailwind.config.js               # Tailwind CSS configuration
+├── postcss.config.js                # PostCSS configuration (Tailwind + Autoprefixer)
+│
 └── .github/workflows/
     └── deploy.yml                   # GitHub Actions CI/CD pipeline
 ```
@@ -130,11 +144,19 @@ research-activations/
 ## Tech Stack
 
 ### Core Technologies
-- **Frontend Framework**: React 18.2.0
-- **Build Tool**: Create React App / React Scripts 5.0.1
-- **Styling**: Tailwind CSS 3.3.5 (via CDN in HTML)
-- **Icons**: Lucide React 0.294.0
-- **Image Processing**: Sharp 0.33.5 (for slide generation)
+- **Frontend Framework**: React 18.3.1
+- **Build Tool**: Vite 6.0.3 (fast ES module-based build)
+- **Test Framework**: Vitest 2.1.8 (with jsdom environment)
+- **Styling**: Tailwind CSS 3.4.15 (processed via PostCSS)
+- **Icons**: Lucide React 0.460.0
+- **Image Processing**: Sharp 0.33.5 (for slide generation scripts)
+
+### Build Configuration
+- **Vite Plugin**: @vitejs/plugin-react (React Fast Refresh support)
+- **PostCSS**: Tailwind CSS + Autoprefixer
+- **Base Path**: `/research-activations/` (configured in vite.config.js for GitHub Pages)
+- **Base URL Access**: Use `import.meta.env.BASE_URL` in runtime code for dynamic path resolution
+- **ES Modules**: Package type set to "module" for native ESM support
 
 ### Asset Processing
 - **Screenshot Capture**: Playwright (via MCP integration)
@@ -145,11 +167,12 @@ research-activations/
 ### Deployment
 - **CI/CD**: GitHub Actions (`.github/workflows/deploy.yml`)
 - **Hosting**: GitHub Pages (static site)
-- **Build Output**: `/build` directory
+- **Build Output**: `/dist` directory (Vite default)
 
 ### Development Tools
 - **Node.js**: >=18.0.0 required
 - **Package Manager**: npm
+- **Dev Server**: Vite dev server with HMR (port 3000, auto-opens browser)
 
 ## Working with Event Data
 
@@ -171,7 +194,10 @@ The presentation component (`src/PresentationDeck.jsx`) consists of:
 - **Filter Bar** (lines 252-272): Category filtering system
 - **Slide Indicators** (lines 324-340): Progress dots for visual navigation
 
-Image paths are resolved via `getImagePath()` function (lines 70-77) which checks `assetInventory.collagePath` first, then falls back to constructed path.
+**Path Resolution:**
+- Data fetching (lines 14-34): Uses `import.meta.env.BASE_URL` + `events/details.json`
+- Image paths via `getImagePath()` function (lines 72-80): Prepends `import.meta.env.BASE_URL` to all paths
+- **IMPORTANT**: Always use `import.meta.env.BASE_URL` for any runtime asset paths to support subdirectory deployment
 
 ### Validation and Asset Scripts
 
@@ -205,16 +231,23 @@ Image paths are resolved via `getImagePath()` function (lines 70-77) which check
 ### Build and Deployment
 - GitHub Actions workflow triggers on push to `main` or `master` branch
 - Build requires Node.js 18+ (specified in package.json engines)
-- The `/build` directory is gitignored - never commit build artifacts
-- `public/events/` directory must exist and contain `details.json` for production builds
+- The `/dist` directory is gitignored - never commit build artifacts
+- Vite base path set to `/research-activations/` for GitHub Pages subdirectory deployment
+- `public/events/` directory must exist and contain `details.json` for builds
 
 ## Testing and Validation
+
+### Running Tests
+- **Watch Mode**: `npm test` - Runs Vitest in watch mode, re-runs on file changes
+- **UI Mode**: `npm run test:ui` - Opens interactive Vitest UI in browser
+- **Test Environment**: jsdom (configured in vitest.config.js)
+- **Setup File**: `src/setupTests.js` (runs before all tests)
 
 ### Pre-Deployment Checklist
 1. Run `npm run build` to verify build succeeds without errors
 2. Check `events/details.json` validates against schema (all required fields present)
 3. Verify all `assetInventory.collagePath` values point to existing files
-4. Test locally with `npx serve -s build` before pushing
+4. Test locally with `npm run preview` before pushing
 5. Confirm all event URLs are accessible (no 404s, paywalls, or region blocks)
 
 ### Common Issues
@@ -223,6 +256,14 @@ Image paths are resolved via `getImagePath()` function (lines 70-77) which check
 - Check Node.js version (must be >=18.0.0)
 - Run `rm -rf node_modules package-lock.json && npm install` to refresh dependencies
 - Verify `public/events/details.json` exists and is valid JSON
+- Check Vite config base path matches deployment subdirectory (`/research-activations/`)
+- Ensure Tailwind CSS is properly configured in postcss.config.js
+
+**Asset Loading Errors (404s)**
+- Verify all runtime asset paths use `import.meta.env.BASE_URL` prefix
+- Check that `vite.config.js` base path matches GitHub repository name
+- Inspect browser Network tab to see actual URLs being requested
+- Ensure `public/` directory contents are being copied to `dist/` during build
 
 **Missing Images**
 - Check `assetInventory.collagePath` in events/details.json matches actual file location
@@ -233,6 +274,8 @@ Image paths are resolved via `getImagePath()` function (lines 70-77) which check
 - Check GitHub Actions logs in repository's Actions tab
 - Verify GitHub Pages is enabled in repository settings (source: GitHub Actions)
 - Confirm workflow has proper permissions (contents: read, pages: write, id-token: write)
+- Ensure workflow uploads from `./dist` directory (Vite output, not `./build`)
+- Verify base path in vite.config.js matches GitHub Pages repository path
 
 ## Research Methodology Notes
 
