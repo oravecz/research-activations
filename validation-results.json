@@ -1,0 +1,630 @@
+{
+  "validatedAt": "2025-11-09T16:03:28.133Z",
+  "summary": {
+    "total": 49,
+    "accessible": 12,
+    "failed": 37,
+    "withPaywalls": 5,
+    "withRegionBlocks": 0
+  },
+  "results": [
+    {
+      "url": "https://news.nike.com/news/nike-rise-concept-stores",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:00:16.184Z",
+      "responseTime": 1024
+    },
+    {
+      "url": "https://news.nike.com/news/nike-by-you-customization-expansion",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:00:17.711Z",
+      "responseTime": 831
+    },
+    {
+      "url": "https://news.nike.com/news/nike-community-stores-2023",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:00:19.043Z",
+      "responseTime": 744
+    },
+    {
+      "url": "https://news.adidas.com/running/adidas-opens-new-nyc-flagship-on-fifth-avenue/s/d949222d-7a0a-4aec-9f0c-901711e038c5",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": true,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist",
+        "Paywall detected: \"subscribe\" found in content"
+      ],
+      "validatedAt": "2025-11-09T16:00:20.288Z",
+      "responseTime": 449
+    },
+    {
+      "url": "https://news.adidas.com/originals/adidas-confirms-originals-store/s/b3a489ff-f36c-4a0b-8a5f-e90f60f9daa8",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": true,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist",
+        "Paywall detected: \"subscribe\" found in content"
+      ],
+      "validatedAt": "2025-11-09T16:00:21.240Z",
+      "responseTime": 144
+    },
+    {
+      "url": "https://www.footlocker-inc.com/newsroom/foot-locker-unveils-store-of-the-future",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:00:21.886Z",
+      "responseTime": 347
+    },
+    {
+      "url": "https://www.footlocker-inc.com/newsroom/power-store-concept-expansion",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:00:22.734Z",
+      "responseTime": 131
+    },
+    {
+      "url": "https://www.crocs.com/newsroom/crocs-at-work-store-expansion.html",
+      "accessible": false,
+      "statusCode": 410,
+      "statusMessage": "",
+      "hasPaywall": true,
+      "hasRegionBlock": false,
+      "issues": [
+        "Unexpected status code: 410",
+        "Paywall detected: \"subscribe\" found in content"
+      ],
+      "validatedAt": "2025-11-09T16:00:23.366Z",
+      "responseTime": 380
+    },
+    {
+      "url": "https://company.crocs.com/en/news-and-events/news/crocs-opens-experiential-flagship",
+      "accessible": false,
+      "statusCode": null,
+      "statusMessage": null,
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "Error: Request timeout after 30 seconds"
+      ],
+      "validatedAt": "2025-11-09T16:00:24.248Z",
+      "responseTime": null
+    },
+    {
+      "url": "https://www.newbalance.com/experience-stores.html",
+      "accessible": false,
+      "statusCode": 403,
+      "statusMessage": "Forbidden",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "403 Forbidden - Access denied"
+      ],
+      "validatedAt": "2025-11-09T16:00:54.752Z",
+      "responseTime": 184
+    },
+    {
+      "url": "https://about.newbalance.com/en-us/newsroom/boston-flagship-opening",
+      "accessible": false,
+      "statusCode": null,
+      "statusMessage": null,
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "Error: getaddrinfo ENOTFOUND about.newbalance.com"
+      ],
+      "validatedAt": "2025-11-09T16:00:55.437Z",
+      "responseTime": null
+    },
+    {
+      "url": "https://www.allbirds.com/pages/store-locations",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:00:55.998Z",
+      "responseTime": 512
+    },
+    {
+      "url": "https://investors.allbirds.com/news/store-expansion-2023",
+      "accessible": false,
+      "statusCode": null,
+      "statusMessage": null,
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "Error: getaddrinfo ENOTFOUND investors.allbirds.com"
+      ],
+      "validatedAt": "2025-11-09T16:00:57.011Z",
+      "responseTime": null
+    },
+    {
+      "url": "https://www.on-running.com/en-us/articles/new-york-flagship-store",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:00:57.588Z",
+      "responseTime": 167
+    },
+    {
+      "url": "https://www.on-running.com/en-us/articles/retail-expansion-2024",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:00:58.256Z",
+      "responseTime": 35
+    },
+    {
+      "url": "https://corporate.lululemon.com/news/lululemon-opens-experiential-store-chicago",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:00:58.791Z",
+      "responseTime": 510
+    },
+    {
+      "url": "https://corporate.lululemon.com/news/lululemon-studio-concept-expansion",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:00:59.803Z",
+      "responseTime": 205
+    },
+    {
+      "url": "https://corporate.lululemon.com/news/store-expansion-north-america-2023",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:01:00.510Z",
+      "responseTime": 153
+    },
+    {
+      "url": "https://www.patagonia.com/stories/new-york-store-opening-2023/story-123456.html",
+      "accessible": true,
+      "statusCode": 200,
+      "statusMessage": "OK",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:01:01.165Z",
+      "responseTime": 305
+    },
+    {
+      "url": "https://www.patagonia.com/on/demandware.store/Sites-patagonia-Site/en_US/Page-Show?cid=store-locations",
+      "accessible": true,
+      "statusCode": 200,
+      "statusMessage": "OK",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:01:01.971Z",
+      "responseTime": 110
+    },
+    {
+      "url": "https://corporate.target.com/press/releases/2023/09/target-unveils-refreshed-stores-nationwide",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:01:02.583Z",
+      "responseTime": 112
+    },
+    {
+      "url": "https://corporate.target.com/press/releases/2024/01/target-opens-small-format-stores",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:01:03.197Z",
+      "responseTime": 85
+    },
+    {
+      "url": "https://corporate.target.com/press/releases/2023/11/target-ulta-beauty-expansion",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:01:03.783Z",
+      "responseTime": 80
+    },
+    {
+      "url": "https://www.sephorastands.com/newsroom/sephora-opens-largest-us-store-nyc",
+      "accessible": false,
+      "statusCode": null,
+      "statusMessage": null,
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "Error: Hostname/IP does not match certificate's altnames: Host: www.sephorastands.com. is not in the cert's altnames: DNS:app.getflywheel.com, DNS:*.getf.ly, DNS:*.getflywheel.com, DNS:*.sitesandservices.com, DNS:sitesandservices.com"
+      ],
+      "validatedAt": "2025-11-09T16:01:04.365Z",
+      "responseTime": null
+    },
+    {
+      "url": "https://www.sephorastands.com/newsroom/sephora-at-kohl-partnership-expansion",
+      "accessible": false,
+      "statusCode": null,
+      "statusMessage": null,
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "Error: Hostname/IP does not match certificate's altnames: Host: www.sephorastands.com. is not in the cert's altnames: DNS:app.getflywheel.com, DNS:*.getf.ly, DNS:*.getflywheel.com, DNS:*.sitesandservices.com, DNS:sitesandservices.com"
+      ],
+      "validatedAt": "2025-11-09T16:01:05.024Z",
+      "responseTime": null
+    },
+    {
+      "url": "https://www.sephorastands.com/newsroom/beauty-studio-concept-2023",
+      "accessible": false,
+      "statusCode": null,
+      "statusMessage": null,
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "Error: Hostname/IP does not match certificate's altnames: Host: www.sephorastands.com. is not in the cert's altnames: DNS:app.getflywheel.com, DNS:*.getf.ly, DNS:*.getflywheel.com, DNS:*.sitesandservices.com, DNS:sitesandservices.com"
+      ],
+      "validatedAt": "2025-11-09T16:01:05.577Z",
+      "responseTime": null
+    },
+    {
+      "url": "https://www.ulta.com/press-room/ulta-beauty-opens-experiential-flagship",
+      "accessible": false,
+      "statusCode": null,
+      "statusMessage": null,
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "Error: Request timeout after 30 seconds"
+      ],
+      "validatedAt": "2025-11-09T16:01:06.135Z",
+      "responseTime": null
+    },
+    {
+      "url": "https://www.ulta.com/press-room/target-partnership-expansion-2024",
+      "accessible": false,
+      "statusCode": null,
+      "statusMessage": null,
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "Error: Request timeout after 30 seconds"
+      ],
+      "validatedAt": "2025-11-09T16:01:36.637Z",
+      "responseTime": null
+    },
+    {
+      "url": "https://www.apple.com/newsroom/2023/09/apple-opens-new-store-in-miami/",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:02:07.139Z",
+      "responseTime": 1846
+    },
+    {
+      "url": "https://www.apple.com/newsroom/2024/01/apple-expands-today-at-apple-sessions/",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:02:09.487Z",
+      "responseTime": 851
+    },
+    {
+      "url": "https://www.warbyparker.com/newsroom/store-expansion-2023",
+      "accessible": false,
+      "statusCode": 403,
+      "statusMessage": "Forbidden",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "403 Forbidden - Access denied"
+      ],
+      "validatedAt": "2025-11-09T16:02:10.840Z",
+      "responseTime": 199
+    },
+    {
+      "url": "https://www.warbyparker.com/newsroom/flagship-opening-san-francisco",
+      "accessible": false,
+      "statusCode": 403,
+      "statusMessage": "Forbidden",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "403 Forbidden - Access denied"
+      ],
+      "validatedAt": "2025-11-09T16:02:11.540Z",
+      "responseTime": 125
+    },
+    {
+      "url": "https://www.rei.com/newsroom/article/rei-opens-experiential-flagship-seattle",
+      "accessible": false,
+      "statusCode": null,
+      "statusMessage": null,
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "Error: Request timeout after 30 seconds"
+      ],
+      "validatedAt": "2025-11-09T16:02:12.167Z",
+      "responseTime": null
+    },
+    {
+      "url": "https://www.rei.com/newsroom/article/rei-adventure-center-concept-2024",
+      "accessible": false,
+      "statusCode": null,
+      "statusMessage": null,
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "Error: Request timeout after 30 seconds"
+      ],
+      "validatedAt": "2025-11-09T16:02:42.670Z",
+      "responseTime": null
+    },
+    {
+      "url": "https://investors.dicks.com/news-releases/news-release-details/dicks-sporting-goods-unveils-house-sport-concept",
+      "accessible": false,
+      "statusCode": 403,
+      "statusMessage": "Forbidden",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "403 Forbidden - Access denied"
+      ],
+      "validatedAt": "2025-11-09T16:03:13.171Z",
+      "responseTime": 242
+    },
+    {
+      "url": "https://investors.dicks.com/news-releases/news-release-details/dicks-sporting-goods-opens-public-lands-stores",
+      "accessible": false,
+      "statusCode": 403,
+      "statusMessage": "Forbidden",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "403 Forbidden - Access denied"
+      ],
+      "validatedAt": "2025-11-09T16:03:13.914Z",
+      "responseTime": 112
+    },
+    {
+      "url": "https://corporate.lululemon.com/news/innovation-lab-los-angeles",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:03:14.527Z",
+      "responseTime": 482
+    },
+    {
+      "url": "https://www.urbn.com/news/anthropologie-experiential-retail-2023",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:03:15.511Z",
+      "responseTime": 469
+    },
+    {
+      "url": "https://www.urbn.com/news/anthropologie-weddings-expansion",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:03:16.482Z",
+      "responseTime": 322
+    },
+    {
+      "url": "https://www.gapinc.com/en-us/articles/2023/09/gap-store-refresh-initiative",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:03:17.304Z",
+      "responseTime": 636
+    },
+    {
+      "url": "https://www.gapinc.com/en-us/articles/2024/01/old-navy-active-concept",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:03:18.443Z",
+      "responseTime": 322
+    },
+    {
+      "url": "https://hmgroup.com/news/hm-innovation-store-concept/",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:03:19.267Z",
+      "responseTime": 1762
+    },
+    {
+      "url": "https://hmgroup.com/news/hm-secondhand-in-store-rollout/",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:03:21.530Z",
+      "responseTime": 1053
+    },
+    {
+      "url": "https://www.inditex.com/itxcomweb/en/media/news/zara-flagship-opening-new-york-2023",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:03:23.085Z",
+      "responseTime": 555
+    },
+    {
+      "url": "https://www.inditex.com/itxcomweb/en/media/news/zara-tech-enabled-stores-expansion",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:03:24.141Z",
+      "responseTime": 320
+    },
+    {
+      "url": "https://www.everlane.com/about/new-store-openings-2023",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": true,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist",
+        "Paywall detected: \"subscribe\" found in content"
+      ],
+      "validatedAt": "2025-11-09T16:03:24.962Z",
+      "responseTime": 351
+    },
+    {
+      "url": "https://www.everlane.com/about/san-francisco-flagship",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": true,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist",
+        "Paywall detected: \"subscribe\" found in content"
+      ],
+      "validatedAt": "2025-11-09T16:03:25.816Z",
+      "responseTime": 191
+    },
+    {
+      "url": "https://www.urbn.com/news/urban-outfitters-space-ninety-8-concept",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:03:26.509Z",
+      "responseTime": 369
+    },
+    {
+      "url": "https://www.urbn.com/news/urban-outfitters-experiential-expansion-2024",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:03:27.380Z",
+      "responseTime": 248
+    }
+  ]
+}

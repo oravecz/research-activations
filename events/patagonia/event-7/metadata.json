@@ -1,0 +1,35 @@
+{
+  "eventId": 7,
+  "brand": "Patagonia",
+  "title": "Action Works Community Hub",
+  "sourceUrl": "https://www.patagonia.com/on/demandware.store/Sites-patagonia-Site/en_US/Page-Show?cid=store-locations",
+  "createdAt": "2025-11-09T16:12:50.063Z",
+  "updatedAt": "2025-11-09T16:15:59.850Z",
+  "assets": {
+    "logo": {
+      "filename": "logo.png",
+      "sourceUrl": "https://logo.clearbit.com/patagonia.com",
+      "fetchedAt": "2025-11-09T16:14:23.773Z",
+      "status": "downloaded",
+      "copiedFrom": "event-6"
+    },
+    "promotionalImages": [],
+    "screenshot": {
+      "filename": "screenshot.png",
+      "sourceUrl": "https://www.patagonia.com/on/demandware.store/Sites-patagonia-Site/en_US/Page-Show?cid=store-locations",
+      "capturedAt": null,
+      "status": "pending"
+    },
+    "collage": {
+      "filename": "slide-image.png",
+      "generatedAt": "2025-11-09T16:15:59.850Z",
+      "status": "generated",
+      "method": "logo-centered",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      }
+    }
+  },
+  "notes": []
+}

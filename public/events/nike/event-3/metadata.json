@@ -1,0 +1,35 @@
+{
+  "eventId": 3,
+  "brand": "Nike",
+  "title": "Nike Community Stores Initiative",
+  "sourceUrl": "https://news.nike.com/news/nike-community-stores-2023",
+  "createdAt": "2025-11-09T16:12:50.062Z",
+  "updatedAt": "2025-11-09T16:15:59.741Z",
+  "assets": {
+    "logo": {
+      "filename": "logo.png",
+      "sourceUrl": "https://logo.clearbit.com/nike.com",
+      "fetchedAt": "2025-11-09T16:14:22.179Z",
+      "status": "downloaded",
+      "copiedFrom": "event-1"
+    },
+    "promotionalImages": [],
+    "screenshot": {
+      "filename": "screenshot.png",
+      "sourceUrl": "https://news.nike.com/news/nike-community-stores-2023",
+      "capturedAt": null,
+      "status": "pending"
+    },
+    "collage": {
+      "filename": "slide-image.png",
+      "generatedAt": "2025-11-09T16:15:59.741Z",
+      "status": "generated",
+      "method": "logo-centered",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      }
+    }
+  },
+  "notes": []
+}

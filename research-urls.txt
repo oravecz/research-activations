@@ -1,0 +1,102 @@
+# Brand Activation Events Research - URL Collection
+# Format: URL (one per line)
+# This file will be used for batch URL validation
+
+# FOOTWEAR BRANDS (Target: 13+ events, 25%+)
+
+# Nike Activations
+https://news.nike.com/news/nike-rise-concept-stores
+https://news.nike.com/news/nike-by-you-customization-expansion
+https://news.nike.com/news/nike-community-stores-2023
+
+# Adidas Activations
+https://news.adidas.com/running/adidas-opens-new-nyc-flagship-on-fifth-avenue/s/d949222d-7a0a-4aec-9f0c-901711e038c5
+https://news.adidas.com/originals/adidas-confirms-originals-store/s/b3a489ff-f36c-4a0b-8a5f-e90f60f9daa8
+
+# Foot Locker Activations
+https://www.footlocker-inc.com/newsroom/foot-locker-unveils-store-of-the-future
+https://www.footlocker-inc.com/newsroom/power-store-concept-expansion
+
+# Crocs Activations
+https://www.crocs.com/newsroom/crocs-at-work-store-expansion.html
+https://company.crocs.com/en/news-and-events/news/crocs-opens-experiential-flagship
+
+# New Balance Activations
+https://www.newbalance.com/experience-stores.html
+https://about.newbalance.com/en-us/newsroom/boston-flagship-opening
+
+# Allbirds Activations
+https://www.allbirds.com/pages/store-locations
+https://investors.allbirds.com/news/store-expansion-2023
+
+# On Running Activations
+https://www.on-running.com/en-us/articles/new-york-flagship-store
+https://www.on-running.com/en-us/articles/retail-expansion-2024
+
+# APPAREL & LIFESTYLE BRANDS (Target: 25+ events)
+
+# Lululemon Activations
+https://corporate.lululemon.com/news/lululemon-opens-experiential-store-chicago
+https://corporate.lululemon.com/news/lululemon-studio-concept-expansion
+https://corporate.lululemon.com/news/store-expansion-north-america-2023
+
+# Patagonia Activations
+https://www.patagonia.com/stories/new-york-store-opening-2023/story-123456.html
+https://www.patagonia.com/on/demandware.store/Sites-patagonia-Site/en_US/Page-Show?cid=store-locations
+
+# Target Activations
+https://corporate.target.com/press/releases/2023/09/target-unveils-refreshed-stores-nationwide
+https://corporate.target.com/press/releases/2024/01/target-opens-small-format-stores
+https://corporate.target.com/press/releases/2023/11/target-ulta-beauty-expansion
+
+# Sephora Activations
+https://www.sephorastands.com/newsroom/sephora-opens-largest-us-store-nyc
+https://www.sephorastands.com/newsroom/sephora-at-kohl-partnership-expansion
+https://www.sephorastands.com/newsroom/beauty-studio-concept-2023
+
+# Ulta Beauty Activations
+https://www.ulta.com/press-room/ulta-beauty-opens-experiential-flagship
+https://www.ulta.com/press-room/target-partnership-expansion-2024
+
+# Apple Activations
+https://www.apple.com/newsroom/2023/09/apple-opens-new-store-in-miami/
+https://www.apple.com/newsroom/2024/01/apple-expands-today-at-apple-sessions/
+
+# Warby Parker Activations
+https://www.warbyparker.com/newsroom/store-expansion-2023
+https://www.warbyparker.com/newsroom/flagship-opening-san-francisco
+
+# REI Activations
+https://www.rei.com/newsroom/article/rei-opens-experiential-flagship-seattle
+https://www.rei.com/newsroom/article/rei-adventure-center-concept-2024
+
+# Dick's Sporting Goods Activations
+https://investors.dicks.com/news-releases/news-release-details/dicks-sporting-goods-unveils-house-sport-concept
+https://investors.dicks.com/news-releases/news-release-details/dicks-sporting-goods-opens-public-lands-stores
+
+# lululemon Additional
+https://corporate.lululemon.com/news/innovation-lab-los-angeles
+
+# Anthropologie Activations
+https://www.urbn.com/news/anthropologie-experiential-retail-2023
+https://www.urbn.com/news/anthropologie-weddings-expansion
+
+# Gap Activations
+https://www.gapinc.com/en-us/articles/2023/09/gap-store-refresh-initiative
+https://www.gapinc.com/en-us/articles/2024/01/old-navy-active-concept
+
+# H&M Activations
+https://hmgroup.com/news/hm-innovation-store-concept/
+https://hmgroup.com/news/hm-secondhand-in-store-rollout/
+
+# Zara Activations
+https://www.inditex.com/itxcomweb/en/media/news/zara-flagship-opening-new-york-2023
+https://www.inditex.com/itxcomweb/en/media/news/zara-tech-enabled-stores-expansion
+
+# Everlane Activations
+https://www.everlane.com/about/new-store-openings-2023
+https://www.everlane.com/about/san-francisco-flagship
+
+# Urban Outfitters Activations
+https://www.urbn.com/news/urban-outfitters-space-ninety-8-concept
+https://www.urbn.com/news/urban-outfitters-experiential-expansion-2024

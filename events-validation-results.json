@@ -1,0 +1,775 @@
+{
+  "validatedAt": "2025-11-09T16:08:48.995Z",
+  "summary": {
+    "total": 50,
+    "accessible": 24,
+    "failed": 26,
+    "withPaywalls": 5,
+    "withRegionBlocks": 7
+  },
+  "results": [
+    {
+      "url": "https://news.nike.com/news/nike-rise-concept-stores",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:07:09.495Z",
+      "responseTime": 137,
+      "eventId": 1,
+      "brand": "Nike",
+      "title": "Nike Rise Store Concept"
+    },
+    {
+      "url": "https://news.nike.com/news/nike-by-you-customization-expansion",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:07:10.135Z",
+      "responseTime": 20,
+      "eventId": 2,
+      "brand": "Nike",
+      "title": "Nike By You Customization Expansion"
+    },
+    {
+      "url": "https://news.nike.com/news/nike-community-stores-2023",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:07:10.656Z",
+      "responseTime": 20,
+      "eventId": 3,
+      "brand": "Nike",
+      "title": "Nike Community Stores Initiative"
+    },
+    {
+      "url": "https://www.on-running.com/en-us/articles/new-york-flagship-store",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:07:11.177Z",
+      "responseTime": 112,
+      "eventId": 4,
+      "brand": "On Running",
+      "title": "New York Flagship Store Opening"
+    },
+    {
+      "url": "https://www.on-running.com/en-us/articles/retail-expansion-2024",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:07:11.791Z",
+      "responseTime": 41,
+      "eventId": 5,
+      "brand": "On Running",
+      "title": "Retail Expansion 2024"
+    },
+    {
+      "url": "https://www.patagonia.com/stories/new-york-store-opening-2023/story-123456.html",
+      "accessible": true,
+      "statusCode": 200,
+      "statusMessage": "OK",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:07:12.333Z",
+      "responseTime": 245,
+      "eventId": 6,
+      "brand": "Patagonia",
+      "title": "Worn Wear In-Store Program"
+    },
+    {
+      "url": "https://www.patagonia.com/on/demandware.store/Sites-patagonia-Site/en_US/Page-Show?cid=store-locations",
+      "accessible": true,
+      "statusCode": 200,
+      "statusMessage": "OK",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:07:13.079Z",
+      "responseTime": 101,
+      "eventId": 7,
+      "brand": "Patagonia",
+      "title": "Action Works Community Hub"
+    },
+    {
+      "url": "https://corporate.target.com/press/releases/2023/09/target-unveils-refreshed-stores-nationwide",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:07:13.681Z",
+      "responseTime": 98,
+      "eventId": 8,
+      "brand": "Target",
+      "title": "Store Refresh Initiative"
+    },
+    {
+      "url": "https://corporate.target.com/press/releases/2024/01/target-opens-small-format-stores",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:07:14.281Z",
+      "responseTime": 76,
+      "eventId": 9,
+      "brand": "Target",
+      "title": "Small Format Store Expansion"
+    },
+    {
+      "url": "https://corporate.target.com/press/releases/2023/11/target-ulta-beauty-expansion",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:07:14.858Z",
+      "responseTime": 76,
+      "eventId": 10,
+      "brand": "Target",
+      "title": "Ulta Beauty Shop-in-Shop Expansion"
+    },
+    {
+      "url": "https://www.inditex.com/itxcomweb/en/media/news/zara-tech-enabled-stores-expansion",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:07:15.435Z",
+      "responseTime": 141,
+      "eventId": 11,
+      "brand": "Zara",
+      "title": "Tech-Enabled Store Concept"
+    },
+    {
+      "url": "https://www.inditex.com/itxcomweb/en/media/news/zara-flagship-opening-new-york-2023",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:07:16.076Z",
+      "responseTime": 30,
+      "eventId": 12,
+      "brand": "Zara",
+      "title": "Fifth Avenue Flagship Reimagined"
+    },
+    {
+      "url": "https://news.adidas.com/running/adidas-opens-new-nyc-flagship-on-fifth-avenue/s/d949222d-7a0a-4aec-9f0c-901711e038c5",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": true,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist",
+        "Paywall detected: \"subscribe\" found in content"
+      ],
+      "validatedAt": "2025-11-09T16:07:16.607Z",
+      "responseTime": 316,
+      "eventId": 13,
+      "brand": "adidas",
+      "title": "NYC Flagship on Fifth Avenue"
+    },
+    {
+      "url": "https://news.adidas.com/originals/adidas-confirms-originals-store/s/b3a489ff-f36c-4a0b-8a5f-e90f60f9daa8",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": true,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist",
+        "Paywall detected: \"subscribe\" found in content"
+      ],
+      "validatedAt": "2025-11-09T16:07:17.424Z",
+      "responseTime": 144,
+      "eventId": 14,
+      "brand": "adidas",
+      "title": "Confirmed App Store Experiences"
+    },
+    {
+      "url": "https://www.footlocker-inc.com/newsroom/news/store-of-the-future",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:07:18.069Z",
+      "responseTime": 333,
+      "eventId": 15,
+      "brand": "Foot Locker",
+      "title": "Store of the Future Concept"
+    },
+    {
+      "url": "https://www.footlocker-inc.com/newsroom/news/power-store-expansion",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:07:18.903Z",
+      "responseTime": 150,
+      "eventId": 16,
+      "brand": "Foot Locker",
+      "title": "Power Store Concept Expansion"
+    },
+    {
+      "url": "https://www.crocs.com/store-locator.html",
+      "accessible": false,
+      "statusCode": 410,
+      "statusMessage": "",
+      "hasPaywall": true,
+      "hasRegionBlock": false,
+      "issues": [
+        "Unexpected status code: 410",
+        "Paywall detected: \"subscribe\" found in content"
+      ],
+      "validatedAt": "2025-11-09T16:07:19.554Z",
+      "responseTime": 431,
+      "eventId": 17,
+      "brand": "Crocs",
+      "title": "Experiential Flagship Stores"
+    },
+    {
+      "url": "https://www.newbalance.com/stores/",
+      "accessible": false,
+      "statusCode": 403,
+      "statusMessage": "Forbidden",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "403 Forbidden - Access denied"
+      ],
+      "validatedAt": "2025-11-09T16:07:20.486Z",
+      "responseTime": 247,
+      "eventId": 18,
+      "brand": "New Balance",
+      "title": "Experience Store Concept"
+    },
+    {
+      "url": "https://www.allbirds.com/pages/stores",
+      "accessible": true,
+      "statusCode": 200,
+      "statusMessage": "OK",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:07:21.235Z",
+      "responseTime": 298,
+      "eventId": 19,
+      "brand": "Allbirds",
+      "title": "Retail Store Expansion"
+    },
+    {
+      "url": "https://shop.lululemon.com/stores/us",
+      "accessible": false,
+      "statusCode": 403,
+      "statusMessage": "Forbidden",
+      "hasPaywall": false,
+      "hasRegionBlock": true,
+      "issues": [
+        "403 Forbidden - Access denied",
+        "Region block detected: \"access denied\" found in content"
+      ],
+      "validatedAt": "2025-11-09T16:07:22.034Z",
+      "responseTime": 138,
+      "eventId": 20,
+      "brand": "Lululemon",
+      "title": "Experiential Store Format"
+    },
+    {
+      "url": "https://www.rei.com/stores",
+      "accessible": false,
+      "statusCode": null,
+      "statusMessage": null,
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "Error: Request timeout after 30 seconds"
+      ],
+      "validatedAt": "2025-11-09T16:07:22.673Z",
+      "responseTime": null,
+      "eventId": 21,
+      "brand": "REI",
+      "title": "Adventure Centers"
+    },
+    {
+      "url": "https://www.apple.com/today/",
+      "accessible": true,
+      "statusCode": 200,
+      "statusMessage": "OK",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:07:53.176Z",
+      "responseTime": 379,
+      "eventId": 22,
+      "brand": "Apple",
+      "title": "Today at Apple Creative Sessions Expansion"
+    },
+    {
+      "url": "https://www.warbyparker.com/retail-locations",
+      "accessible": false,
+      "statusCode": 403,
+      "statusMessage": "Forbidden",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "403 Forbidden - Access denied"
+      ],
+      "validatedAt": "2025-11-09T16:07:54.056Z",
+      "responseTime": 198,
+      "eventId": 23,
+      "brand": "Warby Parker",
+      "title": "Retail Store Expansion 2023"
+    },
+    {
+      "url": "https://www.dickssportinggoods.com/s/house-of-sport",
+      "accessible": false,
+      "statusCode": 403,
+      "statusMessage": "Forbidden",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "403 Forbidden - Access denied"
+      ],
+      "validatedAt": "2025-11-09T16:07:54.755Z",
+      "responseTime": 267,
+      "eventId": 24,
+      "brand": "Dick's Sporting Goods",
+      "title": "House of Sport Concept"
+    },
+    {
+      "url": "https://www.publiclands.com/stores",
+      "accessible": false,
+      "statusCode": 200,
+      "statusMessage": "OK",
+      "hasPaywall": true,
+      "hasRegionBlock": false,
+      "issues": [
+        "Paywall detected: \"subscribe\" found in content"
+      ],
+      "validatedAt": "2025-11-09T16:07:55.522Z",
+      "responseTime": 263,
+      "eventId": 25,
+      "brand": "Dick's Sporting Goods",
+      "title": "Public Lands Outdoor Concept"
+    },
+    {
+      "url": "https://www.sephora.com/happening/stores/sephora-at-kohls",
+      "accessible": true,
+      "statusCode": 302,
+      "statusMessage": "Moved Temporarily",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:07:56.285Z",
+      "responseTime": 221,
+      "eventId": 26,
+      "brand": "Sephora",
+      "title": "Sephora at Kohl's Expansion"
+    },
+    {
+      "url": "https://www.ulta.com/stores/",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:07:57.006Z",
+      "responseTime": 223,
+      "eventId": 27,
+      "brand": "Ulta Beauty",
+      "title": "Wellness and Self-Care Expansion"
+    },
+    {
+      "url": "https://www.anthropologie.com/weddings",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:07:57.730Z",
+      "responseTime": 1336,
+      "eventId": 28,
+      "brand": "Anthropologie",
+      "title": "Weddings and Events Expansion"
+    },
+    {
+      "url": "https://www.urbanoutfitters.com/stores",
+      "accessible": false,
+      "statusCode": 403,
+      "statusMessage": "Forbidden",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "403 Forbidden - Access denied"
+      ],
+      "validatedAt": "2025-11-09T16:07:59.567Z",
+      "responseTime": 376,
+      "eventId": 29,
+      "brand": "Urban Outfitters",
+      "title": "Space Ninety 8 Experiential Format"
+    },
+    {
+      "url": "https://www.gap.com/stores",
+      "accessible": true,
+      "statusCode": 302,
+      "statusMessage": "Moved Temporarily",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:08:00.444Z",
+      "responseTime": 442,
+      "eventId": 30,
+      "brand": "Gap",
+      "title": "Store Refresh and Modernization"
+    },
+    {
+      "url": "https://www.oldnavy.com/stores",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:08:01.387Z",
+      "responseTime": 157,
+      "eventId": 31,
+      "brand": "Old Navy",
+      "title": "Active and Athleisure Expansion"
+    },
+    {
+      "url": "https://www2.hm.com/en_us/customer-service/shopping-at-hm/store-services.html",
+      "accessible": false,
+      "statusCode": 403,
+      "statusMessage": "Forbidden",
+      "hasPaywall": false,
+      "hasRegionBlock": true,
+      "issues": [
+        "403 Forbidden - Access denied",
+        "Region block detected: \"access denied\" found in content"
+      ],
+      "validatedAt": "2025-11-09T16:08:02.043Z",
+      "responseTime": 232,
+      "eventId": 32,
+      "brand": "H&M",
+      "title": "Take Care In-Store Services"
+    },
+    {
+      "url": "https://www.everlane.com/stores",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:08:02.777Z",
+      "responseTime": 223,
+      "eventId": 33,
+      "brand": "Everlane",
+      "title": "ReNew and Recycling Program Stores"
+    },
+    {
+      "url": "https://www.madewell.com/do-well.html",
+      "accessible": false,
+      "statusCode": 403,
+      "statusMessage": "Forbidden",
+      "hasPaywall": false,
+      "hasRegionBlock": true,
+      "issues": [
+        "403 Forbidden - Access denied",
+        "Region block detected: \"access denied\" found in content"
+      ],
+      "validatedAt": "2025-11-09T16:08:03.501Z",
+      "responseTime": 167,
+      "eventId": 34,
+      "brand": "Madewell",
+      "title": "Denim Recycling and Trade-In"
+    },
+    {
+      "url": "https://www.nordstrom.com/browse/nordstrom-local",
+      "accessible": true,
+      "statusCode": 200,
+      "statusMessage": "OK",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:08:04.169Z",
+      "responseTime": 429,
+      "eventId": 35,
+      "brand": "Nordstrom",
+      "title": "Nordstrom Local Service Hubs"
+    },
+    {
+      "url": "https://www.bestbuy.com/site/store-locator",
+      "accessible": false,
+      "statusCode": null,
+      "statusMessage": null,
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "Error: Request timeout after 30 seconds"
+      ],
+      "validatedAt": "2025-11-09T16:08:05.099Z",
+      "responseTime": null,
+      "eventId": 36,
+      "brand": "Best Buy",
+      "title": "Tech Support and Services Expansion"
+    },
+    {
+      "url": "https://www.wholefoodsmarket.com/stores",
+      "accessible": true,
+      "statusCode": 200,
+      "statusMessage": "OK",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:08:35.602Z",
+      "responseTime": 343,
+      "eventId": 37,
+      "brand": "Whole Foods Market",
+      "title": "Store Refresh with Amazon Integration"
+    },
+    {
+      "url": "https://www.traderjoes.com/home/stores",
+      "accessible": false,
+      "statusCode": 403,
+      "statusMessage": "Forbidden",
+      "hasPaywall": false,
+      "hasRegionBlock": true,
+      "issues": [
+        "403 Forbidden - Access denied",
+        "Region block detected: \"access denied\" found in content"
+      ],
+      "validatedAt": "2025-11-09T16:08:36.446Z",
+      "responseTime": 329,
+      "eventId": 38,
+      "brand": "Trader Joe's",
+      "title": "New Store Opening Strategy 2023-2024"
+    },
+    {
+      "url": "https://www.ikea.com/us/en/stores/",
+      "accessible": true,
+      "statusCode": 200,
+      "statusMessage": "OK",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:08:37.276Z",
+      "responseTime": 1269,
+      "eventId": 39,
+      "brand": "IKEA",
+      "title": "City Center Format Stores"
+    },
+    {
+      "url": "https://www.westelm.com/customer-service/store-locations/",
+      "accessible": false,
+      "statusCode": 403,
+      "statusMessage": "Forbidden",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "403 Forbidden - Access denied"
+      ],
+      "validatedAt": "2025-11-09T16:08:39.047Z",
+      "responseTime": 308,
+      "eventId": 40,
+      "brand": "West Elm",
+      "title": "Design Services Expansion"
+    },
+    {
+      "url": "https://www.cb2.com/stores/",
+      "accessible": false,
+      "statusCode": 403,
+      "statusMessage": "Forbidden",
+      "hasPaywall": false,
+      "hasRegionBlock": true,
+      "issues": [
+        "403 Forbidden - Access denied",
+        "Region block detected: \"access denied\" found in content"
+      ],
+      "validatedAt": "2025-11-09T16:08:39.856Z",
+      "responseTime": 264,
+      "eventId": 41,
+      "brand": "CB2",
+      "title": "Modern Design Studio Concept"
+    },
+    {
+      "url": "https://www.williams-sonoma.com/customer-service/store-locations/",
+      "accessible": false,
+      "statusCode": 403,
+      "statusMessage": "Forbidden",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "403 Forbidden - Access denied"
+      ],
+      "validatedAt": "2025-11-09T16:08:40.622Z",
+      "responseTime": 149,
+      "eventId": 42,
+      "brand": "Williams Sonoma",
+      "title": "Culinary Technique Classes"
+    },
+    {
+      "url": "https://www.sunglasshut.com/us/store-locator",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:08:41.273Z",
+      "responseTime": 708,
+      "eventId": 43,
+      "brand": "Sunglass Hut",
+      "title": "Virtual Try-On Technology Rollout"
+    },
+    {
+      "url": "https://www.vans.com/help/store-locator.html",
+      "accessible": false,
+      "statusCode": 403,
+      "statusMessage": "Forbidden",
+      "hasPaywall": false,
+      "hasRegionBlock": true,
+      "issues": [
+        "403 Forbidden - Access denied",
+        "Region block detected: \"access denied\" found in content"
+      ],
+      "validatedAt": "2025-11-09T16:08:42.483Z",
+      "responseTime": 251,
+      "eventId": 44,
+      "brand": "Vans",
+      "title": "Customs Workshop Expansion"
+    },
+    {
+      "url": "https://www.converse.com/c/stores",
+      "accessible": false,
+      "statusCode": 403,
+      "statusMessage": "Forbidden",
+      "hasPaywall": false,
+      "hasRegionBlock": true,
+      "issues": [
+        "403 Forbidden - Access denied",
+        "Region block detected: \"access denied\" found in content"
+      ],
+      "validatedAt": "2025-11-09T16:08:43.235Z",
+      "responseTime": 306,
+      "eventId": 45,
+      "brand": "Converse",
+      "title": "Made By You Customization Studios"
+    },
+    {
+      "url": "https://www.aloyoga.com/pages/store-locator",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:08:44.042Z",
+      "responseTime": 341,
+      "eventId": 46,
+      "brand": "Alo Yoga",
+      "title": "Wellness Studio Concept Stores"
+    },
+    {
+      "url": "https://www.outdoorvoices.com/pages/stores",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": true,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist",
+        "Paywall detected: \"subscribe\" found in content"
+      ],
+      "validatedAt": "2025-11-09T16:08:44.885Z",
+      "responseTime": 470,
+      "eventId": 47,
+      "brand": "Outdoor Voices",
+      "title": "Doing Things Store Experience"
+    },
+    {
+      "url": "https://athleta.gap.com/browse/info.do?cid=2017",
+      "accessible": true,
+      "statusCode": 302,
+      "statusMessage": "Moved Temporarily",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:08:45.857Z",
+      "responseTime": 239,
+      "eventId": 48,
+      "brand": "Athleta",
+      "title": "Power of She Community Hubs"
+    },
+    {
+      "url": "https://www.freepeople.com/fp-movement/",
+      "accessible": true,
+      "statusCode": 301,
+      "statusMessage": "Moved Permanently",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [],
+      "validatedAt": "2025-11-09T16:08:46.598Z",
+      "responseTime": 763,
+      "eventId": 49,
+      "brand": "Free People Movement",
+      "title": "Movement Studios Launch"
+    },
+    {
+      "url": "https://vuoriclothing.com/pages/stores",
+      "accessible": false,
+      "statusCode": 404,
+      "statusMessage": "Not Found",
+      "hasPaywall": false,
+      "hasRegionBlock": false,
+      "issues": [
+        "404 Not Found - URL does not exist"
+      ],
+      "validatedAt": "2025-11-09T16:08:47.862Z",
+      "responseTime": 630,
+      "eventId": 50,
+      "brand": "Vuori",
+      "title": "Retail Expansion and Community Program"
+    }
+  ]
+}
