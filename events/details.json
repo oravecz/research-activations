@@ -2,11 +2,11 @@
   "metadata": {
     "version": "1.0.0",
     "createdAt": "2025-01-09T00:00:00Z",
-    "lastUpdated": "2025-11-10T11:55:29.584Z",
-    "totalEvents": 7,
+    "lastUpdated": "2025-11-10T12:09:01.202Z",
+    "totalEvents": 14,
     "targetEvents": 50,
-    "footwearEvents": 9,
-    "footwearPercentage": 36,
+    "footwearEvents": 4,
+    "footwearPercentage": 29,
     "validationStatus": "completed",
     "notes": "Filtered to 7 true brand activations. Removed 18 store openings."
   },
@@ -187,6 +187,97 @@
           }
         ]
       }
+    },
+    {
+      "id": 89,
+      "brand": "Sephora",
+      "title": "SEPHORiA 2024: Beauty Funhouse",
+      "date": "September 27-28, 2024",
+      "location": "Pullman Yards, Atlanta, GA",
+      "description": "Large-scale experiential beauty festival with 50+ brand activations featuring Rare Beauty, Fenty Beauty, Glossier, Tatcha, Charlotte Tilbury. Multi-sensory Beauty Funhouse theme with masterclasses, brand founder access, and $500-1,300+ swag bags. 8,000 tickets sold across General Admission ($135) and VIP ($420) tiers.",
+      "activation": "50+ visual and tactile brand booths, masterclasses with Mario Dedivanovic and brand founders, ice baths and stretching workshops, social media photo opportunities, surprise celebrity appearances, We Belong Campaign inclusivity programming, early VIP access with dedicated lounges.",
+      "url": "https://newsroom.sephora.com/sephora-us-announces-new-theme-and-city-for-the-2024-sephoria-experience/",
+      "category": "beauty",
+      "storeScope": "select",
+      "promotionMethods": "Social media campaigns, tiered ticketing with swag incentives, masterclass programming, brand founder appearances, influencer partnerships, Atlanta market introduction"
+    },
+    {
+      "id": 90,
+      "brand": "Nike",
+      "title": "Nike Running @ The Corner - Nordstrom NYC Pop-Up",
+      "date": "August 7 - September 2, 2025",
+      "location": "57th & Broadway, Nordstrom NYC Flagship",
+      "description": "Limited-time pop-up celebrating Nike innovation and running community. Features Nike Pegasus, Vomero, and Structure footwear lines, women's running apparel, accessories, and customization bar. Part of Nordstrom's ongoing 'The Corner' brand takeover series.",
+      "activation": "Weekly Nike Morning Miles group runs (Fridays 7:30am), Nike Ready Set Go beginner sessions (Wednesdays 6:30pm), ice bath workshops with Ice-Cold Club founder, StretchLab stretching tutorials, styling appointments, customization services.",
+      "url": "https://press.nordstrom.com/news-releases/news-release-details/nordstrom-ignites-nycs-running-scene-nike-running-corner",
+      "category": "footwear",
+      "storeScope": "select",
+      "promotionMethods": "Community run programs, recovery workshops, Nike coach-led training, social running community engagement, Nordstrom partnership marketing"
+    },
+    {
+      "id": 91,
+      "brand": "Target",
+      "title": "Diane von Furstenberg Pop-Up at The Shed",
+      "date": "March 15-16, 2024",
+      "location": "The Shed, 545 W 30th St, New York, NY",
+      "description": "Pre-launch pop-up for Target x Diane von Furstenberg designer collaboration featuring 200+ pieces spanning women's, girls', and baby apparel, accessories, beauty, and home décor. Most items under $50, with made-to-order furniture from $300. Early access event before March 23 nationwide launch.",
+      "activation": "Early shopping access to exclusive designer collaboration, VIP preview event March 14 (6-8pm), public shopping March 15-16, in-person experience of DVF aesthetic, limited-time designer partnership showcase, multigenerational collection with Talita von Furstenberg.",
+      "url": "https://corporate.target.com/press/release/2024/02/target-announces-collaboration-with-diane-von-furstenberg-for-affordable-spring-collection",
+      "category": "apparel",
+      "storeScope": "select",
+      "promotionMethods": "NYC pop-up preview event, VIP early access, press/influencer event, Target designer collaboration hype, limited-time scarcity marketing"
+    },
+    {
+      "id": 92,
+      "brand": "Adidas",
+      "title": "BAPE x Adidas Forum 84 Legends Arcade",
+      "date": "2023",
+      "location": "END. Flagship Store, SoHo, London",
+      "description": "Gamified experiential sneaker drop activation celebrating BAPE's 30th anniversary. Retro-futurism themed arcade wrapped in iconic blue ABC Camo pattern with neon lighting. Participants shoot hoops on branded arcade game to win limited-edition Forum 84' sneakers.",
+      "activation": "Basketball arcade game with real-time leaderboard, shoot-to-win mechanic for sneakers and keychains, custom branded arcade tokens, immersive retro futurism design, physical alternative to online sneaker raffles, in-store hype generation.",
+      "url": "https://checklandkindleysides.com/our-work/adidas-originals-bape-forum-gamified-retail-marketing-activation",
+      "category": "footwear",
+      "storeScope": "select",
+      "promotionMethods": "Gamification, limited sneaker drops, END. UK exclusivity, BAPE camo branding, arcade nostalgia marketing, anti-bot physical experience"
+    },
+    {
+      "id": 93,
+      "brand": "Lululemon",
+      "title": "Summer Run Club Series - Alpharetta",
+      "date": "June 3 - August 19, 2024",
+      "location": "Avalon, Alpharetta, GA",
+      "description": "Six-week themed run club series partnering with The Hotel at Avalon and South City Kitchen. 45-minute coached runs on select Mondays covering Running 101, Injury Prevention, Goal Setting, Motivation, and Training Technique. Includes complimentary cocktails/mocktails and lululemon outfit giveaways.",
+      "activation": "Weekly coached runs with Betsy Magato, themed educational workshops (6 topics), complimentary drinks on patio, lululemon outfit giveaways (3 weeks), injury prevention adjustments, meditation sessions, awards ceremony with perfect attendance staycation raffle.",
+      "url": "https://www.awesomealpharetta.com/event/summer-run-club-series-powered-by-lululemon/2024-07-15/",
+      "category": "apparel",
+      "storeScope": "select",
+      "promotionMethods": "Venue partnerships, run coach programming, themed educational content, outfit giveaways, complimentary refreshments, community building, perfect attendance incentives"
+    },
+    {
+      "id": 94,
+      "brand": "Patagonia",
+      "title": "Worn Wear Snow Tour 2024 - Europe",
+      "date": "Winter 2024 (Feb-March)",
+      "location": "Europe (France, Italy, Germany, Austria, Switzerland, UK)",
+      "description": "Mobile repair tour with two rolling repair shops visiting snow destinations including Chamonix, Innsbruck, Saalbach, Bormio, Trento, Montafon, Engelberg, and Andermatt. Offers free repairs on any brand of outdoor clothing - zippers, rips, tears, buttons. Hand-built wooden trailers with technical equipment, hot chocolate, and repair education.",
+      "activation": "Free repairs on any brand (first-come-first-served), technical GORE-TEX repairs, repair education workshops teaching patching/waterproofing/zipper fixes, hand-crafted mobile trailers reaching remote locations, hot chocolate and community atmosphere, sustainability mission.",
+      "url": "https://www.fall-line.co.uk/patagonia-worn-wear-tour/",
+      "category": "apparel",
+      "storeScope": "select",
+      "promotionMethods": "Sustainability storytelling, free any-brand repairs, educational workshops, mobile touring, mountain resort partnerships, environmental mission marketing"
+    },
+    {
+      "id": 95,
+      "brand": "Nordstrom",
+      "title": "Bode at The Corner - Flagship Pop-Up Series",
+      "date": "March 14 - April 7, 2024",
+      "location": "57th & Broadway, Nordstrom NYC Flagship",
+      "description": "Launch of 'The Corner' - Nordstrom's 2,000 sq ft rotating pop-up series. First installation featuring Bode's men's and women's ready-to-wear, one-of-a-kind antique textile garments, hand-illustrated pieces. Opening event March 14 (6-8pm). Prices $198-2,200. Part of ongoing brand takeover series.",
+      "activation": "Immersive brand-designed retail space, one-of-a-kind garment showcase, American craft tradition storytelling, opening cocktail event, authentic brand expression in Nordstrom flagship, first of rotating series (followed by Skims, Sanrio, Nike Running).",
+      "url": "https://press.nordstrom.com/static-files/2377c5ba-b367-4a4f-8e4d-7e2fbfd235a4",
+      "category": "apparel",
+      "storeScope": "select",
+      "promotionMethods": "Rotating brand takeovers, opening events, luxury positioning, exclusive one-of-a-kind pieces, NYC flagship destination, brand-designed spaces"
     }
   ]
 }

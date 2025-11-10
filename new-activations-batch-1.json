@@ -1,0 +1,41 @@
+[
+  {
+    "id": 89,
+    "brand": "Sephora",
+    "title": "SEPHORiA 2024: Beauty Funhouse",
+    "date": "September 27-28, 2024",
+    "location": "Pullman Yards, Atlanta, GA",
+    "description": "Large-scale experiential beauty festival with 50+ brand activations featuring Rare Beauty, Fenty Beauty, Glossier, Tatcha, Charlotte Tilbury. Multi-sensory Beauty Funhouse theme with masterclasses, brand founder access, and $500-1,300+ swag bags. 8,000 tickets sold across General Admission ($135) and VIP ($420) tiers.",
+    "activation": "50+ visual and tactile brand booths, masterclasses with Mario Dedivanovic and brand founders, ice baths and stretching workshops, social media photo opportunities, surprise celebrity appearances, We Belong Campaign inclusivity programming, early VIP access with dedicated lounges.",
+    "url": "https://newsroom.sephora.com/sephora-us-announces-new-theme-and-city-for-the-2024-sephoria-experience/",
+    "category": "beauty",
+    "storeScope": "select",
+    "promotionMethods": "Social media campaigns, tiered ticketing with swag incentives, masterclass programming, brand founder appearances, influencer partnerships, Atlanta market introduction"
+  },
+  {
+    "id": 90,
+    "brand": "Nike",
+    "title": "Nike Running @ The Corner - Nordstrom NYC Pop-Up",
+    "date": "August 7 - September 2, 2025",
+    "location": "57th & Broadway, Nordstrom NYC Flagship",
+    "description": "Limited-time pop-up celebrating Nike innovation and running community. Features Nike Pegasus, Vomero, and Structure footwear lines, women's running apparel, accessories, and customization bar. Part of Nordstrom's ongoing 'The Corner' brand takeover series.",
+    "activation": "Weekly Nike Morning Miles group runs (Fridays 7:30am), Nike Ready Set Go beginner sessions (Wednesdays 6:30pm), ice bath workshops with Ice-Cold Club founder, StretchLab stretching tutorials, styling appointments, customization services.",
+    "url": "https://press.nordstrom.com/news-releases/news-release-details/nordstrom-ignites-nycs-running-scene-nike-running-corner",
+    "category": "footwear",
+    "storeScope": "select",
+    "promotionMethods": "Community run programs, recovery workshops, Nike coach-led training, social running community engagement, Nordstrom partnership marketing"
+  },
+  {
+    "id": 91,
+    "brand": "Target",
+    "title": "Diane von Furstenberg Pop-Up at The Shed",
+    "date": "March 15-16, 2024",
+    "location": "The Shed, 545 W 30th St, New York, NY",
+    "description": "Pre-launch pop-up for Target x Diane von Furstenberg designer collaboration featuring 200+ pieces spanning women's, girls', and baby apparel, accessories, beauty, and home décor. Most items under $50, with made-to-order furniture from $300. Early access event before March 23 nationwide launch.",
+    "activation": "Early shopping access to exclusive designer collaboration, VIP preview event March 14 (6-8pm), public shopping March 15-16, in-person experience of DVF aesthetic, limited-time designer partnership showcase, multigenerational collection with Talita von Furstenberg.",
+    "url": "https://corporate.target.com/press/release/2024/02/target-announces-collaboration-with-diane-von-furstenberg-for-affordable-spring-collection",
+    "category": "apparel",
+    "storeScope": "select",
+    "promotionMethods": "NYC pop-up preview event, VIP early access, press/influencer event, Target designer collaboration hype, limited-time scarcity marketing"
+  }
+]
