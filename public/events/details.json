@@ -2,15 +2,86 @@
   "metadata": {
     "version": "1.0.0",
     "createdAt": "2025-01-09T00:00:00Z",
-    "lastUpdated": "2025-11-10T12:09:01.202Z",
-    "totalEvents": 14,
+    "lastUpdated": "2025-11-10T16:46:08.109Z",
+    "totalEvents": 15,
     "targetEvents": 50,
-    "footwearEvents": 4,
-    "footwearPercentage": 29,
     "validationStatus": "completed",
     "notes": "Filtered to 7 true brand activations. Removed 18 store openings."
   },
   "events": [
+    {
+      "id": 1,
+      "brand": "Barnes & Noble",
+      "title": "Holiday LEGO Snowman Build Event",
+      "date": "November 9, 2025",
+      "location": "Prestonwood Town Center, 5301 Beltline Road Suite 118, Dallas, TX 75254",
+      "description": "In-store LEGO-themed holiday activity featuring a snowman build experience. Participants aged 10 and older are welcome to join this special event. Event kits are limited and registration is required via phone reservation.",
+      "activation": "Holiday snowman LEGO building activity with limited event kits, phone-based registration required, designed for ages 10+, free in-store experience with hands-on LEGO construction workshop.",
+      "url": "https://stores.barnesandnoble.com/event/9780062198506-0",
+      "category": "retail",
+      "storeScope": "select",
+      "promotionMethods": "Phone reservation system (972-980-0853), in-store signage, limited event kit availability, social media promotion on Facebook and Instagram",
+      "validationStatus": "valid",
+      "validatedAt": "2025-11-10T16:39:21.506Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/barnes-and-noble/event-1/images/image-0.png",
+        "promotionalImageCount": 7,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": false,
+        "collagePath": null,
+        "metadataAvailable": false,
+        "lastUpdated": "2025-11-10T16:46:08.108Z"
+      },
+      "imageInventory": {
+        "totalImages": 8,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/barnes-and-noble/event-1/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          },
+          {
+            "path": "events/barnes-and-noble/event-1/images/image-1.jpg",
+            "order": 1,
+            "isLogo": false
+          },
+          {
+            "path": "events/barnes-and-noble/event-1/images/image-2.jpg",
+            "order": 2,
+            "isLogo": false
+          },
+          {
+            "path": "events/barnes-and-noble/event-1/images/image-3.jpg",
+            "order": 3,
+            "isLogo": false
+          },
+          {
+            "path": "events/barnes-and-noble/event-1/images/image-4.jpg",
+            "order": 4,
+            "isLogo": false
+          },
+          {
+            "path": "events/barnes-and-noble/event-1/images/image-5.jpg",
+            "order": 5,
+            "isLogo": false
+          },
+          {
+            "path": "events/barnes-and-noble/event-1/images/image-6.jpg",
+            "order": 6,
+            "isLogo": false
+          },
+          {
+            "path": "events/barnes-and-noble/event-1/images/image-7.jpg",
+            "order": 7,
+            "isLogo": false
+          }
+        ]
+      }
+    },
     {
       "id": 22,
       "brand": "Apple",
@@ -27,24 +98,64 @@
       "validatedAt": "2025-11-09T16:00:00Z",
       "assetInventory": {
         "hasLogo": true,
-        "logoPath": "events/apple/event-22/logo.png",
-        "promotionalImageCount": 0,
+        "logoPath": "events/apple/event-22/images/image-0.png",
+        "promotionalImageCount": 8,
         "promotionalImages": [],
         "hasScreenshot": false,
         "screenshotPath": null,
         "hasCollage": true,
         "collagePath": "events/apple/event-22/slide-image.png",
         "metadataAvailable": true,
-        "lastUpdated": "2025-11-09T16:16:10.629Z"
+        "lastUpdated": "2025-11-10T14:10:20.000Z"
       },
       "imageInventory": {
-        "totalImages": 1,
+        "totalImages": 9,
         "logoFirst": true,
         "images": [
           {
             "path": "events/apple/event-22/images/image-0.png",
             "order": 0,
             "isLogo": true
+          },
+          {
+            "path": "events/apple/event-22/images/image-1.png",
+            "order": 1,
+            "isLogo": false
+          },
+          {
+            "path": "events/apple/event-22/images/image-2.png",
+            "order": 2,
+            "isLogo": false
+          },
+          {
+            "path": "events/apple/event-22/images/image-3.png",
+            "order": 3,
+            "isLogo": false
+          },
+          {
+            "path": "events/apple/event-22/images/image-4.png",
+            "order": 4,
+            "isLogo": false
+          },
+          {
+            "path": "events/apple/event-22/images/image-5.png",
+            "order": 5,
+            "isLogo": false
+          },
+          {
+            "path": "events/apple/event-22/images/image-6.png",
+            "order": 6,
+            "isLogo": false
+          },
+          {
+            "path": "events/apple/event-22/images/image-7.png",
+            "order": 7,
+            "isLogo": false
+          },
+          {
+            "path": "events/apple/event-22/images/image-8.png",
+            "order": 8,
+            "isLogo": false
           }
         ]
       }
@@ -60,14 +171,53 @@
       "url": "https://www.retailtouchpoints.com/features/news-briefs/urban-outfitters-launches-immersive-in-store-experience-with-nike",
       "category": "footwear",
       "storeScope": "select",
+      "validationStatus": "valid",
+      "validatedAt": "2025-11-10T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/nike/event-57/images/image-0.png",
+        "promotionalImageCount": 8,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": false,
+        "collagePath": null,
+        "metadataAvailable": false,
+        "lastUpdated": "2025-11-10T14:10:20.001Z"
+      },
       "imageInventory": {
-        "totalImages": 1,
+        "totalImages": 6,
         "logoFirst": true,
         "images": [
           {
             "path": "events/nike/event-57/images/image-0.png",
             "order": 0,
             "isLogo": true
+          },
+          {
+            "path": "events/nike/event-57/images/image-1.jpg",
+            "order": 1,
+            "isLogo": false
+          },
+          {
+            "path": "events/nike/event-57/images/image-2.jpg",
+            "order": 2,
+            "isLogo": false
+          },
+          {
+            "path": "events/nike/event-57/images/image-3.jpg",
+            "order": 3,
+            "isLogo": false
+          },
+          {
+            "path": "events/nike/event-57/images/image-4.jpg",
+            "order": 4,
+            "isLogo": false
+          },
+          {
+            "path": "events/nike/event-57/images/image-5.jpg",
+            "order": 5,
+            "isLogo": false
           }
         ]
       }
@@ -83,14 +233,58 @@
       "url": "https://wwd.com/footwear-news/shoe-industry-news/new-balance-flatiron-nyc-flagship-store-remodeled-1238145507/",
       "category": "footwear",
       "storeScope": "select",
+      "validationStatus": "valid",
+      "validatedAt": "2025-11-10T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/new-balance/event-64/images/image-0.png",
+        "promotionalImageCount": 8,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": false,
+        "collagePath": null,
+        "metadataAvailable": false,
+        "lastUpdated": "2025-11-10T14:10:20.001Z"
+      },
       "imageInventory": {
-        "totalImages": 1,
+        "totalImages": 7,
         "logoFirst": true,
         "images": [
           {
             "path": "events/new-balance/event-64/images/image-0.png",
             "order": 0,
             "isLogo": true
+          },
+          {
+            "path": "events/new-balance/event-64/images/image-1.jpg",
+            "order": 1,
+            "isLogo": false
+          },
+          {
+            "path": "events/new-balance/event-64/images/image-2.jpg",
+            "order": 2,
+            "isLogo": false
+          },
+          {
+            "path": "events/new-balance/event-64/images/image-3.jpg",
+            "order": 3,
+            "isLogo": false
+          },
+          {
+            "path": "events/new-balance/event-64/images/image-4.jpg",
+            "order": 4,
+            "isLogo": false
+          },
+          {
+            "path": "events/new-balance/event-64/images/image-6.jpg",
+            "order": 5,
+            "isLogo": false
+          },
+          {
+            "path": "events/new-balance/event-64/images/image-7.jpg",
+            "order": 6,
+            "isLogo": false
           }
         ]
       }
@@ -106,14 +300,48 @@
       "url": "https://wwd.com/business-news/retail/madewell-remakes-its-retail-experience-with-soho-flagship-launch-1236757578/",
       "category": "apparel",
       "storeScope": "select",
+      "validationStatus": "valid",
+      "validatedAt": "2025-11-10T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/madewell/event-67/images/image-0.png",
+        "promotionalImageCount": 8,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": false,
+        "collagePath": null,
+        "metadataAvailable": false,
+        "lastUpdated": "2025-11-10T14:10:20.002Z"
+      },
       "imageInventory": {
-        "totalImages": 1,
+        "totalImages": 5,
         "logoFirst": true,
         "images": [
           {
             "path": "events/madewell/event-67/images/image-0.png",
             "order": 0,
             "isLogo": true
+          },
+          {
+            "path": "events/madewell/event-67/images/image-1.jpg",
+            "order": 1,
+            "isLogo": false
+          },
+          {
+            "path": "events/madewell/event-67/images/image-2.jpg",
+            "order": 2,
+            "isLogo": false
+          },
+          {
+            "path": "events/madewell/event-67/images/image-3.jpg",
+            "order": 3,
+            "isLogo": false
+          },
+          {
+            "path": "events/madewell/event-67/images/image-4.jpg",
+            "order": 4,
+            "isLogo": false
           }
         ]
       }
@@ -129,14 +357,68 @@
       "url": "https://www.retailtouchpoints.com/topics/retail-store-design/experiential-retail/anthropologie-partners-with-pinterest-for-wedding-themed-pop-up-in-nyc",
       "category": "apparel",
       "storeScope": "select",
+      "validationStatus": "valid",
+      "validatedAt": "2025-11-10T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/anthropologie/event-69/images/image-0.png",
+        "promotionalImageCount": 8,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": false,
+        "collagePath": null,
+        "metadataAvailable": false,
+        "lastUpdated": "2025-11-10T14:10:20.002Z"
+      },
       "imageInventory": {
-        "totalImages": 1,
+        "totalImages": 9,
         "logoFirst": true,
         "images": [
           {
             "path": "events/anthropologie/event-69/images/image-0.png",
             "order": 0,
             "isLogo": true
+          },
+          {
+            "path": "events/anthropologie/event-69/images/image-1.webp",
+            "order": 1,
+            "isLogo": false
+          },
+          {
+            "path": "events/anthropologie/event-69/images/image-2.webp",
+            "order": 2,
+            "isLogo": false
+          },
+          {
+            "path": "events/anthropologie/event-69/images/image-3.webp",
+            "order": 3,
+            "isLogo": false
+          },
+          {
+            "path": "events/anthropologie/event-69/images/image-4.webp",
+            "order": 4,
+            "isLogo": false
+          },
+          {
+            "path": "events/anthropologie/event-69/images/image-5.webp",
+            "order": 5,
+            "isLogo": false
+          },
+          {
+            "path": "events/anthropologie/event-69/images/image-6.webp",
+            "order": 6,
+            "isLogo": false
+          },
+          {
+            "path": "events/anthropologie/event-69/images/image-7.webp",
+            "order": 7,
+            "isLogo": false
+          },
+          {
+            "path": "events/anthropologie/event-69/images/image-8.webp",
+            "order": 8,
+            "isLogo": false
           }
         ]
       }
@@ -152,14 +434,68 @@
       "url": "https://www.homepagenews.com/retail-articles/cb2-design-shop-concept-takes-fresh-approach-to-interior-spaces/",
       "category": "home-goods",
       "storeScope": "select",
+      "validationStatus": "valid",
+      "validatedAt": "2025-11-10T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/cb2/event-73/images/image-0.png",
+        "promotionalImageCount": 8,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": false,
+        "collagePath": null,
+        "metadataAvailable": false,
+        "lastUpdated": "2025-11-10T14:10:20.002Z"
+      },
       "imageInventory": {
-        "totalImages": 1,
+        "totalImages": 9,
         "logoFirst": true,
         "images": [
           {
             "path": "events/cb2/event-73/images/image-0.png",
             "order": 0,
             "isLogo": true
+          },
+          {
+            "path": "events/cb2/event-73/images/image-1.png",
+            "order": 1,
+            "isLogo": false
+          },
+          {
+            "path": "events/cb2/event-73/images/image-2.png",
+            "order": 2,
+            "isLogo": false
+          },
+          {
+            "path": "events/cb2/event-73/images/image-3.png",
+            "order": 3,
+            "isLogo": false
+          },
+          {
+            "path": "events/cb2/event-73/images/image-4.png",
+            "order": 4,
+            "isLogo": false
+          },
+          {
+            "path": "events/cb2/event-73/images/image-5.png",
+            "order": 5,
+            "isLogo": false
+          },
+          {
+            "path": "events/cb2/event-73/images/image-6.jpg",
+            "order": 6,
+            "isLogo": false
+          },
+          {
+            "path": "events/cb2/event-73/images/image-7.jpg",
+            "order": 7,
+            "isLogo": false
+          },
+          {
+            "path": "events/cb2/event-73/images/image-8.jpg",
+            "order": 8,
+            "isLogo": false
           }
         ]
       }
@@ -176,14 +512,63 @@
       "category": "general-retail",
       "storeScope": "select",
       "promotionMethods": "Grand opening events at each location, Target Circle member promotions, eye exam introductory offers, partnership co-marketing campaigns, local community vision health events",
+      "validationStatus": "valid",
+      "validatedAt": "2025-11-10T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/target/event-85/images/image-0.png",
+        "promotionalImageCount": 8,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": false,
+        "collagePath": null,
+        "metadataAvailable": false,
+        "lastUpdated": "2025-11-10T14:10:20.002Z"
+      },
       "imageInventory": {
-        "totalImages": 1,
+        "totalImages": 8,
         "logoFirst": true,
         "images": [
           {
             "path": "events/target/event-85/images/image-0.png",
             "order": 0,
             "isLogo": true
+          },
+          {
+            "path": "events/target/event-85/images/image-1.jpg",
+            "order": 1,
+            "isLogo": false
+          },
+          {
+            "path": "events/target/event-85/images/image-2.jpg",
+            "order": 2,
+            "isLogo": false
+          },
+          {
+            "path": "events/target/event-85/images/image-3.jpg",
+            "order": 3,
+            "isLogo": false
+          },
+          {
+            "path": "events/target/event-85/images/image-4.jpg",
+            "order": 4,
+            "isLogo": false
+          },
+          {
+            "path": "events/target/event-85/images/image-5.jpg",
+            "order": 5,
+            "isLogo": false
+          },
+          {
+            "path": "events/target/event-85/images/image-6.jpg",
+            "order": 6,
+            "isLogo": false
+          },
+          {
+            "path": "events/target/event-85/images/image-7.webp",
+            "order": 7,
+            "isLogo": false
           }
         ]
       }
@@ -199,7 +584,72 @@
       "url": "https://newsroom.sephora.com/sephora-us-announces-new-theme-and-city-for-the-2024-sephoria-experience/",
       "category": "beauty",
       "storeScope": "select",
-      "promotionMethods": "Social media campaigns, tiered ticketing with swag incentives, masterclass programming, brand founder appearances, influencer partnerships, Atlanta market introduction"
+      "promotionMethods": "Social media campaigns, tiered ticketing with swag incentives, masterclass programming, brand founder appearances, influencer partnerships, Atlanta market introduction",
+      "validationStatus": "valid",
+      "validatedAt": "2025-11-10T15:51:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/sephora/event-89/images/image-0.png",
+        "promotionalImageCount": 8,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": false,
+        "collagePath": null,
+        "metadataAvailable": false,
+        "lastUpdated": "2025-11-10T14:10:20.002Z"
+      },
+      "imageInventory": {
+        "totalImages": 9,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/sephora/event-89/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          },
+          {
+            "path": "events/sephora/event-89/images/image-1.png",
+            "order": 1,
+            "isLogo": false
+          },
+          {
+            "path": "events/sephora/event-89/images/image-2.png",
+            "order": 2,
+            "isLogo": false
+          },
+          {
+            "path": "events/sephora/event-89/images/image-3.png",
+            "order": 3,
+            "isLogo": false
+          },
+          {
+            "path": "events/sephora/event-89/images/image-4.png",
+            "order": 4,
+            "isLogo": false
+          },
+          {
+            "path": "events/sephora/event-89/images/image-5.png",
+            "order": 5,
+            "isLogo": false
+          },
+          {
+            "path": "events/sephora/event-89/images/image-6.png",
+            "order": 6,
+            "isLogo": false
+          },
+          {
+            "path": "events/sephora/event-89/images/image-7.png",
+            "order": 7,
+            "isLogo": false
+          },
+          {
+            "path": "events/sephora/event-89/images/image-8.png",
+            "order": 8,
+            "isLogo": false
+          }
+        ]
+      }
     },
     {
       "id": 90,
@@ -212,7 +662,72 @@
       "url": "https://press.nordstrom.com/news-releases/news-release-details/nordstrom-ignites-nycs-running-scene-nike-running-corner",
       "category": "footwear",
       "storeScope": "select",
-      "promotionMethods": "Community run programs, recovery workshops, Nike coach-led training, social running community engagement, Nordstrom partnership marketing"
+      "promotionMethods": "Community run programs, recovery workshops, Nike coach-led training, social running community engagement, Nordstrom partnership marketing",
+      "validationStatus": "valid",
+      "validatedAt": "2025-11-10T16:04:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/nike/event-90/images/image-0.png",
+        "promotionalImageCount": 8,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": false,
+        "collagePath": null,
+        "metadataAvailable": false,
+        "lastUpdated": "2025-11-10T14:10:20.002Z"
+      },
+      "imageInventory": {
+        "totalImages": 9,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/nike/event-90/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          },
+          {
+            "path": "events/nike/event-90/images/image-1.png",
+            "order": 1,
+            "isLogo": false
+          },
+          {
+            "path": "events/nike/event-90/images/image-2.png",
+            "order": 2,
+            "isLogo": false
+          },
+          {
+            "path": "events/nike/event-90/images/image-3.png",
+            "order": 3,
+            "isLogo": false
+          },
+          {
+            "path": "events/nike/event-90/images/image-4.png",
+            "order": 4,
+            "isLogo": false
+          },
+          {
+            "path": "events/nike/event-90/images/image-5.png",
+            "order": 5,
+            "isLogo": false
+          },
+          {
+            "path": "events/nike/event-90/images/image-6.png",
+            "order": 6,
+            "isLogo": false
+          },
+          {
+            "path": "events/nike/event-90/images/image-7.jpg",
+            "order": 7,
+            "isLogo": false
+          },
+          {
+            "path": "events/nike/event-90/images/image-8.jpg",
+            "order": 8,
+            "isLogo": false
+          }
+        ]
+      }
     },
     {
       "id": 91,
@@ -225,7 +740,62 @@
       "url": "https://corporate.target.com/press/release/2024/02/target-announces-collaboration-with-diane-von-furstenberg-for-affordable-spring-collection",
       "category": "apparel",
       "storeScope": "select",
-      "promotionMethods": "NYC pop-up preview event, VIP early access, press/influencer event, Target designer collaboration hype, limited-time scarcity marketing"
+      "promotionMethods": "NYC pop-up preview event, VIP early access, press/influencer event, Target designer collaboration hype, limited-time scarcity marketing",
+      "validationStatus": "valid",
+      "validatedAt": "2025-11-10T16:05:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/target/event-91/images/image-0.png",
+        "promotionalImageCount": 8,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": false,
+        "collagePath": null,
+        "metadataAvailable": false,
+        "lastUpdated": "2025-11-10T14:10:20.002Z"
+      },
+      "imageInventory": {
+        "totalImages": 7,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/target/event-91/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          },
+          {
+            "path": "events/target/event-91/images/image-1.jpg",
+            "order": 1,
+            "isLogo": false
+          },
+          {
+            "path": "events/target/event-91/images/image-2.jpg",
+            "order": 2,
+            "isLogo": false
+          },
+          {
+            "path": "events/target/event-91/images/image-3.jpg",
+            "order": 3,
+            "isLogo": false
+          },
+          {
+            "path": "events/target/event-91/images/image-4.jpg",
+            "order": 4,
+            "isLogo": false
+          },
+          {
+            "path": "events/target/event-91/images/image-5.jpg",
+            "order": 5,
+            "isLogo": false
+          },
+          {
+            "path": "events/target/event-91/images/image-6.jpg",
+            "order": 6,
+            "isLogo": false
+          }
+        ]
+      }
     },
     {
       "id": 92,
@@ -238,7 +808,72 @@
       "url": "https://checklandkindleysides.com/our-work/adidas-originals-bape-forum-gamified-retail-marketing-activation",
       "category": "footwear",
       "storeScope": "select",
-      "promotionMethods": "Gamification, limited sneaker drops, END. UK exclusivity, BAPE camo branding, arcade nostalgia marketing, anti-bot physical experience"
+      "promotionMethods": "Gamification, limited sneaker drops, END. UK exclusivity, BAPE camo branding, arcade nostalgia marketing, anti-bot physical experience",
+      "validationStatus": "valid",
+      "validatedAt": "2025-11-10T16:05:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/adidas/event-92/images/image-0.png",
+        "promotionalImageCount": 8,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": false,
+        "collagePath": null,
+        "metadataAvailable": false,
+        "lastUpdated": "2025-11-10T14:10:20.003Z"
+      },
+      "imageInventory": {
+        "totalImages": 9,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/adidas/event-92/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          },
+          {
+            "path": "events/adidas/event-92/images/image-1.jpg",
+            "order": 1,
+            "isLogo": false
+          },
+          {
+            "path": "events/adidas/event-92/images/image-2.jpg",
+            "order": 2,
+            "isLogo": false
+          },
+          {
+            "path": "events/adidas/event-92/images/image-3.jpg",
+            "order": 3,
+            "isLogo": false
+          },
+          {
+            "path": "events/adidas/event-92/images/image-4.jpg",
+            "order": 4,
+            "isLogo": false
+          },
+          {
+            "path": "events/adidas/event-92/images/image-5.jpg",
+            "order": 5,
+            "isLogo": false
+          },
+          {
+            "path": "events/adidas/event-92/images/image-6.jpg",
+            "order": 6,
+            "isLogo": false
+          },
+          {
+            "path": "events/adidas/event-92/images/image-7.jpg",
+            "order": 7,
+            "isLogo": false
+          },
+          {
+            "path": "events/adidas/event-92/images/image-8.jpg",
+            "order": 8,
+            "isLogo": false
+          }
+        ]
+      }
     },
     {
       "id": 93,
@@ -251,7 +886,47 @@
       "url": "https://www.awesomealpharetta.com/event/summer-run-club-series-powered-by-lululemon/2024-07-15/",
       "category": "apparel",
       "storeScope": "select",
-      "promotionMethods": "Venue partnerships, run coach programming, themed educational content, outfit giveaways, complimentary refreshments, community building, perfect attendance incentives"
+      "promotionMethods": "Venue partnerships, run coach programming, themed educational content, outfit giveaways, complimentary refreshments, community building, perfect attendance incentives",
+      "validationStatus": "valid",
+      "validatedAt": "2025-11-10T16:05:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/lululemon/event-93/images/image-0.png",
+        "promotionalImageCount": 8,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": false,
+        "collagePath": null,
+        "metadataAvailable": false,
+        "lastUpdated": "2025-11-10T14:10:20.003Z"
+      },
+      "imageInventory": {
+        "totalImages": 9,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/lululemon/event-93/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          },
+          {
+            "path": "events/lululemon/event-93/images/image-1.jpg",
+            "order": 1,
+            "isLogo": false
+          },
+          {
+            "path": "events/lululemon/event-93/images/image-2.jpg",
+            "order": 2,
+            "isLogo": false
+          },
+          {
+            "path": "events/lululemon/event-93/images/image-3.jpg",
+            "order": 3,
+            "isLogo": false
+          }
+        ]
+      }
     },
     {
       "id": 94,
@@ -264,7 +939,72 @@
       "url": "https://www.fall-line.co.uk/patagonia-worn-wear-tour/",
       "category": "apparel",
       "storeScope": "select",
-      "promotionMethods": "Sustainability storytelling, free any-brand repairs, educational workshops, mobile touring, mountain resort partnerships, environmental mission marketing"
+      "promotionMethods": "Sustainability storytelling, free any-brand repairs, educational workshops, mobile touring, mountain resort partnerships, environmental mission marketing",
+      "validationStatus": "valid",
+      "validatedAt": "2025-11-10T16:05:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/patagonia/event-94/images/image-0.png",
+        "promotionalImageCount": 8,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": false,
+        "collagePath": null,
+        "metadataAvailable": false,
+        "lastUpdated": "2025-11-10T16:28:00.000Z"
+      },
+      "imageInventory": {
+        "totalImages": 9,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/patagonia/event-94/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          },
+          {
+            "path": "events/patagonia/event-94/images/image-1.jpg",
+            "order": 1,
+            "isLogo": false
+          },
+          {
+            "path": "events/patagonia/event-94/images/image-2.jpg",
+            "order": 2,
+            "isLogo": false
+          },
+          {
+            "path": "events/patagonia/event-94/images/image-3.jpg",
+            "order": 3,
+            "isLogo": false
+          },
+          {
+            "path": "events/patagonia/event-94/images/image-4.jpg",
+            "order": 4,
+            "isLogo": false
+          },
+          {
+            "path": "events/patagonia/event-94/images/image-5.jpg",
+            "order": 5,
+            "isLogo": false
+          },
+          {
+            "path": "events/patagonia/event-94/images/image-6.jpg",
+            "order": 6,
+            "isLogo": false
+          },
+          {
+            "path": "events/patagonia/event-94/images/image-7.jpg",
+            "order": 7,
+            "isLogo": false
+          },
+          {
+            "path": "events/patagonia/event-94/images/image-8.jpg",
+            "order": 8,
+            "isLogo": false
+          }
+        ]
+      }
     },
     {
       "id": 95,
@@ -277,7 +1017,62 @@
       "url": "https://press.nordstrom.com/static-files/2377c5ba-b367-4a4f-8e4d-7e2fbfd235a4",
       "category": "apparel",
       "storeScope": "select",
-      "promotionMethods": "Rotating brand takeovers, opening events, luxury positioning, exclusive one-of-a-kind pieces, NYC flagship destination, brand-designed spaces"
+      "promotionMethods": "Rotating brand takeovers, opening events, luxury positioning, exclusive one-of-a-kind pieces, NYC flagship destination, brand-designed spaces",
+      "validationStatus": "valid",
+      "validatedAt": "2025-11-10T16:05:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/nordstrom/event-95/images/image-0.png",
+        "promotionalImageCount": 8,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": false,
+        "collagePath": null,
+        "metadataAvailable": false,
+        "lastUpdated": "2025-11-10T14:10:20.003Z"
+      },
+      "imageInventory": {
+        "totalImages": 7,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/nordstrom/event-95/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          },
+          {
+            "path": "events/nordstrom/event-95/images/image-1.jpg",
+            "order": 1,
+            "isLogo": false
+          },
+          {
+            "path": "events/nordstrom/event-95/images/image-2.jpg",
+            "order": 2,
+            "isLogo": false
+          },
+          {
+            "path": "events/nordstrom/event-95/images/image-3.jpg",
+            "order": 3,
+            "isLogo": false
+          },
+          {
+            "path": "events/nordstrom/event-95/images/image-4.jpg",
+            "order": 4,
+            "isLogo": false
+          },
+          {
+            "path": "events/nordstrom/event-95/images/image-5.jpg",
+            "order": 5,
+            "isLogo": false
+          },
+          {
+            "path": "events/nordstrom/event-95/images/image-6.jpg",
+            "order": 6,
+            "isLogo": false
+          }
+        ]
+      }
     }
   ]
 }
