@@ -65,7 +65,7 @@ const MasonryImageGrid = ({ images, basePath = '/' }) => {
   const sortedImages = [...images].sort((a, b) => a.order - b.order);
 
   return (
-    <div className="w-full h-full overflow-y-auto bg-gray-50 p-4">
+    <div className="w-full h-full overflow-y-auto bg-gray-50">
       <div ref={gridRef} className="masonry-grid">
         {/* Sizer element for column width calculation */}
         <div className="masonry-sizer w-full sm:w-1/2 lg:w-1/3"></div>
@@ -83,30 +83,13 @@ const MasonryImageGrid = ({ images, basePath = '/' }) => {
                 isLogo ? 'masonry-item--logo' : ''
               }`}
             >
-              <div
-                className={`relative bg-white rounded-lg shadow-md overflow-hidden ${
-                  isLogo ? 'border-4 border-blue-500' : 'border border-gray-200'
-                }`}
-              >
+              <div className="relative bg-white rounded-lg overflow-hidden">
                 {!hasError ? (
-                  <>
-                    {!isLoaded && (
-                      <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
-                        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500"></div>
-                      </div>
-                    )}
-                    <img
-                      src={imagePath}
-                      alt={isLogo ? 'Brand Logo' : `Event image ${index + 1}`}
-                      className={`w-full h-auto ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
-                      loading="lazy"
-                    />
-                    {isLogo && (
-                      <div className="absolute top-2 left-2 bg-blue-500 text-white text-xs font-bold px-2 py-1 rounded">
-                        LOGO
-                      </div>
-                    )}
-                  </>
+                  <img
+                    src={imagePath}
+                    alt={isLogo ? 'Brand Logo' : `Event image ${index + 1}`}
+                    className="w-full h-auto"
+                  />
                 ) : (
                   <div className="flex items-center justify-center bg-gray-200 p-8">
                     <div className="text-center">
