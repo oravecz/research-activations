@@ -15,7 +15,22 @@
     "capture-screenshot": "node scripts/capture-screenshot.js",
     "create-collage": "node scripts/create-collage.js",
     "test-validation": "node scripts/validate-url.js https://example.com",
-    "test-screenshot": "node scripts/capture-screenshot.js --test"
+    "test-screenshot": "node scripts/capture-screenshot.js --test",
+    "events:validate": "node scripts/quick-url-check.js events/details.json",
+    "events:setup": "node scripts/collect-images-playwright.js setup",
+    "events:logos": "node scripts/download-remaining-logos.js",
+    "events:status": "node scripts/check-logo-status.js",
+    "events:inventory": "node scripts/collect-images-playwright.js update-inventory",
+    "events:instructions": "node scripts/collect-images-playwright.js instructions",
+    "events:complete": "npm run events:setup && npm run events:logos && npm run events:inventory",
+    "batch:validate": "node scripts/validate-batch.js",
+    "batch:add": "node scripts/add-new-events.js",
+    "cleanup:failed": "node scripts/remove-failed-events.js",
+    "workflow:validate": "npm run events:validate",
+    "workflow:setup": "npm run events:setup && npm run events:logos",
+    "workflow:complete": "npm run events:validate && npm run events:complete && npm run build",
+    "deploy:prep": "npm run workflow:complete && npm run preview",
+    "deploy": "npm run build && git add -A && git commit -m 'Deploy: Update brand activation database' && git push origin main"
   },
   "keywords": [
     "react",
@@ -32,7 +47,9 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "lucide-react": "^0.460.0",
-    "sharp": "^0.33.5"
+    "sharp": "^0.33.5",
+    "masonry-layout": "^4.2.2",
+    "imagesloaded": "^5.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",

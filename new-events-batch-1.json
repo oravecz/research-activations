@@ -1,0 +1,122 @@
+[
+  {
+    "id": 51,
+    "brand": "adidas",
+    "title": "Los Angeles Flagship Stores - Melrose & DTLA",
+    "date": "August-September 2024",
+    "location": "Los Angeles (Melrose and Downtown)",
+    "description": "adidas opened two flagship stores in Los Angeles featuring The Lab for brand stories and collaborations, curated collections from Y-3 and Stella McCartney, and hosting workshops and events with local artists.",
+    "activation": "The stores function as cultural hubs with The Lab showcasing collaborations, OG L.A. creative division celebrating local talent, restored architectural elements in DTLA location, and regular workshops and community events.",
+    "url": "https://news.adidas.com/originals/adidas-expands-retail-presence-in-los-angeles-with-two-new-flagship-stores-highlighting-creativity--/s/e39212ea-a83d-423e-aa44-ba63bcf959a1",
+    "category": "footwear",
+    "storeScope": "select"
+  },
+  {
+    "id": 52,
+    "brand": "adidas",
+    "title": "Vancouver Home of Sport Flagship",
+    "date": "November 2024",
+    "location": "Downtown Vancouver, BC",
+    "description": "North America's first 'Home of Sport' flagship concept featuring Run Lab with biometric running analysis, Made For You customization space, and VIP room for adiClub members.",
+    "activation": "Features Run Lab for advanced running analysis, Made For You customization with VIP experiences, half of store dedicated to omni-channel fulfillment for Western Canada, and local activation spaces.",
+    "url": "https://retail-insider.com/retail-insider/2025/02/adidas-home-of-sport-flagship-thrives-in-vancouver/",
+    "category": "footwear",
+    "storeScope": "select"
+  },
+  {
+    "id": 53,
+    "brand": "Lululemon",
+    "title": "Mall of America Experiential Store",
+    "date": "November 2019",
+    "location": "Bloomington, Minnesota",
+    "description": "19,700 square-foot experiential format with yoga and HIIT studios offering 6-10 classes daily, meditation room, community event space, and fuel bar.",
+    "activation": "Two sweat studios with daily fitness classes (Power Yoga to Strength for Runners), men's and women's locker rooms, grow room for group meditations and events, and fuel bar for healthy refreshments.",
+    "url": "https://www.retaildive.com/news/how-lululemons-mall-of-america-megastore-puts-experiential-retail-on-displ/567702/",
+    "category": "apparel",
+    "storeScope": "select"
+  },
+  {
+    "id": 54,
+    "brand": "Patagonia",
+    "title": "Worn Wear In-Store Repair Expansion",
+    "date": "2024-2025",
+    "location": "Company-owned stores nationwide",
+    "description": "Expanded in-store repair program with trained staff providing minor repairs, patches, and guidance. Mobile Worn Wear workshops travel offering free repairs while permanent repair centers operate in major cities.",
+    "activation": "Repair stations at store entrances for immediate patches and fixes, free patch kits upon request, mobile workshops throughout North America and Europe, staff-led repair guidance and DIY instruction.",
+    "url": "https://www.retaildive.com/news/patagonia-repair-program-loyalty-customer-advocacy/740865/",
+    "category": "outdoor",
+    "storeScope": "all"
+  },
+  {
+    "id": 55,
+    "brand": "Target",
+    "title": "Ulta Beauty Shop-in-Shop Expansion",
+    "date": "2020-2024",
+    "location": "Nationwide (800 locations planned)",
+    "description": "Target and Ulta Beauty strategic partnership with 1,000 square-foot mini Ulta shops inside Target stores, featuring curated beauty assortment next to Target's existing beauty section.",
+    "activation": "Mini Ulta Beauty shops with exclusive product selection, beauty advisors, testers and discovery experiences, integrated with Target shopping experience, creating mall-like destination.",
+    "url": "https://www.modernretail.co/operations/shop-in-shops-deliver-growth-for-target/",
+    "category": "beauty",
+    "storeScope": "select"
+  },
+  {
+    "id": 56,
+    "brand": "Target",
+    "title": "Disney Shop-in-Shop Expansion",
+    "date": "2019-2024",
+    "location": "160+ Target stores nationwide",
+    "description": "Target tripled Disney shops within stores from 25 to over 160 locations, creating dedicated Disney-themed merchandise areas that enhance the shopping experience for families.",
+    "activation": "Dedicated Disney shop spaces with themed displays, exclusive Disney merchandise, integrated seasonal campaigns, family-focused shopping destinations within Target stores.",
+    "url": "https://www.northmarq.com/insights/research/two-brands-one-roof-rise-store-within-store-retail-partnerships",
+    "category": "general-retail",
+    "storeScope": "select"
+  },
+  {
+    "id": 57,
+    "brand": "Nike",
+    "title": "Urban Outfitters Nike On Rotation Experience",
+    "date": "May 2024",
+    "location": "Select Urban Outfitters stores",
+    "description": "Immersive in-store Nike experience through Urban Outfitters' 'On Rotation' retail format, designed to fuel inspiration and discovery for Gen Z consumers with rotating Nike collections.",
+    "activation": "Dedicated Nike sections with curated sneaker and apparel rotations, immersive brand storytelling, Gen Z-focused merchandising, integrated with Urban Outfitters' lifestyle aesthetic.",
+    "url": "https://www.retailtouchpoints.com/features/news-briefs/urban-outfitters-launches-immersive-in-store-experience-with-nike",
+    "category": "footwear",
+    "storeScope": "select"
+  },
+  {
+    "id": 58,
+    "brand": "Nike",
+    "title": "Air Max Day Dynamicland Activation",
+    "date": "March 2024",
+    "location": "Brooklyn Navy Yard, New York",
+    "description": "Consumer activation celebrating Air Max Dn shoe launch featuring obstacle course, gaming lounge, giant slide, and special-edition merchandise in experiential pop-up format.",
+    "activation": "Interactive obstacle course testing Air Max shoes, gaming lounge with Nike-themed experiences, giant slide installation, exclusive merchandise drops, athlete meet-and-greets, photo opportunities.",
+    "url": "https://www.modernretail.co/retailers/to-keep-shoppers-coming-back-nike-is-testing-a-new-experiential-store-format/",
+    "category": "footwear",
+    "storeScope": "select"
+  },
+  {
+    "id": 59,
+    "brand": "Nike",
+    "title": "Nike Rise Store Expansion",
+    "date": "2021-2024",
+    "location": "Multiple US cities",
+    "description": "Nike's Rise store concept expansion bringing community-focused retail with digital event calendars, one-on-one sessions with specialized staff, weekly athlete speaker events, and sport-minded activations.",
+    "activation": "Digital event calendars for basketball and soccer matches, one-on-one consultations with yoga/running/soccer specialists, weekly speaking events with local athletes, Nike app integration for workshop access, try-before-you-buy product testing.",
+    "url": "https://www.retaildive.com/news/nike-opens-latest-store-concept-nike-rise/581404/",
+    "category": "footwear",
+    "storeScope": "select"
+  },
+  {
+    "id": 60,
+    "brand": "Lululemon",
+    "title": "Chicago Lincoln Park Experiential Store",
+    "date": "July 2019",
+    "location": "Chicago, Illinois",
+    "description": "20,000 square-foot experiential flagship featuring yoga studio, gym, meditation area, healthy food restaurant called Fuel, and full Lululemon store under one roof.",
+    "activation": "Fitness studios offering yoga to HIIT classes throughout the day, meditation room, Fuel healthy food restaurant and bar, community workshop space, men's and women's locker rooms, networking events.",
+    "url": "https://wwd.com/business-news/retail/lululemon-introduces-new-experiential-store-in-chicago-yoga-mens-sweat-1203219019/",
+    "category": "apparel",
+    "storeScope": "select"
+  }
+]

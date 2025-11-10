@@ -1,0 +1,28 @@
+[
+  {
+    "id": 87,
+    "brand": "Alo Yoga",
+    "title": "Regent Street London Flagship",
+    "date": "August 2024",
+    "location": "Regent Street, London, UK",
+    "description": "10,000-square-foot flagship designed to connect with community and promote mindful lifestyle. Second UK location following Kings Road opening, with Brompton Road and Covent Garden Seven Dials stores planned for late 2024.",
+    "activation": "Mind-body wellness community space, mindful lifestyle retail experience, wellness programming, exclusive UK product launches, community connection events, holistic shopping environment.",
+    "url": "https://sgbonline.com/alo-yoga-opens-london-flagship/",
+    "category": "apparel",
+    "storeScope": "select",
+    "promotionMethods": "Grand opening wellness events, mindful lifestyle workshops, community yoga sessions, local influencer partnerships, exclusive UK collection launches"
+  },
+  {
+    "id": 88,
+    "brand": "Vuori",
+    "title": "Regent Street London Flagship",
+    "date": "November 2024",
+    "location": "83-85 Regent Street, London, UK",
+    "description": "4,000-square-foot first international flagship across two storeys featuring California-inspired aesthetic with natural materials (rock, soft quartz, concrete, washed oak, natural marble), custom skylight above glass atrium with live plants, and subtle product zoning across leisure/active/lifestyle categories.",
+    "activation": "California-inspired design with custom skylight and live plant atrium, DreamKnit technology showcase, men's and women's performance lifestyle collections, subtle category zoning, natural material immersive environment.",
+    "url": "https://fashionunited.com/news/retail/vuori-opens-flagship-store-in-london/2024110162676",
+    "category": "apparel",
+    "storeScope": "select",
+    "promotionMethods": "Grand opening celebration, DreamKnit technology demos, California lifestyle events, local community fitness partnerships, European expansion kickoff events"
+  }
+]

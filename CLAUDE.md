@@ -19,26 +19,46 @@ npm test                 # Run Vitest in watch mode
 npm run test:ui          # Run Vitest with UI interface
 ```
 
-### Asset Generation Scripts
+### Automated Workflows (Recommended)
 ```bash
-# URL validation
+# Complete workflow: validate → setup → logos → inventory → build
+npm run workflow:complete
+
+# Setup and download assets
+npm run workflow:setup          # Create directories + download logos
+npm run events:complete         # Setup + logos + inventory
+
+# Individual operations
+npm run events:validate         # Validate all 50 event URLs
+npm run events:logos            # Download all brand logos
+npm run events:status           # Check logo download status
+npm run events:inventory        # Update imageInventory in database
+
+# Batch operations
+npm run batch:validate          # Validate new events JSON file
+npm run batch:add               # Add new events to database
+npm run cleanup:failed          # Remove events with failed URLs
+
+# Deployment
+npm run deploy:prep             # Complete workflow + preview
+```
+
+### Manual/Legacy Scripts
+```bash
+# URL validation (use npm run events:validate instead)
 node scripts/validate-url.js https://example.com
 node scripts/validate-url.js --json events/details.json
 
-# Screenshot capture (using Playwright)
-node scripts/capture-screenshot.js --test
-node scripts/capture-screenshot.js --url https://example.com --output path/to/file.png
+# Image collection
+node scripts/collect-images-playwright.js setup
+node scripts/collect-images-playwright.js download-logo
+node scripts/collect-images-playwright.js update-inventory
+node scripts/collect-images-playwright.js instructions 61
 
-# Slide image generation (logo-based 16:9 images)
-node scripts/generate-slide-images.js --all
-node scripts/generate-slide-images.js --range 1-25
-node scripts/generate-slide-images.js --event 1
-
-# Brand logo batch download
-node scripts/batch-download-logos.js
-
-# Image collage creation
-node scripts/create-collage.js
+# Batch operations
+node scripts/quick-url-check.js events/details.json
+node scripts/download-remaining-logos.js
+node scripts/check-logo-status.js
 ```
 
 ### Testing Production Build
@@ -72,11 +92,13 @@ The system follows a **data-centric architecture** where event data flows from J
 4. Asset paths stored in `events/details.json` under `assetInventory.collagePath`
 
 **React Component Architecture**
-- Single-file component (`PresentationDeck.jsx`) handles all presentation logic
-- Uses React hooks for state management (useState, useEffect, useMemo)
+- Main component (`PresentationDeck.jsx`) handles presentation logic and slide navigation
+- `MasonryImageGrid.jsx` component displays multiple event images in responsive grid layout
+- Uses React hooks for state management (useState, useEffect, useMemo, useRef)
 - Keyboard navigation (arrow keys) and click navigation supported
 - Category filtering system dynamically generates filter buttons from event data
 - Image loading handled with error states and fallback UI
+- **Dual display modes**: Masonry grid (if imageInventory exists) or single image fallback
 
 ### Critical File Relationships
 
@@ -150,6 +172,7 @@ research-activations/
 - **Styling**: Tailwind CSS 3.4.15 (processed via PostCSS)
 - **Icons**: Lucide React 0.460.0
 - **Image Processing**: Sharp 0.33.5 (for slide generation scripts)
+- **Layout Library**: Masonry Layout 4.2.2 + imagesLoaded 5.0.0 (responsive grid)
 
 ### Build Configuration
 - **Vite Plugin**: @vitejs/plugin-react (React Fast Refresh support)
@@ -289,7 +312,70 @@ The presentation component (`src/PresentationDeck.jsx`) consists of:
 - footwear, apparel, home-goods, beauty, general-retail, technology, outdoor, sporting-goods, grocery, accessories
 
 **Asset Priorities:**
-1. Official brand logos (Clearbit API or brand websites)
-2. Promotional images from event websites
-3. Screenshots as fallback (Playwright capture)
-4. Generated slide images (logo centered on brand-colored background)
+1. Official brand logos (Clearbit API or brand websites) - always first in Masonry grid
+2. Promotional images from event websites (up to 8 images via Playwright MCP)
+3. Masonry grid layout (logo + 8 images displayed in responsive grid)
+4. Fallback: Screenshots or generated slide images (logo centered on brand-colored background)
+
+## Masonry Grid Image Collection
+
+### New Approach (Recommended)
+
+Events can display multiple images in a Masonry grid layout instead of a single image:
+
+1. **Logo First**: Company logo always in upper-left position (image-0.png)
+2. **Promotional Images**: Up to 8 additional images from event website (image-1.png through image-8.png)
+3. **Responsive Grid**: 3 columns on large screens, 2 on medium, 1 on small
+4. **Backward Compatible**: Falls back to single image if no imageInventory exists
+
+### Collection Workflow
+
+```bash
+# 1. Download brand logo
+node scripts/download-brand-assets.js --download-logo "Nike" 1
+
+# 2. Organize images directory
+node scripts/collect-event-images.js --event 1
+
+# 3. Use Playwright MCP to extract and download promotional images
+# - Navigate to event URL with browser_navigate
+# - Extract image URLs with browser_evaluate (see docs/masonry-image-collection.md)
+# - Download 8 best images to events/[brand]/event-[id]/images/
+
+# 4. Add imageInventory to event in events/details.json
+```
+
+### Event Data Structure with Images
+
+```json
+{
+  "id": 1,
+  "brand": "Nike",
+  "imageInventory": {
+    "totalImages": 5,
+    "logoFirst": true,
+    "images": [
+      {
+        "filename": "image-0.png",
+        "path": "events/nike/event-1/images/image-0.png",
+        "order": 0,
+        "isLogo": true
+      },
+      {
+        "filename": "image-1.png",
+        "path": "events/nike/event-1/images/image-1.png",
+        "order": 1,
+        "isLogo": false
+      }
+    ]
+  }
+}
+```
+
+### Components
+
+- **collect-event-images.js**: Organizes image directories and copies logo as first image
+- **MasonryImageGrid.jsx**: React component using Masonry.js for responsive grid layout
+- **PresentationDeck.jsx**: Checks for imageInventory and renders Masonry grid or fallback
+
+See `docs/masonry-image-collection.md` for detailed workflow and Playwright examples.

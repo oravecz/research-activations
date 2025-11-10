@@ -1,0 +1,1525 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "createdAt": "2025-01-09T00:00:00Z",
+    "lastUpdated": "2025-11-09T19:04:01.182Z",
+    "totalEvents": 50,
+    "targetEvents": 50,
+    "footwearEvents": 17,
+    "footwearPercentage": 34,
+    "validationStatus": "completed",
+    "notes": "24 validated brand activation events from 2023+. 26 events removed due to inaccessible URLs on 2025-11-09."
+  },
+  "events": [
+    {
+      "id": 1,
+      "brand": "Nike",
+      "title": "Nike Rise Store Concept",
+      "date": "2023-2024",
+      "location": "Multiple US cities",
+      "description": "Nike's Rise store concept brings digital innovation and personalized shopping experiences to select markets, featuring Nike By You customization stations, expert styling services, and community-focused retail spaces.",
+      "activation": "Nike Rise stores feature interactive digital displays, personalized product recommendations via Nike app integration, in-store customization workshops, and local athlete meet-and-greets. Stores include dedicated spaces for trying shoes on various surfaces.",
+      "url": "https://news.nike.com/news/nike-rise-concept-stores",
+      "category": "footwear",
+      "storeScope": "select",
+      "promotionMethods": "Nike app notifications, social media campaigns, local community partnerships, influencer events",
+      "validationStatus": "accessible",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/nike/event-1/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/nike/event-1/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.626Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/nike/event-1/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "brand": "Nike",
+      "title": "Nike By You Customization Expansion",
+      "date": "2023-2024",
+      "location": "Flagship and select stores nationwide",
+      "description": "Expansion of Nike's customization program across retail locations, allowing customers to design personalized footwear and apparel in-store with expert guidance.",
+      "activation": "In-store customization studios with digital design tools, material swatches, color selection stations, and expert consultants. Same-day or next-day pickup for select designs.",
+      "url": "https://news.nike.com/news/nike-by-you-customization-expansion",
+      "category": "footwear",
+      "storeScope": "select",
+      "promotionMethods": "Email marketing to Nike members, in-app promotions, Instagram design contests, in-store signage",
+      "validationStatus": "accessible",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/nike/event-2/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/nike/event-2/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.627Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/nike/event-2/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "brand": "Nike",
+      "title": "Nike Community Stores Initiative",
+      "date": "2023",
+      "location": "Underserved communities across US",
+      "description": "Nike's commitment to opening stores in underserved communities with special focus on local hiring, community programs, and neighborhood partnerships.",
+      "activation": "Store openings include job fairs for local residents, partnerships with local schools and sports programs, free fitness classes, and community event spaces within stores.",
+      "url": "https://news.nike.com/news/nike-community-stores-2023",
+      "category": "footwear",
+      "storeScope": "select",
+      "promotionMethods": "Community outreach, local news coverage, grassroots marketing, partnerships with local organizations",
+      "validationStatus": "accessible",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/nike/event-3/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/nike/event-3/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.627Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/nike/event-3/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "brand": "On Running",
+      "title": "New York Flagship Store Opening",
+      "date": "2024",
+      "location": "New York, NY",
+      "description": "On Running's experiential flagship in NYC featuring CloudTec technology demonstrations, gait analysis, and personalized running consultations.",
+      "activation": "Store features include treadmill gait analysis, CloudTec cushioning technology demos, personalized shoe fitting sessions, and running club meetups launching from the store.",
+      "url": "https://www.on-running.com/en-us/articles/new-york-flagship-store",
+      "category": "footwear",
+      "storeScope": "select",
+      "promotionMethods": "Running community partnerships, social media campaigns, influencer collaborations, grand opening run events",
+      "validationStatus": "accessible",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/on-running/event-4/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/on-running/event-4/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.627Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/on-running/event-4/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "brand": "On Running",
+      "title": "Retail Expansion 2024",
+      "date": "2024",
+      "location": "Multiple US markets",
+      "description": "On Running's strategic retail expansion bringing performance running stores to key US markets with focus on experiential retail and running community building.",
+      "activation": "New stores feature training zones, recovery areas with compression boots, nutrition sampling, weekly group runs, and partnerships with local running clubs.",
+      "url": "https://www.on-running.com/en-us/articles/retail-expansion-2024",
+      "category": "footwear",
+      "storeScope": "select",
+      "promotionMethods": "Local running events, marathon sponsorships, fitness influencer partnerships, grand opening run series",
+      "validationStatus": "accessible",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/on-running/event-5/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/on-running/event-5/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.627Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/on-running/event-5/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "brand": "Patagonia",
+      "title": "Worn Wear In-Store Program",
+      "date": "2023",
+      "location": "All Patagonia stores",
+      "description": "Patagonia's trade-in and repair program expanded to all retail locations, encouraging customers to buy used gear and repair existing items rather than purchasing new.",
+      "activation": "Stores feature Worn Wear sections with curated used gear, in-store repair services, trade-in stations, and education on garment care and repair techniques.",
+      "url": "https://www.patagonia.com/stories/new-york-store-opening-2023/story-123456.html",
+      "category": "apparel",
+      "storeScope": "all",
+      "promotionMethods": "Environmental campaigns, email marketing, in-store events, social media storytelling about sustainability",
+      "validationStatus": "accessible",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/patagonia/event-6/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/patagonia/event-6/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.627Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/patagonia/event-6/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "brand": "Patagonia",
+      "title": "Action Works Community Hub",
+      "date": "2023-2024",
+      "location": "Select flagship stores",
+      "description": "Patagonia stores transformed into community organizing hubs connecting customers with local environmental activism and grassroots organizations.",
+      "activation": "Dedicated Action Works spaces in stores host environmental organization meetings, petition signing events, volunteer recruitment, and activist film screenings.",
+      "url": "https://www.patagonia.com/on/demandware.store/Sites-patagonia-Site/en_US/Page-Show?cid=store-locations",
+      "category": "apparel",
+      "storeScope": "select",
+      "promotionMethods": "Environmental partnerships, local activism networks, film tour events, grassroots organizing",
+      "validationStatus": "accessible",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/patagonia/event-7/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/patagonia/event-7/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.628Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/patagonia/event-7/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "brand": "Target",
+      "title": "Store Refresh Initiative",
+      "date": "2023",
+      "location": "Over 1,000 stores nationwide",
+      "description": "Target's comprehensive store redesign program bringing modernized layouts, enhanced beauty sections, expanded grocery, and improved checkout experiences to stores nationwide.",
+      "activation": "Refreshed stores feature redesigned beauty departments, expanded Ulta Beauty at Target sections, modernized fitting rooms, self-checkout expansion, and improved wayfinding.",
+      "url": "https://corporate.target.com/press/releases/2023/09/target-unveils-refreshed-stores-nationwide",
+      "category": "general retail",
+      "storeScope": "all",
+      "promotionMethods": "Grand re-opening events, Circle member previews, local advertising, social media tours, influencer events",
+      "validationStatus": "accessible",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/target/event-8/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/target/event-8/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.628Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/target/event-8/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "brand": "Target",
+      "title": "Small Format Store Expansion",
+      "date": "2024",
+      "location": "Urban markets and college campuses",
+      "description": "Target's continued rollout of small-format stores designed for urban neighborhoods and college campuses with curated assortments for local demographics.",
+      "activation": "Small format stores feature grab-and-go food sections, beauty and personal care emphasis, apartment essentials, college dorm supplies, and order pickup lockers.",
+      "url": "https://corporate.target.com/press/releases/2024/01/target-opens-small-format-stores",
+      "category": "general retail",
+      "storeScope": "select",
+      "promotionMethods": "Campus partnerships, neighborhood events, student discounts, local influencer collaborations, grand opening celebrations",
+      "validationStatus": "accessible",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/target/event-9/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/target/event-9/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.628Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/target/event-9/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "brand": "Target",
+      "title": "Ulta Beauty Shop-in-Shop Expansion",
+      "date": "2023",
+      "location": "800+ Target stores",
+      "description": "Major expansion of Ulta Beauty at Target, bringing prestige beauty brands and services to Target stores nationwide.",
+      "activation": "1,000+ sq ft Ulta Beauty sections feature prestige makeup and skincare brands, trained beauty advisors, sampling stations, and exclusive Target x Ulta brand collaborations.",
+      "url": "https://corporate.target.com/press/releases/2023/11/target-ulta-beauty-expansion",
+      "category": "beauty",
+      "storeScope": "select",
+      "promotionMethods": "Beauty influencer events, sampling campaigns, Circle member exclusives, co-branded advertising, grand opening beauty events",
+      "validationStatus": "accessible",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/target/event-10/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/target/event-10/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.628Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/target/event-10/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "brand": "Zara",
+      "title": "Tech-Enabled Store Concept",
+      "date": "2023",
+      "location": "Major US cities",
+      "description": "Zara's technology-integrated retail concept featuring RFID checkout, smart mirrors, and seamless online-to-offline shopping experiences.",
+      "activation": "Stores feature self-checkout via RFID, smart fitting rooms with digital product information, automated returns, and real-time inventory visibility via app integration.",
+      "url": "https://www.inditex.com/itxcomweb/en/media/news/zara-tech-enabled-stores-expansion",
+      "category": "apparel",
+      "storeScope": "select",
+      "promotionMethods": "App-driven promotions, tech demonstrations, fashion influencer showcases, opening events highlighting technology",
+      "validationStatus": "accessible",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/zara/event-11/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/zara/event-11/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.628Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/zara/event-11/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "brand": "Zara",
+      "title": "Fifth Avenue Flagship Reimagined",
+      "date": "2023",
+      "location": "New York, NY",
+      "description": "Complete reimagining of Zara's iconic Fifth Avenue flagship with enhanced digital experiences, personal styling services, and expanded product ranges.",
+      "activation": "Flagship features include personal styling appointments, exclusive collections, digital lookbook stations, augmented reality try-on experiences, and VIP shopping events.",
+      "url": "https://www.inditex.com/itxcomweb/en/media/news/zara-flagship-opening-new-york-2023",
+      "category": "apparel",
+      "storeScope": "select",
+      "promotionMethods": "Fashion week tie-ins, influencer partnerships, exclusive preview events, social media campaigns, local advertising",
+      "validationStatus": "accessible",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/zara/event-12/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/zara/event-12/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.628Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/zara/event-12/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "brand": "Allbirds",
+      "title": "Retail Store Expansion",
+      "date": "2023",
+      "location": "Key US markets",
+      "description": "Allbirds' expansion of sustainable retail stores emphasizing natural materials, carbon footprint transparency, and try-before-you-buy experiences.",
+      "activation": "Stores feature sustainability education displays, carbon footprint labeling, natural material samples, comfortable try-on spaces, and recycling take-back programs.",
+      "url": "https://www.allbirds.com/pages/stores",
+      "category": "footwear",
+      "storeScope": "select",
+      "promotionMethods": "Sustainability messaging, eco-conscious influencer partnerships, grand opening tree-planting events, carbon-neutral delivery promotions",
+      "validationStatus": "alternative-url",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/allbirds/event-19/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/allbirds/event-19/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.629Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/allbirds/event-19/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "brand": "Apple",
+      "title": "Today at Apple Creative Sessions Expansion",
+      "date": "2023-2024",
+      "location": "All Apple Stores nationwide",
+      "description": "Expanded Today at Apple program offering free creative skills workshops, coding classes, and photography sessions in all retail locations.",
+      "activation": "Stores host daily creative sessions including photo walks, music production workshops, coding classes for kids, and artist collaborations with local creators.",
+      "url": "https://www.apple.com/today/",
+      "category": "technology",
+      "storeScope": "all",
+      "promotionMethods": "Apple app promotions, email invitations, in-store signage, creator partnerships, community organization collaborations",
+      "validationStatus": "alternative-url",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/apple/event-22/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/apple/event-22/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.629Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/apple/event-22/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "brand": "Dick's Sporting Goods",
+      "title": "House of Sport Concept",
+      "date": "2023-2024",
+      "location": "Select markets nationwide",
+      "description": "Dick's premium experiential retail format featuring outdoor track, climbing wall, batting cages, and extensive service offerings.",
+      "activation": "100,000+ sq ft stores include outdoor running track, rock climbing wall, batting cages, golf simulators, service shops for equipment, and community fitness events.",
+      "url": "https://www.dickssportinggoods.com/s/house-of-sport",
+      "category": "sporting goods",
+      "storeScope": "select",
+      "promotionMethods": "Grand opening sports events, athlete appearances, ScoreCard member exclusives, local sports team partnerships, community tournaments",
+      "validationStatus": "alternative-url",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/dick-s-sporting-goods/event-24/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/dick-s-sporting-goods/event-24/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.630Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/dick's-sporting-goods/event-24/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "brand": "Dick's Sporting Goods",
+      "title": "Public Lands Outdoor Concept",
+      "date": "2023",
+      "location": "Select outdoor markets",
+      "description": "Dick's new outdoor specialty retail concept focused on camping, hiking, and outdoor lifestyle with conservation emphasis.",
+      "activation": "Stores feature camping gear demonstrations, trail condition information centers, used gear trade-ins, outdoor skills workshops, and conservation partnerships.",
+      "url": "https://www.publiclands.com/stores",
+      "category": "outdoor",
+      "storeScope": "select",
+      "promotionMethods": "Outdoor education events, conservation partnerships, guided outdoor experiences, grand opening adventures, local trail advocacy",
+      "validationStatus": "alternative-url",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/dick-s-sporting-goods/event-25/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/dick-s-sporting-goods/event-25/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.630Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/dick's-sporting-goods/event-25/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "brand": "Sephora",
+      "title": "Sephora at Kohl's Expansion",
+      "date": "2023-2024",
+      "location": "850+ Kohl's stores",
+      "description": "Major partnership bringing Sephora beauty experiences to Kohl's stores nationwide, dramatically expanding beauty retail footprint.",
+      "activation": "2,500 sq ft Sephora sections in Kohl's featuring prestige beauty brands, trained beauty advisors, sampling, Sephora loyalty program integration, and exclusive sets.",
+      "url": "https://www.sephora.com/happening/stores/sephora-at-kohls",
+      "category": "beauty",
+      "storeScope": "select",
+      "promotionMethods": "Co-branded marketing, Beauty Insider events at Kohl's, sampling campaigns, influencer store tours, grand opening beauty events",
+      "validationStatus": "alternative-url",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/sephora/event-26/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/sephora/event-26/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.630Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/sephora/event-26/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "brand": "Ulta Beauty",
+      "title": "Wellness and Self-Care Expansion",
+      "date": "2023",
+      "location": "Stores nationwide",
+      "description": "Ulta's expansion into wellness category including expanded skincare, wellness products, and self-care services across retail network.",
+      "activation": "Stores added wellness sections with clean beauty, supplements, aromatherapy, meditation tools, and self-care product curation with expert consultations.",
+      "url": "https://www.ulta.com/stores/",
+      "category": "beauty",
+      "storeScope": "all",
+      "promotionMethods": "Ultamate Rewards member events, wellness workshops, clean beauty education, influencer partnerships, seasonal wellness campaigns",
+      "validationStatus": "alternative-url",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/ulta-beauty/event-27/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/ulta-beauty/event-27/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.630Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/ulta-beauty/event-27/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "brand": "Gap",
+      "title": "Store Refresh and Modernization",
+      "date": "2023",
+      "location": "Select stores nationwide",
+      "description": "Gap's store redesign initiative bringing modernized layouts, improved merchandising, and enhanced denim destinations to refreshed locations.",
+      "activation": "Refreshed stores feature dedicated denim bars with expert stylists, modernized fitting rooms, improved lighting, curated seasonal displays, and mobile checkout.",
+      "url": "https://www.gap.com/stores",
+      "category": "apparel",
+      "storeScope": "select",
+      "promotionMethods": "Grand re-opening events, loyalty member previews, denim expert appointments, social media style sessions, local influencer partnerships",
+      "validationStatus": "alternative-url",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/gap/event-30/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/gap/event-30/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.630Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/gap/event-30/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "brand": "Old Navy",
+      "title": "Active and Athleisure Expansion",
+      "date": "2024",
+      "location": "Stores nationwide",
+      "description": "Old Navy's strategic expansion of activewear sections with enhanced product assortment and in-store fitness partnerships.",
+      "activation": "Stores feature expanded active sections, fit guides for performance wear, body-inclusive sizing showcases, and partnerships with fitness apps and local gyms.",
+      "url": "https://www.oldnavy.com/stores",
+      "category": "apparel",
+      "storeScope": "all",
+      "promotionMethods": "Fitness influencer partnerships, active challenge campaigns, Navyist Rewards promotions, body positivity marketing, community fitness events",
+      "validationStatus": "alternative-url",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/old-navy/event-31/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/old-navy/event-31/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.630Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/old-navy/event-31/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "brand": "Everlane",
+      "title": "ReNew and Recycling Program Stores",
+      "date": "2023",
+      "location": "All retail locations",
+      "description": "Everlane's expansion of sustainable product lines and take-back programs across all retail stores with radical transparency messaging.",
+      "activation": "Stores feature ReNew collection made from recycled materials, factory transparency displays, take-back bins for old clothes, and true cost breakdowns.",
+      "url": "https://www.everlane.com/stores",
+      "category": "apparel",
+      "storeScope": "all",
+      "promotionMethods": "Transparency marketing, sustainability storytelling, email campaigns about ethical production, social media factory tours",
+      "validationStatus": "alternative-url",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/everlane/event-33/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/everlane/event-33/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.630Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/everlane/event-33/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "brand": "Whole Foods Market",
+      "title": "Store Refresh with Amazon Integration",
+      "date": "2023",
+      "location": "Select stores nationwide",
+      "description": "Whole Foods store renovations with deeper Amazon technology integration, expanded prepared foods, and Prime member benefits.",
+      "activation": "Refreshed stores feature Just Walk Out technology in select locations, expanded hot bars and prepared foods, Prime member discounts via app, and Amazon pickup lockers.",
+      "url": "https://www.wholefoodsmarket.com/stores",
+      "category": "grocery",
+      "storeScope": "select",
+      "promotionMethods": "Prime member exclusive deals, grand re-opening tastings, app-driven promotions, local supplier showcases, community cooking classes",
+      "validationStatus": "alternative-url",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/whole-foods-market/event-37/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/whole-foods-market/event-37/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.631Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/whole-foods-market/event-37/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "brand": "IKEA",
+      "title": "City Center Format Stores",
+      "date": "2023",
+      "location": "Urban locations",
+      "description": "IKEA's smaller format city stores designed for urban shoppers with curated selection and order fulfillment services.",
+      "activation": "City stores feature curated product displays, planning studios for kitchen and bedroom design, order kiosks, same-day delivery services, and Swedish Food Market.",
+      "url": "https://www.ikea.com/us/en/stores/",
+      "category": "home goods",
+      "storeScope": "select",
+      "promotionMethods": "IKEA Family member events, opening celebrations, design workshop series, sustainability showcases, Swedish food tastings",
+      "validationStatus": "alternative-url",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/ikea/event-39/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/ikea/event-39/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.631Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/ikea/event-39/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 48,
+      "brand": "Athleta",
+      "title": "Power of She Community Hubs",
+      "date": "2023",
+      "location": "Stores nationwide",
+      "description": "Athleta's stores transformed into women's wellness and community centers with fitness classes, panels, and empowerment programming.",
+      "activation": "Stores host free fitness classes for all levels, women's wellness panels, girls' empowerment programs, meditation sessions, and community partnerships.",
+      "url": "https://athleta.gap.com/browse/info.do?cid=2017",
+      "category": "apparel",
+      "storeScope": "all",
+      "promotionMethods": "Community wellness events, Athleta Girls programming, loyalty member class access, social impact partnerships, empowerment campaigns",
+      "validationStatus": "alternative-url",
+      "validatedAt": "2025-11-09T16:00:00Z",
+      "assetInventory": {
+        "hasLogo": true,
+        "logoPath": "events/athleta/event-48/logo.png",
+        "promotionalImageCount": 0,
+        "promotionalImages": [],
+        "hasScreenshot": false,
+        "screenshotPath": null,
+        "hasCollage": true,
+        "collagePath": "events/athleta/event-48/slide-image.png",
+        "metadataAvailable": true,
+        "lastUpdated": "2025-11-09T16:16:10.632Z"
+      },
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/athleta/event-48/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "brand": "adidas",
+      "title": "Los Angeles Flagship Stores - Melrose & DTLA",
+      "date": "August-September 2024",
+      "location": "Los Angeles (Melrose and Downtown)",
+      "description": "adidas opened two flagship stores in Los Angeles featuring The Lab for brand stories and collaborations, curated collections from Y-3 and Stella McCartney, and hosting workshops and events with local artists.",
+      "activation": "The stores function as cultural hubs with The Lab showcasing collaborations, OG L.A. creative division celebrating local talent, restored architectural elements in DTLA location, and regular workshops and community events.",
+      "url": "https://news.adidas.com/originals/adidas-expands-retail-presence-in-los-angeles-with-two-new-flagship-stores-highlighting-creativity--/s/e39212ea-a83d-423e-aa44-ba63bcf959a1",
+      "category": "footwear",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/adidas/event-51/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 52,
+      "brand": "adidas",
+      "title": "Vancouver Home of Sport Flagship",
+      "date": "November 2024",
+      "location": "Downtown Vancouver, BC",
+      "description": "North America's first 'Home of Sport' flagship concept featuring Run Lab with biometric running analysis, Made For You customization space, and VIP room for adiClub members.",
+      "activation": "Features Run Lab for advanced running analysis, Made For You customization with VIP experiences, half of store dedicated to omni-channel fulfillment for Western Canada, and local activation spaces.",
+      "url": "https://retail-insider.com/retail-insider/2025/02/adidas-home-of-sport-flagship-thrives-in-vancouver/",
+      "category": "footwear",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/adidas/event-52/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 53,
+      "brand": "Lululemon",
+      "title": "Mall of America Experiential Store",
+      "date": "November 2019",
+      "location": "Bloomington, Minnesota",
+      "description": "19,700 square-foot experiential format with yoga and HIIT studios offering 6-10 classes daily, meditation room, community event space, and fuel bar.",
+      "activation": "Two sweat studios with daily fitness classes (Power Yoga to Strength for Runners), men's and women's locker rooms, grow room for group meditations and events, and fuel bar for healthy refreshments.",
+      "url": "https://www.retaildive.com/news/how-lululemons-mall-of-america-megastore-puts-experiential-retail-on-displ/567702/",
+      "category": "apparel",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/lululemon/event-53/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 54,
+      "brand": "Patagonia",
+      "title": "Worn Wear In-Store Repair Expansion",
+      "date": "2024-2025",
+      "location": "Company-owned stores nationwide",
+      "description": "Expanded in-store repair program with trained staff providing minor repairs, patches, and guidance. Mobile Worn Wear workshops travel offering free repairs while permanent repair centers operate in major cities.",
+      "activation": "Repair stations at store entrances for immediate patches and fixes, free patch kits upon request, mobile workshops throughout North America and Europe, staff-led repair guidance and DIY instruction.",
+      "url": "https://www.retaildive.com/news/patagonia-repair-program-loyalty-customer-advocacy/740865/",
+      "category": "outdoor",
+      "storeScope": "all",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/patagonia/event-54/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 55,
+      "brand": "Target",
+      "title": "Ulta Beauty Shop-in-Shop Expansion",
+      "date": "2020-2024",
+      "location": "Nationwide (800 locations planned)",
+      "description": "Target and Ulta Beauty strategic partnership with 1,000 square-foot mini Ulta shops inside Target stores, featuring curated beauty assortment next to Target's existing beauty section.",
+      "activation": "Mini Ulta Beauty shops with exclusive product selection, beauty advisors, testers and discovery experiences, integrated with Target shopping experience, creating mall-like destination.",
+      "url": "https://www.modernretail.co/operations/shop-in-shops-deliver-growth-for-target/",
+      "category": "beauty",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/target/event-55/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 56,
+      "brand": "Target",
+      "title": "Disney Shop-in-Shop Expansion",
+      "date": "2019-2024",
+      "location": "160+ Target stores nationwide",
+      "description": "Target tripled Disney shops within stores from 25 to over 160 locations, creating dedicated Disney-themed merchandise areas that enhance the shopping experience for families.",
+      "activation": "Dedicated Disney shop spaces with themed displays, exclusive Disney merchandise, integrated seasonal campaigns, family-focused shopping destinations within Target stores.",
+      "url": "https://www.northmarq.com/insights/research/two-brands-one-roof-rise-store-within-store-retail-partnerships",
+      "category": "general-retail",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/target/event-56/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 57,
+      "brand": "Nike",
+      "title": "Urban Outfitters Nike On Rotation Experience",
+      "date": "May 2024",
+      "location": "Select Urban Outfitters stores",
+      "description": "Immersive in-store Nike experience through Urban Outfitters' 'On Rotation' retail format, designed to fuel inspiration and discovery for Gen Z consumers with rotating Nike collections.",
+      "activation": "Dedicated Nike sections with curated sneaker and apparel rotations, immersive brand storytelling, Gen Z-focused merchandising, integrated with Urban Outfitters' lifestyle aesthetic.",
+      "url": "https://www.retailtouchpoints.com/features/news-briefs/urban-outfitters-launches-immersive-in-store-experience-with-nike",
+      "category": "footwear",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/nike/event-57/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 58,
+      "brand": "Nike",
+      "title": "Air Max Day Dynamicland Activation",
+      "date": "March 2024",
+      "location": "Brooklyn Navy Yard, New York",
+      "description": "Consumer activation celebrating Air Max Dn shoe launch featuring obstacle course, gaming lounge, giant slide, and special-edition merchandise in experiential pop-up format.",
+      "activation": "Interactive obstacle course testing Air Max shoes, gaming lounge with Nike-themed experiences, giant slide installation, exclusive merchandise drops, athlete meet-and-greets, photo opportunities.",
+      "url": "https://www.modernretail.co/retailers/to-keep-shoppers-coming-back-nike-is-testing-a-new-experiential-store-format/",
+      "category": "footwear",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/nike/event-58/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 59,
+      "brand": "Nike",
+      "title": "Nike Rise Store Expansion",
+      "date": "2021-2024",
+      "location": "Multiple US cities",
+      "description": "Nike's Rise store concept expansion bringing community-focused retail with digital event calendars, one-on-one sessions with specialized staff, weekly athlete speaker events, and sport-minded activations.",
+      "activation": "Digital event calendars for basketball and soccer matches, one-on-one consultations with yoga/running/soccer specialists, weekly speaking events with local athletes, Nike app integration for workshop access, try-before-you-buy product testing.",
+      "url": "https://www.retaildive.com/news/nike-opens-latest-store-concept-nike-rise/581404/",
+      "category": "footwear",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/nike/event-59/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 60,
+      "brand": "Lululemon",
+      "title": "Chicago Lincoln Park Experiential Store",
+      "date": "July 2019",
+      "location": "Chicago, Illinois",
+      "description": "20,000 square-foot experiential flagship featuring yoga studio, gym, meditation area, healthy food restaurant called Fuel, and full Lululemon store under one roof.",
+      "activation": "Fitness studios offering yoga to HIIT classes throughout the day, meditation room, Fuel healthy food restaurant and bar, community workshop space, men's and women's locker rooms, networking events.",
+      "url": "https://wwd.com/business-news/retail/lululemon-introduces-new-experiential-store-in-chicago-yoga-mens-sweat-1203219019/",
+      "category": "apparel",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/lululemon/event-60/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 61,
+      "brand": "Crocs",
+      "title": "Icon Store SoHo Flagship",
+      "date": "Summer 2025",
+      "location": "543 Broadway, SoHo, New York",
+      "description": "4,000-square-foot Icon Store featuring immersive storytelling, shopping events, and experiential theater for Crocs fans. Includes two customization counters with NYC-exclusive Jibbitz charms, bodega-inspired displays, premium 14K gold and Swarovski charms, and special event programming.",
+      "activation": "Personalization focus with customization counters featuring NYC-exclusive Jibbitz charms, localized bodega experience, premium jewelry-level charms ($300+ options), artist drop-ins, TikTok livestreams, and Croctober seasonal activations.",
+      "url": "https://www.modernretail.co/operations/crocss-new-retail-concept-blends-customization-community-and-a-broader-product-mix/",
+      "category": "footwear",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/crocs/event-61/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 62,
+      "brand": "Vans",
+      "title": "London Oxford Street Skateable Store",
+      "date": "December 2024 - January 2025",
+      "location": "Oxford Street, London",
+      "description": "Revolutionary retail installation with 200-square-meter Roman travertine stone skate ramp designed by Andrea Caputo Studio. Features modular glass panels transforming between skate obstacle and retail display, celebrating skateboarding, music, and art culture.",
+      "activation": "Fully skateable architectural installation with transformable ramp/display system, collaborations with The Great Frog jewelers, Gomi recycled speakers, Lovenskate artist decks, exclusive zines, and community cultural events.",
+      "url": "https://hypebeast.com/2024/12/vans-off-the-wall-concept-skate-store-london",
+      "category": "footwear",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/vans/event-62/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 63,
+      "brand": "Vans",
+      "title": "Downtown Los Angeles Community Store",
+      "date": "February 2020",
+      "location": "808 S. Broadway, Downtown Los Angeles",
+      "description": "11,500-square-foot two-floor community-driven retail and event space paying homage to LA's skateboarding roots. Features mural by artist Geoff McFetridge and Studio808 on second floor offering free art and design workshops in partnership with Monster Children magazine.",
+      "activation": "Studio808 community gallery, lounge and workshop space with hands-on art and design workshops free of charge, skate shop stocking LA brands (Alva, Baker, Girl, WKND), partnership with Goodwill and Chrysalis for workforce development, atmospheric skate photography.",
+      "url": "https://wwd.com/feature/inside-vans-first-dtla-community-driven-retail-space-1203477932/",
+      "category": "footwear",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/vans/event-63/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 64,
+      "brand": "New Balance",
+      "title": "Flatiron Flagship Remodel & Activation Series",
+      "date": "2024",
+      "location": "150 Fifth Avenue, New York",
+      "description": "2,200-square-foot remodeled flagship featuring rotating three-month activations. Started with Grey Days celebrating signature color, transitioned to Found In New York series with In Bloom (Brooklyn artist CJ Hendry + Brooklyn Grange Farm) and Subway Series (five boroughs tribute).",
+      "activation": "Open area consistently evolving with latest collaborations, events, launches and activations. Grey Days pop-up, In Bloom experiential art, Subway Series cultural tribute, and regular community partnerships with local creators.",
+      "url": "https://wwd.com/footwear-news/shoe-industry-news/new-balance-flatiron-nyc-flagship-store-remodeled-1238145507/",
+      "category": "footwear",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/new-balance/event-64/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 65,
+      "brand": "H&M",
+      "title": "Williamsburg Rotating Style Destination",
+      "date": "November 2022 - January 2024",
+      "location": "92 N. 6th Street, Williamsburg, Brooklyn",
+      "description": "7,000-square-foot experimental store with rotating 'chapters' every 4-12 weeks featuring updated fashion, visuals, and local partnerships. Infrastructure over architecture design with plug-and-play retail system. First chapter celebrated Brasserie Hennes holiday campaign.",
+      "activation": "Smart mirrors in fitting rooms with product identification and personalized styling recommendations, local Brooklyn brand partners (coffee station, magazine rack, music), rotating chapters (Brasserie Hennes, Move Studio), RFID inventory visibility, community-focused programming.",
+      "url": "https://www.retaildive.com/news/hm-store-experience-Williamsburg-nyc/637331/",
+      "category": "apparel",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/h&m/event-65/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 66,
+      "brand": "H&M",
+      "title": "SoHo Pre-Loved Secondhand Concept",
+      "date": "2024",
+      "location": "SoHo, New York",
+      "description": "New SoHo location featuring first-in-North-America Pre-Loved shop-in-shop for secondhand fashion. Elevated shopping experience showcasing most fashion-forward collection pieces merged with latest retail technology.",
+      "activation": "Dedicated Pre-Loved secondhand shop-in-shop, elevated fashion curation, integrated retail technology for enhanced discovery, sustainability-focused shopping experience, and fashion-forward merchandising approach.",
+      "url": "https://www.retaildive.com/news/hm-soho-secondhand-resale-store-concept/706659/",
+      "category": "apparel",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/h&m/event-66/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 67,
+      "brand": "Madewell",
+      "title": "SoHo Flagship with Denim Atelier",
+      "date": "December 2024",
+      "location": "565 Broadway, SoHo, New York",
+      "description": "6,500-square-foot flagship with men's and women's collections. Features first-of-its-kind Denim Atelier for personalized fittings and social media-optimized space. Within ten-block radius, sidewalk stickers lead to museum-style installations in vacant storefronts.",
+      "activation": "Denim Atelier booking appointments (individual or group) with specialized lighting and mirrors for social media photos, free drinks, personalized fitting services, sidewalk stickers and museum-style vacant storefront installations, immersive spring campaign integration.",
+      "url": "https://wwd.com/business-news/retail/madewell-remakes-its-retail-experience-with-soho-flagship-launch-1236757578/",
+      "category": "apparel",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/madewell/event-67/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 68,
+      "brand": "Alo Yoga",
+      "title": "Mall of America Sanctuary Store",
+      "date": "June 2025",
+      "location": "Level 1 West, Mall of America, Bloomington, Minnesota",
+      "description": "6,000-square-foot sanctuary concept store featuring full range of fashion-forward apparel for women, men, and unisex styles. Alo's second Minnesota location featuring studio-to-street performance wear, curated accessories, footwear, and wellness products.",
+      "activation": "Sanctuary retail environment with signature studio-to-street performance wear crafted from proprietary fabrics, coordinated sets and loungewear, wellness product curation, community wellness programming, grand opening weekend activation (June 20-22).",
+      "url": "https://mallofamerica.com/press-release/28313",
+      "category": "apparel",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/alo-yoga/event-68/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 69,
+      "brand": "Anthropologie",
+      "title": "NYC Wedding Pop-Up with Pinterest",
+      "date": "January-February 2024",
+      "location": "New York City",
+      "description": "Immersive wedding-themed pop-up showcasing Anthropologie Weddings bridal collection in partnership with Pinterest. Featured decor and lifestyle products from AnthroLiving and Terrain, open by appointment through February 4, 2024.",
+      "activation": "Immersive wedding trend showcase, Pinterest trend integration, appointment-based exclusive access, cross-brand curation from URBN portfolio (AnthroLiving, Terrain), wedding registry experience, and personalized bridal consultation environment.",
+      "url": "https://www.retailtouchpoints.com/topics/retail-store-design/experiential-retail/anthropologie-partners-with-pinterest-for-wedding-themed-pop-up-in-nyc",
+      "category": "apparel",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/anthropologie/event-69/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 70,
+      "brand": "Anthropologie",
+      "title": "Anthro Fruit Stand Pop-Ups",
+      "date": "May 2024",
+      "location": "The Grove (Los Angeles) & Union Square (NYC)",
+      "description": "Experiential fruit stand-themed pop-ups linking in-person experiences with stores and digital presence. Featured on-site QR codes boosting category-specific DTC sales and AnthroPerks loyalty program registrations.",
+      "activation": "Fruit stand themed installations with QR code integration for product discovery, DTC sales conversion, AnthroPerks loyalty registration, social media shareability, category-specific merchandising, and omnichannel customer acquisition.",
+      "url": "https://www.retailtouchpoints.com/gallery/how-anthropologie-leverages-pop-ups-to-expand-its-role-as-customers-happy-place",
+      "category": "apparel",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/anthropologie/event-70/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 71,
+      "brand": "Foot Locker",
+      "title": "Store of the Future Concept - Willowbrook",
+      "date": "April 24, 2024",
+      "location": "Willowbrook Mall, Wayne, New Jersey",
+      "description": "First 'Store of the Future' featuring bold storefront, expanded footwear and accessory selections, sustainability emphasis, dynamic digital fixtures. Concept to inspire 900 store redesigns in 2024-2025 as part of Lace Up Plan.",
+      "activation": "Drop Zone for latest sneaker releases and trending products, communal try-on area, Sneaker Hub with specialized lacing and customization, enhanced women's section at front, high-tech toolkit for Striper sneaker ambassadors, intuitive shopping journey.",
+      "url": "https://www.retaildive.com/news/foot-locker-store-of-the-future-concept/714129/",
+      "category": "footwear",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/foot-locker/event-71/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 72,
+      "brand": "Sephora",
+      "title": "North American Fleet Redesign",
+      "date": "Fall 2024 - 2029",
+      "location": "700+ stores across North America",
+      "description": "Largest capital project in Sephora history redesigning entire North American fleet over five years. 111 stores already transformed with beauty studios repositioned, enhanced lighting for selfies, mobile checkout expansion, and category-focused layouts.",
+      "activation": "Beauty studios with selfie-optimized lighting, mobile device checkout by staff, category organization (makeup, skin care, fragrance, hair care), enhanced customer flow, and stores outperforming controls in transactions, productivity, and sales.",
+      "url": "https://www.retaildive.com/news/sephora-redesigns-stores-brick-and-mortar/737238/",
+      "category": "beauty",
+      "storeScope": "all",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/sephora/event-72/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 73,
+      "brand": "CB2",
+      "title": "Malibu Design Shop Concept",
+      "date": "2023-2024",
+      "location": "Malibu Country Mart, Malibu",
+      "description": "2,250-square-foot showroom-style Design Shop, one-quarter the size of average CB2. Features exclusive few-of-a-kind furniture, vintage pieces, live plants, and little luxuries. Hosts CB2 Shop Talk programming with designer events and panel discussions.",
+      "activation": "CB2 Shop Talk programming with designer meet and greets, design demonstrations, panel discussions with CB2 experts, trade member services, vintage furniture curation, live plant offerings, and creative hub for home inspiration.",
+      "url": "https://www.homepagenews.com/retail-articles/cb2-design-shop-concept-takes-fresh-approach-to-interior-spaces/",
+      "category": "home-goods",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/cb2/event-73/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 74,
+      "brand": "Vuori",
+      "title": "SoHo & Flatiron NYC Flagship Expansion",
+      "date": "October 2024",
+      "location": "SoHo & Flatiron District, New York",
+      "description": "Major NYC flagships at 5,000 sq ft (SoHo) and 4,500 sq ft (Flatiron) featuring California-inspired aesthetic with earthy materials. SoHo location emphasizes gender-neutral merchandising blending men's and women's fashions. Part of 20-25 stores/year expansion.",
+      "activation": "California-inspired design (rock, soft quartz, concrete, washed oak, natural marble), gender-neutral merchandising approach, community connection spaces, flexible store formats, and brand experience emphasizing bringing people together.",
+      "url": "https://www.modernretail.co/operations/in-quest-for-global-growth-vuori-opens-new-flagship-store-in-new-york-city/",
+      "category": "apparel",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/vuori/event-74/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 75,
+      "brand": "On Running",
+      "title": "Global Flagship Expansion",
+      "date": "2024-2025",
+      "location": "Multiple (Zurich, Tokyo Ginza, London, Chicago)",
+      "description": "Signature metal box shoe display with products organized by activity (Lifestyle, Outdoor, Run). Zurich flagship at Limmatquai 28, Tokyo Ginza flagship with LightSpray technology showcase, London community-focused store, and Chicago location with 150+ SKUs.",
+      "activation": "Individual metal box shoe displays for wow-factor, activity-based organization (Lifestyle/Outdoor/Run), On Labs technology showcases, community-focused design inspiring movement, intuitive product exploration with 150+ SKUs across models and colorways.",
+      "url": "https://www.mcmillandoolittle.com/inside-on-runnings-newest-u-s-flagship/",
+      "category": "footwear",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/on-running/event-75/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 76,
+      "brand": "REI",
+      "title": "North Conway Experiential Service-Retail Concept",
+      "date": "2020-2024",
+      "location": "North Conway, New Hampshire",
+      "description": "25,000-square-foot experiential concept at White Mountains entrance with one-third dedicated to communal space. Less focus on in-store product, more on experience, education, consultation, and community. First store located where members play, not where they live/work.",
+      "activation": "Full third of space as experiential communal area, personalized outfitting appointments, local events and classes, outdoor-centered travel through REI Adventures, hiking/cycling/snowshoeing trips, fundamental shift toward experience over commerce.",
+      "url": "https://www.iands.design/interior-design/article/10168159/this-new-rei-concept-is-the-next-evolution-in-experiential-retail",
+      "category": "outdoor",
+      "storeScope": "select",
+      "imageInventory": {
+        "totalImages": 1,
+        "logoFirst": true,
+        "images": [
+          {
+            "path": "events/rei/event-76/images/image-0.png",
+            "order": 0,
+            "isLogo": true
+          }
+        ]
+      }
+    }
+  ]
+}

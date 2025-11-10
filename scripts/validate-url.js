@@ -15,10 +15,15 @@
  *   node scripts/validate-url.js --json events/details.json
  */
 
-const https = require('https');
-const http = require('http');
-const { URL } = require('url');
-const fs = require('fs');
+import https from 'https';
+import http from 'http';
+import { URL } from 'url';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Paywall and region block detection patterns
 const PAYWALL_INDICATORS = [
@@ -366,11 +371,11 @@ async function main() {
   process.exit(failed > 0 ? 1 : 0);
 }
 
-if (require.main === module) {
+if (import.meta.url === `file://${process.argv[1]}`) {
   main().catch(error => {
     console.error('Fatal error:', error);
     process.exit(1);
   });
 }
 
-module.exports = { validateUrl, validateBatch, validateFromJson };
+export { validateUrl, validateBatch, validateFromJson };

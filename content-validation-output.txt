@@ -1,0 +1,272 @@
+================================================================================
+CONTENT RELEVANCE VALIDATION
+================================================================================
+
+Analyzing content for 50 events...
+This will take several minutes due to full page downloads.
+
+[1/50] Nike - Nike Rise Store Concept... ✗ Insufficient keyword matches
+[2/50] Nike - Nike By You Customization Expansion... ✗ Insufficient keyword matches
+[3/50] Nike - Nike Community Stores Initiative... ✗ Insufficient keyword matches
+[4/50] On Running - New York Flagship Store Opening... ✗ Insufficient keyword matches
+[5/50] On Running - Retail Expansion 2024... ✗ Insufficient keyword matches
+[6/50] Patagonia - Worn Wear In-Store Program... ✗ Insufficient keyword matches
+[7/50] Patagonia - Action Works Community Hub... ✗ Insufficient keyword matches
+[8/50] Target - Store Refresh Initiative... ✗ Insufficient keyword matches
+[9/50] Target - Small Format Store Expansion... ✗ Insufficient keyword matches
+[10/50] Target - Ulta Beauty Shop-in-Shop Expansion... ✗ Insufficient keyword matches
+[11/50] Zara - Tech-Enabled Store Concept... ✗ Insufficient keyword matches
+[12/50] Zara - Fifth Avenue Flagship Reimagined... ✗ Insufficient keyword matches
+[13/50] Allbirds - Retail Store Expansion... ✗ Contains error/404/generic content
+[14/50] Apple - Today at Apple Creative Sessions Expansi... ✓ Relevant (score: 147)
+[15/50] Dick's Sporting Goods - House of Sport Concept... ✗ Contains error/404/generic content
+[16/50] Dick's Sporting Goods - Public Lands Outdoor Concept... ✗ Insufficient keyword matches
+[17/50] Sephora - Sephora at Kohl's Expansion... ✗ Redirected to news/press archive
+[18/50] Ulta Beauty - Wellness and Self-Care Expansion... ✗ Insufficient keyword matches
+[19/50] Gap - Store Refresh and Modernization... ✗ Insufficient keyword matches
+[20/50] Old Navy - Active and Athleisure Expansion... ✗ Insufficient keyword matches
+[21/50] Everlane - ReNew and Recycling Program Stores... ✗ Insufficient keyword matches
+[22/50] Whole Foods Market - Store Refresh with Amazon Integration... ✓ Relevant (score: 25)
+[23/50] IKEA - City Center Format Stores... ✓ Relevant (score: 121)
+[24/50] Athleta - Power of She Community Hubs... ✗ Insufficient keyword matches
+[25/50] adidas - Los Angeles Flagship Stores - Melrose & ... ✗ Error: getaddrinfo ENOTFOUND news.adidas.com
+[26/50] adidas - Vancouver Home of Sport Flagship... ✓ Relevant (score: 141)
+[27/50] Lululemon - Mall of America Experiential Store... ✗ Contains error/404/generic content
+[28/50] Patagonia - Worn Wear In-Store Repair Expansion... ✗ Contains error/404/generic content
+[29/50] Target - Ulta Beauty Shop-in-Shop Expansion... ✗ Contains error/404/generic content
+[30/50] Target - Disney Shop-in-Shop Expansion... ✓ Relevant (score: 114)
+[31/50] Nike - Urban Outfitters Nike On Rotation Experi... ✓ Relevant (score: 85)
+[32/50] Nike - Air Max Day Dynamicland Activation... ✗ Contains error/404/generic content
+[33/50] Nike - Nike Rise Store Expansion... ✗ Contains error/404/generic content
+[34/50] Lululemon - Chicago Lincoln Park Experiential Store... ✓ Relevant (score: 67)
+[35/50] Crocs - Icon Store SoHo Flagship... ✗ Contains error/404/generic content
+[36/50] Vans - London Oxford Street Skateable Store... ✗ Contains error/404/generic content
+[37/50] Vans - Downtown Los Angeles Community Store... ✗ Insufficient keyword matches
+[38/50] New Balance - Flatiron Flagship Remodel & Activation S... ✓ Relevant (score: 74)
+[39/50] H&M - Williamsburg Rotating Style Destination... ✗ Contains error/404/generic content
+[40/50] H&M - SoHo Pre-Loved Secondhand Concept... ✗ Contains error/404/generic content
+[41/50] Madewell - SoHo Flagship with Denim Atelier... ✓ Relevant (score: 138)
+[42/50] Alo Yoga - Mall of America Sanctuary Store... ✓ Relevant (score: 116)
+[43/50] Anthropologie - NYC Wedding Pop-Up with Pinterest... ✓ Relevant (score: 52)
+[44/50] Anthropologie - Anthro Fruit Stand Pop-Ups... ✗ Contains error/404/generic content
+[45/50] Foot Locker - Store of the Future Concept - Willowbroo... ✗ Contains error/404/generic content
+[46/50] Sephora - North American Fleet Redesign... ✗ Contains error/404/generic content
+[47/50] CB2 - Malibu Design Shop Concept... ✓ Relevant (score: 54)
+[48/50] Vuori - SoHo & Flatiron NYC Flagship Expansion... ✗ Contains error/404/generic content
+[49/50] On Running - Global Flagship Expansion... ✓ Relevant (score: 43)
+[50/50] REI - North Conway Experiential Service-Retail... ✗ Insufficient keyword matches
+
+================================================================================
+SUMMARY
+================================================================================
+✓ Relevant: 13
+✗ Irrelevant: 37
+
+IRRELEVANT/PROBLEMATIC EVENTS:
+
+[1] Nike - Nike Rise Store Concept
+    URL: https://news.nike.com/news/nike-rise-concept-stores
+    Redirected to: https://about.nike.com/en/newsroom
+    Reason: Insufficient keyword matches
+    Match score: 0 (brand:0, title:0, location:0)
+
+[2] Nike - Nike By You Customization Expansion
+    URL: https://news.nike.com/news/nike-by-you-customization-expansion
+    Redirected to: https://about.nike.com/en/newsroom
+    Reason: Insufficient keyword matches
+    Match score: 0 (brand:0, title:0, location:0)
+
+[3] Nike - Nike Community Stores Initiative
+    URL: https://news.nike.com/news/nike-community-stores-2023
+    Redirected to: https://about.nike.com/en/newsroom
+    Reason: Insufficient keyword matches
+    Match score: 0 (brand:0, title:0, location:0)
+
+[4] On Running - New York Flagship Store Opening
+    URL: https://www.on-running.com/en-us/articles/new-york-flagship-store
+    Redirected to: https://www.on.com/en-us/articles/new-york-flagship-store
+    Reason: Insufficient keyword matches
+    Match score: 0 (brand:0, title:0, location:0)
+
+[5] On Running - Retail Expansion 2024
+    URL: https://www.on-running.com/en-us/articles/retail-expansion-2024
+    Redirected to: https://www.on.com/en-us/articles/retail-expansion-2024
+    Reason: Insufficient keyword matches
+    Match score: 0 (brand:0, title:0, location:0)
+
+[6] Patagonia - Worn Wear In-Store Program
+    URL: https://www.patagonia.com/stories/new-york-store-opening-2023/story-123456.html
+    Reason: Insufficient keyword matches
+    Match score: 6 (brand:3, title:0, location:3)
+
+[7] Patagonia - Action Works Community Hub
+    URL: https://www.patagonia.com/on/demandware.store/Sites-patagonia-Site/en_US/Page-Show?cid=store-locations
+    Reason: Insufficient keyword matches
+    Match score: 3 (brand:3, title:0, location:0)
+
+[8] Target - Store Refresh Initiative
+    URL: https://corporate.target.com/press/releases/2023/09/target-unveils-refreshed-stores-nationwide
+    Redirected to: /press/release/2023/09/target-unveils-refreshed-stores-nationwide
+    Reason: Insufficient keyword matches
+    Match score: 0 (brand:0, title:0, location:0)
+
+[9] Target - Small Format Store Expansion
+    URL: https://corporate.target.com/press/releases/2024/01/target-opens-small-format-stores
+    Redirected to: /press/release/2024/01/target-opens-small-format-stores
+    Reason: Insufficient keyword matches
+    Match score: 0 (brand:0, title:0, location:0)
+
+[10] Target - Ulta Beauty Shop-in-Shop Expansion
+    URL: https://corporate.target.com/press/releases/2023/11/target-ulta-beauty-expansion
+    Redirected to: /press/release/2023/11/target-ulta-beauty-expansion
+    Reason: Insufficient keyword matches
+    Match score: 0 (brand:0, title:0, location:0)
+
+[11] Zara - Tech-Enabled Store Concept
+    URL: https://www.inditex.com/itxcomweb/en/media/news/zara-tech-enabled-stores-expansion
+    Redirected to: /itxcomweb/us/en/media/news/zara-tech-enabled-stores-expansion
+    Reason: Insufficient keyword matches
+    Match score: 3 (brand:1, title:2, location:0)
+
+[12] Zara - Fifth Avenue Flagship Reimagined
+    URL: https://www.inditex.com/itxcomweb/en/media/news/zara-flagship-opening-new-york-2023
+    Redirected to: /itxcomweb/us/en/media/news/zara-flagship-opening-new-york-2023
+    Reason: Insufficient keyword matches
+    Match score: 3 (brand:1, title:1, location:1)
+
+[19] Allbirds - Retail Store Expansion
+    URL: https://www.allbirds.com/pages/stores
+    Reason: Contains error/404/generic content
+    Match score: 204 (brand:187, title:17, location:0)
+
+[24] Dick's Sporting Goods - House of Sport Concept
+    URL: https://www.dickssportinggoods.com/s/house-of-sport
+    Reason: Contains error/404/generic content
+    Match score: 0 (brand:0, title:0, location:0)
+
+[25] Dick's Sporting Goods - Public Lands Outdoor Concept
+    URL: https://www.publiclands.com/stores
+    Reason: Insufficient keyword matches
+    Match score: 2 (brand:0, title:2, location:0)
+
+[26] Sephora - Sephora at Kohl's Expansion
+    URL: https://www.sephora.com/happening/stores/sephora-at-kohls
+    Redirected to: /happening/error
+    Reason: Redirected to news/press archive
+    Match score: 0 (brand:0, title:0, location:0)
+
+[27] Ulta Beauty - Wellness and Self-Care Expansion
+    URL: https://www.ulta.com/stores/
+    Redirected to: https://www.ulta.com/stores
+    Reason: Insufficient keyword matches
+    Match score: 0 (brand:0, title:0, location:0)
+
+[30] Gap - Store Refresh and Modernization
+    URL: https://www.gap.com/stores
+    Redirected to: https://www.gap.com/stores?cookieInitializationAttempted=true
+    Reason: Insufficient keyword matches
+    Match score: 2 (brand:1, title:0, location:1)
+
+[31] Old Navy - Active and Athleisure Expansion
+    URL: https://www.oldnavy.com/stores
+    Redirected to: https://oldnavy.gap.com/stores
+    Reason: Insufficient keyword matches
+    Match score: 0 (brand:0, title:0, location:0)
+
+[33] Everlane - ReNew and Recycling Program Stores
+    URL: https://www.everlane.com/stores
+    Redirected to: https://blog.everlane.com/stores
+    Reason: Insufficient keyword matches
+    Match score: 0 (brand:0, title:0, location:0)
+
+[48] Athleta - Power of She Community Hubs
+    URL: https://athleta.gap.com/browse/info.do?cid=2017
+    Redirected to: https://athleta.gap.com/browse/info.do?cid=2017&cookieInitializationAttempted=true
+    Reason: Insufficient keyword matches
+    Match score: 1 (brand:1, title:0, location:0)
+
+[51] adidas - Los Angeles Flagship Stores - Melrose & DTLA
+    URL: https://news.adidas.com/originals/adidas-expands-retail-presence-in-los-angeles-with-two-new-flagship-stores-highlighting-creativity--/s/e39212ea-a83d-423e-aa44-ba63bcf959a1
+    Reason: Failed to fetch content
+
+[53] Lululemon - Mall of America Experiential Store
+    URL: https://www.retaildive.com/news/how-lululemons-mall-of-america-megastore-puts-experiential-retail-on-displ/567702/
+    Reason: Contains error/404/generic content
+    Match score: 76 (brand:17, title:58, location:1)
+
+[54] Patagonia - Worn Wear In-Store Repair Expansion
+    URL: https://www.retaildive.com/news/patagonia-repair-program-loyalty-customer-advocacy/740865/
+    Reason: Contains error/404/generic content
+    Match score: 69 (brand:25, title:20, location:24)
+
+[55] Target - Ulta Beauty Shop-in-Shop Expansion
+    URL: https://www.modernretail.co/operations/shop-in-shops-deliver-growth-for-target/
+    Reason: Contains error/404/generic content
+    Match score: 52 (brand:27, title:25, location:0)
+
+[58] Nike - Air Max Day Dynamicland Activation
+    URL: https://www.modernretail.co/retailers/to-keep-shoppers-coming-back-nike-is-testing-a-new-experiential-store-format/
+    Reason: Contains error/404/generic content
+    Match score: 40 (brand:39, title:0, location:1)
+
+[59] Nike - Nike Rise Store Expansion
+    URL: https://www.retaildive.com/news/nike-opens-latest-store-concept-nike-rise/581404/
+    Reason: Contains error/404/generic content
+    Match score: 80 (brand:31, title:49, location:0)
+
+[61] Crocs - Icon Store SoHo Flagship
+    URL: https://www.modernretail.co/operations/crocss-new-retail-concept-blends-customization-community-and-a-broader-product-mix/
+    Reason: Contains error/404/generic content
+    Match score: 69 (brand:27, title:30, location:12)
+
+[62] Vans - London Oxford Street Skateable Store
+    URL: https://hypebeast.com/2024/12/vans-off-the-wall-concept-skate-store-london
+    Reason: Contains error/404/generic content
+    Match score: 57 (brand:21, title:26, location:10)
+
+[63] Vans - Downtown Los Angeles Community Store
+    URL: https://wwd.com/feature/inside-vans-first-dtla-community-driven-retail-space-1203477932/
+    Redirected to: https://wwd.com/business-news/retail/feature/inside-vans-first-dtla-community-driven-retail-space-1203477932/
+    Reason: Insufficient keyword matches
+    Match score: 0 (brand:0, title:0, location:0)
+
+[65] H&M - Williamsburg Rotating Style Destination
+    URL: https://www.retaildive.com/news/hm-store-experience-Williamsburg-nyc/637331/
+    Reason: Contains error/404/generic content
+    Match score: 33 (brand:10, title:12, location:11)
+
+[66] H&M - SoHo Pre-Loved Secondhand Concept
+    URL: https://www.retaildive.com/news/hm-soho-secondhand-resale-store-concept/706659/
+    Reason: Contains error/404/generic content
+    Match score: 64 (brand:23, title:26, location:15)
+
+[70] Anthropologie - Anthro Fruit Stand Pop-Ups
+    URL: https://www.retailtouchpoints.com/gallery/how-anthropologie-leverages-pop-ups-to-expand-its-role-as-customers-happy-place
+    Reason: Contains error/404/generic content
+    Match score: 22 (brand:11, title:6, location:5)
+
+[71] Foot Locker - Store of the Future Concept - Willowbrook
+    URL: https://www.retaildive.com/news/foot-locker-store-of-the-future-concept/714129/
+    Reason: Contains error/404/generic content
+    Match score: 121 (brand:55, title:47, location:19)
+
+[72] Sephora - North American Fleet Redesign
+    URL: https://www.retaildive.com/news/sephora-redesigns-stores-brick-and-mortar/737238/
+    Reason: Contains error/404/generic content
+    Match score: 55 (brand:14, title:17, location:24)
+
+[74] Vuori - SoHo & Flatiron NYC Flagship Expansion
+    URL: https://www.modernretail.co/operations/in-quest-for-global-growth-vuori-opens-new-flagship-store-in-new-york-city/
+    Reason: Contains error/404/generic content
+    Match score: 33 (brand:18, title:6, location:9)
+
+[76] REI - North Conway Experiential Service-Retail Concept
+    URL: https://www.iands.design/interior-design/article/10168159/this-new-rei-concept-is-the-next-evolution-in-experiential-retail
+    Redirected to: /design-innovation/article/10168159/this-new-rei-concept-is-the-next-evolution-in-experiential-retail
+    Reason: Insufficient keyword matches
+    Match score: 0 (brand:0, title:0, location:0)
+
+Results saved to: content-validation-results.json
+
+Event IDs to remove saved to: events-to-remove.json
+Need to add 37 replacement events to reach 50 total.

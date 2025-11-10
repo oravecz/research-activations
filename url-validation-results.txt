@@ -1,0 +1,85 @@
+Validating 50 event URLs from events/details.json...
+[1/50] Validating: Nike - Nike Rise Store Concept
+  URL: https://news.nike.com/news/nike-rise-concept-stores
+[2/50] Validating: Nike - Nike By You Customization Expansion
+  URL: https://news.nike.com/news/nike-by-you-customization-expansion
+[3/50] Validating: Nike - Nike Community Stores Initiative
+  URL: https://news.nike.com/news/nike-community-stores-2023
+[4/50] Validating: On Running - New York Flagship Store Opening
+  URL: https://www.on-running.com/en-us/articles/new-york-flagship-store
+[5/50] Validating: On Running - Retail Expansion 2024
+  URL: https://www.on-running.com/en-us/articles/retail-expansion-2024
+[6/50] Validating: Patagonia - Worn Wear In-Store Program
+  URL: https://www.patagonia.com/stories/new-york-store-opening-2023/story-123456.html
+[7/50] Validating: Patagonia - Action Works Community Hub
+  URL: https://www.patagonia.com/on/demandware.store/Sites-patagonia-Site/en_US/Page-Show?cid=store-locations
+[8/50] Validating: Target - Store Refresh Initiative
+  URL: https://corporate.target.com/press/releases/2023/09/target-unveils-refreshed-stores-nationwide
+[9/50] Validating: Target - Small Format Store Expansion
+  URL: https://corporate.target.com/press/releases/2024/01/target-opens-small-format-stores
+[10/50] Validating: Target - Ulta Beauty Shop-in-Shop Expansion
+  URL: https://corporate.target.com/press/releases/2023/11/target-ulta-beauty-expansion
+[11/50] Validating: Zara - Tech-Enabled Store Concept
+  URL: https://www.inditex.com/itxcomweb/en/media/news/zara-tech-enabled-stores-expansion
+[12/50] Validating: Zara - Fifth Avenue Flagship Reimagined
+  URL: https://www.inditex.com/itxcomweb/en/media/news/zara-flagship-opening-new-york-2023
+[13/50] Validating: adidas - NYC Flagship on Fifth Avenue
+  URL: https://news.adidas.com/running/adidas-opens-new-nyc-flagship-on-fifth-avenue/s/d949222d-7a0a-4aec-9f0c-901711e038c5
+[14/50] Validating: adidas - Confirmed App Store Experiences
+  URL: https://news.adidas.com/originals/adidas-confirms-originals-store/s/b3a489ff-f36c-4a0b-8a5f-e90f60f9daa8
+[15/50] Validating: Foot Locker - Store of the Future Concept
+  URL: https://www.footlocker-inc.com/newsroom/news/store-of-the-future
+[16/50] Validating: Foot Locker - Power Store Concept Expansion
+  URL: https://www.footlocker-inc.com/newsroom/news/power-store-expansion
+[17/50] Validating: Crocs - Experiential Flagship Stores
+  URL: https://www.crocs.com/store-locator.html
+[18/50] Validating: New Balance - Experience Store Concept
+  URL: https://www.newbalance.com/stores/
+[19/50] Validating: Allbirds - Retail Store Expansion
+  URL: https://www.allbirds.com/pages/stores
+[20/50] Validating: Lululemon - Experiential Store Format
+  URL: https://shop.lululemon.com/stores/us
+[21/50] Validating: REI - Adventure Centers
+  URL: https://www.rei.com/stores
+[22/50] Validating: Apple - Today at Apple Creative Sessions Expansion
+  URL: https://www.apple.com/today/
+[23/50] Validating: Warby Parker - Retail Store Expansion 2023
+  URL: https://www.warbyparker.com/retail-locations
+[24/50] Validating: Dick's Sporting Goods - House of Sport Concept
+  URL: https://www.dickssportinggoods.com/s/house-of-sport
+[25/50] Validating: Dick's Sporting Goods - Public Lands Outdoor Concept
+  URL: https://www.publiclands.com/stores
+[26/50] Validating: Sephora - Sephora at Kohl's Expansion
+  URL: https://www.sephora.com/happening/stores/sephora-at-kohls
+[27/50] Validating: Ulta Beauty - Wellness and Self-Care Expansion
+  URL: https://www.ulta.com/stores/
+[28/50] Validating: Anthropologie - Weddings and Events Expansion
+  URL: https://www.anthropologie.com/weddings
+[29/50] Validating: Urban Outfitters - Space Ninety 8 Experiential Format
+  URL: https://www.urbanoutfitters.com/stores
+[30/50] Validating: Gap - Store Refresh and Modernization
+  URL: https://www.gap.com/stores
+[31/50] Validating: Old Navy - Active and Athleisure Expansion
+  URL: https://www.oldnavy.com/stores
+[32/50] Validating: H&M - Take Care In-Store Services
+  URL: https://www2.hm.com/en_us/customer-service/shopping-at-hm/store-services.html
+[33/50] Validating: Everlane - ReNew and Recycling Program Stores
+  URL: https://www.everlane.com/stores
+[34/50] Validating: Madewell - Denim Recycling and Trade-In
+  URL: https://www.madewell.com/do-well.html
+[35/50] Validating: Nordstrom - Nordstrom Local Service Hubs
+  URL: https://www.nordstrom.com/browse/nordstrom-local
+[36/50] Validating: Best Buy - Tech Support and Services Expansion
+  URL: https://www.bestbuy.com/site/store-locator
+[37/50] Validating: Whole Foods Market - Store Refresh with Amazon Integration
+  URL: https://www.wholefoodsmarket.com/stores
+[38/50] Validating: Trader Joe's - New Store Opening Strategy 2023-2024
+  URL: https://www.traderjoes.com/home/stores
+[39/50] Validating: IKEA - City Center Format Stores
+  URL: https://www.ikea.com/us/en/stores/
+[40/50] Validating: West Elm - Design Services Expansion
+  URL: https://www.westelm.com/customer-service/store-locations/
+[41/50] Validating: CB2 - Modern Design Studio Concept
+  URL: https://www.cb2.com/stores/
+[42/50] Validating: Williams Sonoma - Culinary Technique Classes
+  URL: https://www.williams-sonoma.com/customer-service/store-locations/
