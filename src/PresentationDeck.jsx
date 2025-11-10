@@ -153,15 +153,15 @@ const PresentationDeck = () => {
         <div className="max-w-7xl mx-auto p-8 h-full">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 h-full">
             {/* Visual Asset Section - Left Side */}
-            <div className="flex flex-col">
+            <div className="flex flex-col h-full">
               {hasImageInventory ? (
                 // Use Masonry grid if images are available
-                <div className="bg-gray-50 rounded-lg overflow-hidden shadow-lg h-full">
+                <div className="bg-gray-50 rounded-lg overflow-hidden shadow-lg h-full flex flex-col">
                   <MasonryImageGrid images={event.imageInventory.images} basePath={basePath} />
                 </div>
               ) : (
                 // Fallback to single image display
-                <div className="bg-gray-100 rounded-lg overflow-hidden shadow-lg">
+                <div className="bg-gray-100 rounded-lg overflow-hidden shadow-lg h-full flex items-center justify-center">
                   <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
                     {!imageErrors[event.id] ? (
                       <>
@@ -200,63 +200,67 @@ const PresentationDeck = () => {
             </div>
 
             {/* Content Section - Right Side */}
-          <div className="flex flex-col overflow-y-auto">
-            <div className="flex justify-between items-start mb-6">
+          <div className="flex flex-col h-full">
+            {/* Fixed Header */}
+            <div className="flex justify-between items-start mb-4 flex-shrink-0">
               <div className="flex-1">
                 <h2 className="text-4xl font-bold text-gray-900 mb-2">{event.brand}</h2>
-                <h3 className="text-2xl text-gray-700 mb-4">{event.title}</h3>
+                <h3 className="text-2xl text-gray-700">{event.title}</h3>
               </div>
               <span className="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold whitespace-nowrap ml-4">
                 {event.category}
               </span>
             </div>
 
-            <div className="grid grid-cols-2 gap-4 mb-6 text-sm">
-              <div>
-                <span className="font-semibold text-gray-600 block mb-1">Date:</span>
-                <p className="text-gray-900">{event.date}</p>
+            {/* Scrollable Content */}
+            <div className="flex-1 overflow-y-auto">
+              <div className="grid grid-cols-2 gap-4 mb-6 text-sm">
+                <div>
+                  <span className="font-semibold text-gray-600 block mb-1">Date:</span>
+                  <p className="text-gray-900">{event.date}</p>
+                </div>
+                <div>
+                  <span className="font-semibold text-gray-600 block mb-1">Location:</span>
+                  <p className="text-gray-900">{event.location}</p>
+                </div>
+                <div>
+                  <span className="font-semibold text-gray-600 block mb-1">Store Scope:</span>
+                  <p className="text-gray-900 capitalize">{event.storeScope || 'Multiple'}</p>
+                </div>
+                <div>
+                  <span className="font-semibold text-gray-600 block mb-1">Event ID:</span>
+                  <p className="text-gray-900">#{event.id}</p>
+                </div>
               </div>
-              <div>
-                <span className="font-semibold text-gray-600 block mb-1">Location:</span>
-                <p className="text-gray-900">{event.location}</p>
-              </div>
-              <div>
-                <span className="font-semibold text-gray-600 block mb-1">Store Scope:</span>
-                <p className="text-gray-900 capitalize">{event.storeScope || 'Multiple'}</p>
-              </div>
-              <div>
-                <span className="font-semibold text-gray-600 block mb-1">Event ID:</span>
-                <p className="text-gray-900">#{event.id}</p>
-              </div>
-            </div>
 
-            <div className="mb-6">
-              <h4 className="font-semibold text-gray-700 mb-2 text-lg">Event Description</h4>
-              <p className="text-gray-800 leading-relaxed">{event.description}</p>
-            </div>
-
-            <div className="mb-6">
-              <h4 className="font-semibold text-gray-700 mb-2 text-lg">Brand Activation Details</h4>
-              <p className="text-gray-800 leading-relaxed">{event.activation}</p>
-            </div>
-
-            {event.promotionMethods && (
               <div className="mb-6">
-                <h4 className="font-semibold text-gray-700 mb-2 text-lg">Promotion Methods</h4>
-                <p className="text-gray-800 leading-relaxed">{event.promotionMethods}</p>
+                <h4 className="font-semibold text-gray-700 mb-2 text-lg">Event Description</h4>
+                <p className="text-gray-800 leading-relaxed">{event.description}</p>
               </div>
-            )}
 
-            <div className="mt-auto pt-6 border-t border-gray-200">
-              <a
-                href={event.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium transition-colors"
-              >
-                <ExternalLink className="w-4 h-4 mr-2" />
-                View Source Article
-              </a>
+              <div className="mb-6">
+                <h4 className="font-semibold text-gray-700 mb-2 text-lg">Brand Activation Details</h4>
+                <p className="text-gray-800 leading-relaxed">{event.activation}</p>
+              </div>
+
+              {event.promotionMethods && (
+                <div className="mb-6">
+                  <h4 className="font-semibold text-gray-700 mb-2 text-lg">Promotion Methods</h4>
+                  <p className="text-gray-800 leading-relaxed">{event.promotionMethods}</p>
+                </div>
+              )}
+
+              <div className="pt-6 border-t border-gray-200">
+                <a
+                  href={event.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium transition-colors"
+                >
+                  <ExternalLink className="w-4 h-4 mr-2" />
+                  View Source Article
+                </a>
+              </div>
             </div>
           </div>
         </div>
