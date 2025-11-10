@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, ExternalLink } from 'lucide-react';
-import MasonryImageGrid from './MasonryImageGrid';
+import PhotoAlbumGrid from './PhotoAlbumGrid';
 
 const PresentationDeck = () => {
   const [events, setEvents] = useState([]);
@@ -113,26 +113,21 @@ const PresentationDeck = () => {
   }
 
   const TitleSlide = () => {
-    const footwearCount = events.filter(e => e.category === 'footwear').length;
-    const footwearPercentage = Math.round((footwearCount / events.length) * 100);
+    const categoryCount = new Set(events.map(e => e.category).filter(Boolean)).size;
 
     return (
       <div className="h-full flex flex-col justify-center items-center bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white p-12">
         <h1 className="text-6xl font-bold mb-6 text-center">Brand Activation Research</h1>
         <h2 className="text-4xl font-light mb-8 text-center">US Retail Store-Level Activations</h2>
         <div className="text-xl text-gray-300 mb-8">2023 - 2025</div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center mt-8">
           <div>
             <div className="text-5xl font-bold text-blue-400">{events.length}</div>
             <div className="text-lg text-gray-400 mt-2">Total Events</div>
           </div>
           <div>
-            <div className="text-5xl font-bold text-green-400">{footwearCount}</div>
-            <div className="text-lg text-gray-400 mt-2">Footwear Brands</div>
-          </div>
-          <div>
-            <div className="text-5xl font-bold text-purple-400">{footwearPercentage}%</div>
-            <div className="text-lg text-gray-400 mt-2">Footwear Focus</div>
+            <div className="text-5xl font-bold text-green-400">{categoryCount}</div>
+            <div className="text-lg text-gray-400 mt-2">Categories</div>
           </div>
         </div>
         <div className="text-sm text-gray-500 mt-12">
@@ -149,15 +144,15 @@ const PresentationDeck = () => {
     const hasImageInventory = event.imageInventory && event.imageInventory.images && event.imageInventory.images.length > 0;
 
     return (
-      <div className="h-full bg-white">
-        <div className="max-w-7xl mx-auto p-8 h-full">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 h-full">
+      <div className="h-full bg-white overflow-hidden">
+        <div className="max-w-7xl mx-auto p-8 h-full flex flex-col">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 flex-1 min-h-0">
             {/* Visual Asset Section - Left Side */}
-            <div className="flex flex-col h-full">
+            <div className="flex flex-col min-h-0">
               {hasImageInventory ? (
-                // Use Masonry grid if images are available
-                <div className="bg-gray-50 rounded-lg overflow-hidden shadow-lg h-full flex flex-col">
-                  <MasonryImageGrid images={event.imageInventory.images} basePath={basePath} />
+                // Use Photo Album grid with lightbox if images are available
+                <div className="bg-gray-50 rounded-lg overflow-hidden shadow-lg h-full">
+                  <PhotoAlbumGrid images={event.imageInventory.images} basePath={basePath} />
                 </div>
               ) : (
                 // Fallback to single image display
@@ -200,7 +195,7 @@ const PresentationDeck = () => {
             </div>
 
             {/* Content Section - Right Side */}
-          <div className="flex flex-col h-full">
+          <div className="flex flex-col min-h-0 bg-white">
             {/* Fixed Header */}
             <div className="flex justify-between items-start mb-4 flex-shrink-0">
               <div className="flex-1">
@@ -213,7 +208,7 @@ const PresentationDeck = () => {
             </div>
 
             {/* Scrollable Content */}
-            <div className="flex-1 overflow-y-auto">
+            <div className="flex-1 overflow-y-auto min-h-0 bg-white">
               <div className="grid grid-cols-2 gap-4 mb-6 text-sm">
                 <div>
                   <span className="font-semibold text-gray-600 block mb-1">Date:</span>
@@ -250,7 +245,7 @@ const PresentationDeck = () => {
                 </div>
               )}
 
-              <div className="pt-6 border-t border-gray-200">
+              <div className="pt-6 border-t border-gray-200 pb-4">
                 <a
                   href={event.url}
                   target="_blank"
