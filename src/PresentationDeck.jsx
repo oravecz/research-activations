@@ -149,9 +149,9 @@ const PresentationDeck = () => {
     const hasImageInventory = event.imageInventory && event.imageInventory.images && event.imageInventory.images.length > 0;
 
     return (
-      <div className="h-full bg-white overflow-y-auto">
-        <div className="max-w-7xl mx-auto p-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div className="h-full bg-white">
+        <div className="max-w-7xl mx-auto p-8 h-full">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 h-full">
             {/* Visual Asset Section - Left Side */}
             <div className="flex flex-col">
               {hasImageInventory ? (
@@ -200,7 +200,7 @@ const PresentationDeck = () => {
             </div>
 
             {/* Content Section - Right Side */}
-          <div className="flex flex-col">
+          <div className="flex flex-col overflow-y-auto">
             <div className="flex justify-between items-start mb-6">
               <div className="flex-1">
                 <h2 className="text-4xl font-bold text-gray-900 mb-2">{event.brand}</h2>
